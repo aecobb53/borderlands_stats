@@ -48,10 +48,10 @@ class VaultHunter(Enum):
 
 
 class VaultHunterColor(Enum):
-    AMARA = 'purple'
-    FL4K = 'green'
-    MOZE = 'red'
-    ZANE = 'blue'
+    AMARA = 'pink'
+    FL4K = 'lightgreen'
+    MOZE = 'orangered'
+    ZANE = 'cyan'
 
 
 class Equipment(BaseModel):
@@ -97,14 +97,24 @@ class Equipment(BaseModel):
     def generate_html_tile(self):
         details = []
         details.append('<div>')
-        details.append(f"{self.slot.name.replace('_', ' ').title()}")
-        details.append('</br>')
-        details.append(f"{self.name}")
-        details.append('</br>')
+        details.append('<p>')
+        details.append(f"Type: {self.slot.name.replace('_', ' ').title()}")
+        if self.name:
+            details.append('</br>')
+            details.append(f"Name: {self.name}")
+        if self.link:
+            details.append('</br>')
+            details.append(f'Link: <a href="{self.link}">Equipment Link</a>')
         elements = []
         for el in self.elements:
             elements.append(f'<a style="color:{getattr(ElementColor, el.name).value};">{el.name}</a>')
-        details.append('/'.join(elements))
+        if elements:
+            details.append('</br>')
+            name = 'Element'
+            if len(elements) > 1:
+                name += 's'
+            details.append(f'{name}: {" / ".join(elements)}')
+        details.append('</p>')
         details.append('</div>')
         return ''.join(details)
 
@@ -127,6 +137,7 @@ class Character:
         active_build: str = None,
         associated_builds: List[str] = [],
         archived_builds: List[str] = [],
+        active: bool = True,
         notes: List[str] = [],
         changelog: List[str] = [],
     ):
@@ -145,6 +156,7 @@ class Character:
         self.active_build = active_build
         self.associated_builds = associated_builds
         self.archived_builds = archived_builds
+        self.active = active
         self.notes = notes
         self.changelog = changelog
 
@@ -166,6 +178,7 @@ class Character:
             'active_build': self.active_build,
             'associated_builds': [b for b in self.associated_builds],
             'archived_builds': [b for b in self.archived_builds],
+            'active': self.active,
             'notes': [i for i in self.notes],
             'changelog': [i for i in self.changelog],
         }
@@ -209,60 +222,79 @@ class Character:
         # details.append(f'<div class=tile fill-style: solid; fill-color: {getattr(VaultHunterColor, self.vault_hunter.name).value};>')
         # details.append(f'<div class=tile; border-color: {getattr(VaultHunterColor, self.vault_hunter.name).value};>')
         details.append('<div class=tile>')
-        details.append(f"{self.vault_hunter.name.title()}")
-        details.append('</br>')
-        details.append(f"{self.description}")
+        a = getattr(VaultHunterColor, self.vault_hunter.name).value
+        details.append(f'<h1 style="color:{getattr(VaultHunterColor, self.vault_hunter.name).value};">{self.vault_hunter.name.title()}</h1>')
+        # details.append(f"<h1>{self.vault_hunter.name.title()}</h1>")
+        details.append('<br>')
+        details.append(f"<p>{self.description}</p>")
         if self.active_build:
-            details.append('</br>')
+            details.append('<br>')
             details.append(f'</p>')
             details.append(f'<a href="{self.active_build}">Current Build</a>')
-            'https://www.lootlemon.com/class/fl4k#bgef_505525130051_5055351351311_000000000000_00000000000000'
+            details.append('<br>')
+            if self.archived_builds:
+                archived = []
+                # archived.append('<div class="dropdown>')
+                # archived.append('<button class="dropbtn">Dropdown</button>')
+                # archived.append('<div class="dropdown-content>')
+                for index, link in enumerate(self.archived_builds):
+                    archived.append(f'<a href="{link}">Link {index}</a>')
+                # # details.append(f'<select>{"".join(archived)}</select>')
+                # archived.append('</div>')
+                # archived.append('</div>')
+                # details.append(''.join(archived))
+                details.append(f'''
+                    <div class="dropdown">
+                    <button class="dropbtn">Archived Builds</button>
+                    <div class="dropdown-content">{''.join(archived)}</div>
+                    </div>
+                ''')
             match = re.search(r'https://www.lootlemon.com/class/[a-z0-9#]+_(\d+)_(\d+)_(\d+)_(\d+)', self.active_build)
             if match:
                 groups = match.groups(0)
-                details.append(f'</br>')
-                details.append(f'<a>(</a>')
+                details.append(f'<br>')
+                details.append(f'<a>( </a>')
                 details.append(f'<a style="color:green;">{sum([int(i) for i in groups[0]])}</a>')
-                details.append(f'<a>-</a>')
+                details.append(f'<a> / </a>')
                 details.append(f'<a style="color:blue;">{sum([int(i) for i in groups[1]])}</a>')
-                details.append(f'<a>-</a>')
+                details.append(f'<a> / </a>')
                 details.append(f'<a style="color:red;">{sum([int(i) for i in groups[2]])}</a>')
-                details.append(f'<a>-</a>')
+                details.append(f'<a> / </a>')
                 details.append(f'<a style="color:pink;">{sum([int(i) for i in groups[3]])}</a>')
-                details.append(f'<a>)</a>')
-                details.append(f'</br>')
+                details.append(f'<a> )</a>')
+                details.append(f'<br>')
             details.append(f'</p>')
         if self.gun1.slot != Slot.EMPTY:
-            details.append('</br>')
-            details.append('Gun 1')
+            details.append('<br>')
+            details.append('<h2 class="pageBreak">Gun 1</h2>')
             details.append(self.gun1.generate_html_tile())
         if self.gun2.slot != Slot.EMPTY:
-            details.append('</br>')
-            details.append('Gun 2')
+            details.append('<br>')
+            details.append('<h2 class="pageBreak">Gun 2</h2>')
             details.append(self.gun2.generate_html_tile())
         if self.gun3.slot != Slot.EMPTY:
-            details.append('</br>')
-            details.append('Gun 3')
+            details.append('<br>')
+            details.append('<h2 class="pageBreak">Gun 3</h2>')
             details.append(self.gun3.generate_html_tile())
         if self.gun4.slot != Slot.EMPTY:
-            details.append('</br>')
-            details.append('Gun 4')
+            details.append('<br>')
+            details.append('<h2 class="pageBreak">Gun 4</h2>')
             details.append(self.gun4.generate_html_tile())
         if self.artifact.slot != Slot.EMPTY:
-            details.append('</br>')
-            details.append('Artifact')
+            details.append('<br>')
+            details.append('<h2 class="pageBreak">Artifact</h2>')
             details.append(self.artifact.generate_html_tile())
         if self.class_mod.slot != Slot.EMPTY:
-            details.append('</br>')
-            details.append('Class Mod')
+            details.append('<br>')
+            details.append('<h2 class="pageBreak">Class Mod</h2>')
             details.append(self.class_mod.generate_html_tile())
         if self.grenade_mod.slot != Slot.EMPTY:
-            details.append('</br>')
-            details.append('Grenade Mod')
+            details.append('<br>')
+            details.append('<h2 class="pageBreak">Grenade Mod</h2>')
             details.append(self.grenade_mod.generate_html_tile())
         if self.shield.slot != Slot.EMPTY:
-            details.append('</br>')
-            details.append('Shield')
+            details.append('<br>')
+            details.append('<h2 class="pageBreak">Shield</h2>')
             details.append(self.shield.generate_html_tile())
 
         details.append('</div>')

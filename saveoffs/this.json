@@ -8,7 +8,7 @@
                 "FIRE"
             ],
             "name": "NoPewPew",
-            "link": "",
+            "link": "https://www.lootlemon.com/weapon/nopewpew-bl3",
             "description": "Fast firing fire gun",
             "notes": [],
             "changelog": []
@@ -134,6 +134,7 @@
             "https://www.lootlemon.com/class/fl4k#beff_005505100000_5050351351301_500000000000_54400301000000",
             "https://www.lootlemon.com/class/fl4k#beff_035505103501_5050351301000_500000000000_50500301000000"
         ],
+        "active": true,
         "notes": [],
         "changelog": []
     },
@@ -267,6 +268,7 @@
         "active_build": "https://www.lootlemon.com/class/moze#xxxx_0000000000000_5350553050151_0150000000000_3353001541001",
         "associated_builds": [],
         "archived_builds": [],
+        "active": true,
         "notes": [],
         "changelog": []
     },
@@ -404,6 +406,7 @@
             "https://www.lootlemon.com/class/zane#xxxxxx_50553011513131_55551015531_00000000000000_000000000000",
             "https://www.lootlemon.com/class/zane#aabdtr_50000000000000_55551515501_00000000000000_500135105331"
         ],
+        "active": true,
         "notes": [],
         "changelog": []
     },
@@ -508,6 +511,7 @@
         "active_build": "https://www.lootlemon.com/class/amara#efd_53000531300501_5050051033031_5000100000000_0500331000000",
         "associated_builds": [],
         "archived_builds": [],
+        "active": true,
         "notes": [],
         "changelog": []
     },
@@ -561,6 +565,7 @@
         "active_build": null,
         "associated_builds": [],
         "archived_builds": [],
+        "active": false,
         "notes": [],
         "changelog": []
     },
@@ -614,6 +619,7 @@
         "active_build": null,
         "associated_builds": [],
         "archived_builds": [],
+        "active": false,
         "notes": [],
         "changelog": []
     },
@@ -667,6 +673,7 @@
         "active_build": null,
         "associated_builds": [],
         "archived_builds": [],
+        "active": false,
         "notes": [],
         "changelog": []
     },
@@ -720,6 +727,7 @@
         "active_build": null,
         "associated_builds": [],
         "archived_builds": [],
+        "active": false,
         "notes": [],
         "changelog": []
     }

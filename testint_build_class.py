@@ -95,7 +95,7 @@ char.archived_builds = [
     'https://www.lootlemon.com/class/fl4k#beff_005505100000_5050351351301_500000000000_54400301000000',
     'https://www.lootlemon.com/class/fl4k#beff_035505103501_5050351301000_500000000000_50500301000000',
 ]
-char.add_equipment(Equipment(slot=Slot.ASSAULT_RIFLE, elements=[Element.FIRE], name='NoPewPew', description='Fast firing fire gun'))
+char.add_equipment(Equipment(slot=Slot.ASSAULT_RIFLE, elements=[Element.FIRE], name='NoPewPew', description='Fast firing fire gun', link='https://www.lootlemon.com/weapon/nopewpew-bl3'))
 char.add_equipment(Equipment(slot=Slot.SMG, elements=[Element.SHOCK, Element.FIRE], name='Expert Hellshock', description='A solid shield dropping gun'))
 char.add_equipment(Equipment(slot=Slot.ASSAULT_RIFLE, elements=[Element.ACID], name='Breath of the Dying', description='Solid Acid gun'))
 char.add_equipment(Equipment(slot=Slot.SNIPER_RIFLE, elements=[Element.SHOCK], name='Expert Storm', description='Primary sniper'))
@@ -167,24 +167,28 @@ char.add_equipment(Equipment(slot=Slot.ARTIFACT, name='Knife Drain White Elephan
 # 'https://www.lootlemon.com/class/amara#ead_53000531301511_5040051010000_0000000000000_0503331250031'
 
 char = bam.add_character(vault_hunter='FL4K', descriptor='Sniper')
+char.active = False
 
 
 
 
 
 char = bam.add_character(vault_hunter='MOZE', descriptor='Boss Killer')
+char.active = False
 
 
 
 
 
 char = bam.add_character(vault_hunter='MOZE', descriptor='Iron Cub')
+char.active = False
 
 
 
 
 
 char = bam.add_character(vault_hunter='AMARA', descriptor='Big Damage')
+char.active = False
 
 bam.save_details(filepath='saveoffs/this.json')
 print(json.dumps(bam.put, indent=4))
