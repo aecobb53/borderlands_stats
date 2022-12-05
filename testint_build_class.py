@@ -5,9 +5,12 @@ import json
 
 from classes import (
     Element,
-    Equipment,
+    ElementColor,
     Slot,
     VaultHunter,
+    VaultHunterColor,
+    Equipment,
+    BuildLink,
     Character,
     BorderlandsAccountManager,
 )
@@ -89,16 +92,19 @@ bam = BorderlandsAccountManager()
 
 char = bam.add_character(vault_hunter='FL4K', descriptor='MAIN Pet Build')
 x=1
-char.active_build = 'https://www.lootlemon.com/class/fl4k#bgef_505525130051_5055351351311_000000000000_00000000000000'
+char.active_build = BuildLink(url='https://www.lootlemon.com/class/fl4k#https://www.lootlemon.com/class/fl4k#bxxf_005505100000_5050351351301_500000000000_54200301002000', description='Pet focused DPS')
+char.associated_builds = [
+    BuildLink(url='https://www.lootlemon.com/class/fl4k#bgef_505525130051_5055351351311_000000000000_00000000000000', description='Non DLC Pet DPS'),
+]
 char.archived_builds = [
-    'https://www.lootlemon.com/class/fl4k#bxxf_005505100000_5050351351301_500000000000_54200301002000',
-    'https://www.lootlemon.com/class/fl4k#beff_005505100000_5050351351301_500000000000_54400301000000',
-    'https://www.lootlemon.com/class/fl4k#beff_035505103501_5050351301000_500000000000_50500301000000',
+    BuildLink(url='https://www.lootlemon.com/class/fl4k#bxxf_005505100000_5050351351301_500000000000_54200301002000', description='Unused build'),
+    BuildLink(url='https://www.lootlemon.com/class/fl4k#beff_005505100000_5050351351301_500000000000_54400301000000', description='Unused build'),
+    BuildLink(url='https://www.lootlemon.com/class/fl4k#beff_035505103501_5050351301000_500000000000_50500301000000', description='Unused build'),
 ]
 char.add_equipment(Equipment(slot=Slot.ASSAULT_RIFLE, elements=[Element.FIRE], name='NoPewPew', description='Fast firing fire gun', link='https://www.lootlemon.com/weapon/nopewpew-bl3'))
-char.add_equipment(Equipment(slot=Slot.SMG, elements=[Element.SHOCK, Element.FIRE], name='Expert Hellshock', description='A solid shield dropping gun'))
-char.add_equipment(Equipment(slot=Slot.ASSAULT_RIFLE, elements=[Element.ACID], name='Breath of the Dying', description='Solid Acid gun'))
-char.add_equipment(Equipment(slot=Slot.SNIPER_RIFLE, elements=[Element.SHOCK], name='Expert Storm', description='Primary sniper'))
+char.add_equipment(Equipment(slot=Slot.SMG, elements=[Element.SHOCK, Element.FIRE], name='Expert Hellshock', description='A solid shield dropping gun', link='https://www.lootlemon.com/weapon/hellshock-bl3'))
+char.add_equipment(Equipment(slot=Slot.ASSAULT_RIFLE, elements=[Element.ACID], name='Breath of the Dying', description='Solid Acid gun', link='https://www.lootlemon.com/weapon/breath-of-the-dying-bl3'))
+char.add_equipment(Equipment(slot=Slot.SNIPER_RIFLE, elements=[Element.SHOCK], name='Expert Storm', description='Primary sniper', link='https://www.lootlemon.com/weapon/storm-bl3'))
 char.add_equipment(Equipment(slot=Slot.SHIELD, elements=[Element.SHOCK], name='Absorbing Messy Breakup', description='A shield that shoots at enemies and absorbs bullets'))
 char.add_equipment(Equipment(slot=Slot.CLASS_MOD, name='Showboating Red Fang', description='Gamma Burst, pet taunts and +7 grenade capacity'))
 char.add_equipment(Equipment(slot=Slot.GRENADE_MOD, elements=[Element.FIRE], name='Firestorm', description='A lot of damage but also doesnt kill me'))
@@ -107,12 +113,13 @@ char.add_equipment(Equipment(slot=Slot.ARTIFACT, name='Rear Ender Safeguard', de
 char.add_equipment(Equipment(slot=Slot.SNIPER_RIFLE, elements=[Element.CRYO], name='Arctic Tamed Stalker', description='Alternative sniper'))
 char.add_equipment(Equipment(slot=Slot.SNIPER_RIFLE, elements=[Element.FIRE], name='Stark Krakatoa', description='Alternative sniper'))
 char.add_equipment(Equipment(slot=Slot.PISTOL, elements=[Element.ACID], name='Venomous Hornet', description='An alternative to the Breat of the Dying'))
+char.archived_slots.append(Equipment(slot=Slot.ASSAULT_RIFLE, elements=[Element.FIRE], name='NoPewPew', description='Fast firing fire gun', link='https://www.lootlemon.com/weapon/nopewpew-bl3'))
 # print(json.dumps(char.put, indent=4))
 # x=1
 
 
 char = bam.add_character(vault_hunter='MOZE', descriptor='MAIN Nuke Build')
-char.active_build = 'https://www.lootlemon.com/class/moze#xxxx_0000000000000_5350553050151_0150000000000_3353001541001'
+char.active_build = BuildLink(url='https://www.lootlemon.com/class/moze#xxxx_0000000000000_5350553050151_0150000000000_3353001541001')
 char.add_equipment(Equipment(slot=Slot.ASSAULT_RIFLE, elements=[Element.FIRE], name='NoPewPew', description='Fast firing fire gun'))
 char.add_equipment(Equipment(slot=Slot.ASSAULT_RIFLE, elements=[Element.RADIATION], name='Double-Penetrating Gross Bearcat', description='Grenade gun for shields'))
 char.add_equipment(Equipment(slot=Slot.ASSAULT_RIFLE, elements=[Element.CRYO], name='Double-Penetrating Gross Bearcat', description='Grenade gun for armor'))
@@ -124,10 +131,10 @@ char.add_equipment(Equipment(slot=Slot.ARTIFACT, name='Ravaging Last Stand', des
 
 
 char = bam.add_character(vault_hunter='ZANE', descriptor='MAIN Speedy Boy')
-char.active_build = 'https://www.lootlemon.com/class/zane#xxxxxx_00000000000000_50551015501_50030500000000_500135155301'
+char.active_build = BuildLink(url='https://www.lootlemon.com/class/zane#xxxxxx_00000000000000_50551015501_50030500000000_500135155301')
 char.archived_builds = [
-    'https://www.lootlemon.com/class/zane#xxxxxx_50553011513131_55551015531_00000000000000_000000000000',
-    'https://www.lootlemon.com/class/zane#aabdtr_50000000000000_55551515501_00000000000000_500135105331',
+    BuildLink(url='https://www.lootlemon.com/class/zane#xxxxxx_50553011513131_55551015531_00000000000000_000000000000'),
+    BuildLink(url='https://www.lootlemon.com/class/zane#aabdtr_50000000000000_55551515501_00000000000000_500135105331'),
 ]
 char.add_equipment(Equipment(slot=Slot.SHOTGUN, elements=[Element.FIRE], name='Speedloadn Hellwalker', description='Shotgun with high damange'))
 char.add_equipment(Equipment(slot=Slot.PISTOL, elements=[Element.RADIATION], name='Nuclear Infinity', description='A shield gun that never reloads'))
@@ -140,7 +147,7 @@ char.add_equipment(Equipment(slot=Slot.ARTIFACT, name='Hasty Snowdrift', descrip
 
 
 char = bam.add_character(vault_hunter='AMARA', descriptor='MAIN Melee Build')
-char.active_build = 'https://www.lootlemon.com/class/amara#efd_53000531300501_5050051033031_5000100000000_0500331000000'
+char.active_build = BuildLink(url='https://www.lootlemon.com/class/amara#efd_53000531300501_5050051033031_5000100000000_0500331000000')
 char.add_equipment(Equipment(slot=Slot.SHOTGUN, elements=[Element.FIRE], name='Speedloadn Hellwalker', description='Shotgun with high damange'))
 char.add_equipment(Equipment(slot=Slot.SMG, elements=[Element.SHOCK, Element.FIRE], name='Expert Hellshock', description='A solid shield dropping gun'))
 char.add_equipment(Equipment(slot=Slot.PISTOL, elements=[Element.ACID], name='Venomous Hornet', description='An alternative to the Breat of the Dying'))
@@ -203,3 +210,20 @@ ch.save_html(characters=bam.characters)
 
 
 x=1
+
+
+
+
+# moze - https://www.lootlemon.com/shield/revengenader-bl3
+# moze - https://www.lootlemon.com/shield/razor-wire-red-suit-bl3
+# zane - https://www.lootlemon.com/shield/red-card-re-charger-bl3
+# zane - https://www.lootlemon.com/shield/red-card-bl3
+# Amara - https://www.lootlemon.com/shield/rough-rider-bl3
+# Amara - https://www.lootlemon.com/weapon/psycho-stabber-bl3
+
+
+# defensive shield - https://www.lootlemon.com/shield/firewall-bl3
+# defensive shield - https://www.lootlemon.com/shield/asclepius-bl3
+
+
+

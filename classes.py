@@ -119,6 +119,33 @@ class Equipment(BaseModel):
         return ''.join(details)
 
 
+class BuildLink(BaseModel):
+    url: str = None
+    description: str = ''
+    notes: List[str] = []
+    changelog: List[str] = []
+
+    @property
+    def put(self):
+        output = {
+            'url': self.url,
+            'description': self.description,
+            'notes': self.notes,
+            'changelog': self.changelog,
+        }
+        return output
+
+    @classmethod
+    def build(cls, data):
+        details = {
+            'url': data['url'],
+            'description': data['description'],
+            'notes': data['notes'],
+            'changelog': data['changelog'],
+        }
+        return cls(**details)
+
+
 class Character:
     def __init__(
         self,
@@ -134,9 +161,9 @@ class Character:
         shield: Equipment = Equipment(),
         associated_slots: List[Equipment] = [],
         archived_slots: List[Equipment] = [],
-        active_build: str = None,
-        associated_builds: List[str] = [],
-        archived_builds: List[str] = [],
+        active_build: BuildLink = BuildLink(),
+        associated_builds: List[BuildLink] = [],
+        archived_builds: List[BuildLink] = [],
         active: bool = True,
         notes: List[str] = [],
         changelog: List[str] = [],
@@ -175,9 +202,9 @@ class Character:
             'shield': self.shield.put,
             'associated_slots': [s.put for s in self.associated_slots if s.slot != Slot.EMPTY],
             'archived_slots': [s.put for s in self.archived_slots if s.slot != Slot.EMPTY],
-            'active_build': self.active_build,
-            'associated_builds': [b for b in self.associated_builds],
-            'archived_builds': [b for b in self.archived_builds],
+            'active_build': self.active_build.put,
+            'associated_builds': [b.put for b in self.associated_builds],
+            'archived_builds': [b.put for b in self.archived_builds],
             'active': self.active,
             'notes': [i for i in self.notes],
             'changelog': [i for i in self.changelog],
@@ -230,76 +257,126 @@ class Character:
         if self.active_build:
             details.append('<br>')
             details.append(f'</p>')
-            details.append(f'<a href="{self.active_build}">Current Build</a>')
+            details.append(f'<a href="{self.active_build.url}">Current Build</a>')
             details.append('<br>')
+
+            if self.active_build.url:
+                match = re.search(r'https://www.lootlemon.com/class/[a-z0-9#]+_(\d+)_(\d+)_(\d+)_(\d+)', self.active_build.url)
+                if match:
+                    groups = match.groups(0)
+                    details.append(f'<br>')
+                    details.append(f'<a>( </a>')
+                    details.append(f'<a style="color:green;">{sum([int(i) for i in groups[0]])}</a>')
+                    details.append(f'<a> / </a>')
+                    details.append(f'<a style="color:blue;">{sum([int(i) for i in groups[1]])}</a>')
+                    details.append(f'<a> / </a>')
+                    details.append(f'<a style="color:red;">{sum([int(i) for i in groups[2]])}</a>')
+                    details.append(f'<a> / </a>')
+                    details.append(f'<a style="color:pink;">{sum([int(i) for i in groups[3]])}</a>')
+                    details.append(f'<a> )</a>')
+                    details.append(f'<br>')
+                details.append(f'</p>')
+
+        if self.gun1.slot != Slot.EMPTY:
+            details.append(self.generate_slot_tile(element=self.gun1))
+
+        if self.gun2.slot != Slot.EMPTY:
+            details.append(self.generate_slot_tile(element=self.gun2))
+
+        if self.gun3.slot != Slot.EMPTY:
+            details.append(self.generate_slot_tile(element=self.gun3))
+
+        if self.gun4.slot != Slot.EMPTY:
+            details.append(self.generate_slot_tile(element=self.gun4))
+
+        if self.artifact.slot != Slot.EMPTY:
+            details.append(self.generate_slot_tile(element=self.artifact))
+
+        if self.class_mod.slot != Slot.EMPTY:
+            details.append(self.generate_slot_tile(element=self.class_mod))
+
+        if self.grenade_mod.slot != Slot.EMPTY:
+            details.append(self.generate_slot_tile(element=self.grenade_mod))
+
+        if self.shield.slot != Slot.EMPTY:
+            details.append(self.generate_slot_tile(element=self.shield))
+
+        if self.associated_builds or self.associated_slots:
+            details.append('<h2 class="pageBreak">Associated Items</h2>')
+            associated = []
+            for index, link in enumerate(self.associated_builds):
+                if link.description:
+                    desc = link.description
+                else:
+                    desc = f"Link {index}"
+                associated.append(f'<a href="{link.url}">{desc}</a>')
+
+            if self.associated_builds:
+                details.append(f'''
+                    <div class="dropdown">
+                    <button class="dropbtn">Associated Builds</button>
+                    <div class="dropdown-content">{''.join(associated)}</div>
+                    </div>
+                ''')
+
+            if self.associated_builds and self.associated_slots:
+                details.append('<br>')
+
+            associated = []
+            x=1
+            for index, link in enumerate(self.associated_slots):
+                x=1
+                associated.append(self.generate_slot_tile(element=link))
+            if self.associated_slots:
+                details.append(f'''
+                    <div class="dropdown">
+                    <button class="dropbtn">Associated Slots</button>
+                    <div class="dropdown-content">{''.join(associated)}</div>
+                    </div>
+                ''')
+
+        if self.archived_builds or self.archived_slots:
+            details.append('<h2 class="pageBreak">Archived Items</h2>')
+            archived = []
+            for index, link in enumerate(self.archived_builds):
+                if link.description:
+                    desc = link.description
+                else:
+                    desc = f"Link {index}"
+                archived.append(f'<a href="{link.url}">{desc}</a>')
             if self.archived_builds:
-                archived = []
-                # archived.append('<div class="dropdown>')
-                # archived.append('<button class="dropbtn">Dropdown</button>')
-                # archived.append('<div class="dropdown-content>')
-                for index, link in enumerate(self.archived_builds):
-                    archived.append(f'<a href="{link}">Link {index}</a>')
-                # # details.append(f'<select>{"".join(archived)}</select>')
-                # archived.append('</div>')
-                # archived.append('</div>')
-                # details.append(''.join(archived))
                 details.append(f'''
                     <div class="dropdown">
                     <button class="dropbtn">Archived Builds</button>
                     <div class="dropdown-content">{''.join(archived)}</div>
                     </div>
                 ''')
-            match = re.search(r'https://www.lootlemon.com/class/[a-z0-9#]+_(\d+)_(\d+)_(\d+)_(\d+)', self.active_build)
-            if match:
-                groups = match.groups(0)
-                details.append(f'<br>')
-                details.append(f'<a>( </a>')
-                details.append(f'<a style="color:green;">{sum([int(i) for i in groups[0]])}</a>')
-                details.append(f'<a> / </a>')
-                details.append(f'<a style="color:blue;">{sum([int(i) for i in groups[1]])}</a>')
-                details.append(f'<a> / </a>')
-                details.append(f'<a style="color:red;">{sum([int(i) for i in groups[2]])}</a>')
-                details.append(f'<a> / </a>')
-                details.append(f'<a style="color:pink;">{sum([int(i) for i in groups[3]])}</a>')
-                details.append(f'<a> )</a>')
-                details.append(f'<br>')
-            details.append(f'</p>')
-        if self.gun1.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append('<h2 class="pageBreak">Gun 1</h2>')
-            details.append(self.gun1.generate_html_tile())
-        if self.gun2.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append('<h2 class="pageBreak">Gun 2</h2>')
-            details.append(self.gun2.generate_html_tile())
-        if self.gun3.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append('<h2 class="pageBreak">Gun 3</h2>')
-            details.append(self.gun3.generate_html_tile())
-        if self.gun4.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append('<h2 class="pageBreak">Gun 4</h2>')
-            details.append(self.gun4.generate_html_tile())
-        if self.artifact.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append('<h2 class="pageBreak">Artifact</h2>')
-            details.append(self.artifact.generate_html_tile())
-        if self.class_mod.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append('<h2 class="pageBreak">Class Mod</h2>')
-            details.append(self.class_mod.generate_html_tile())
-        if self.grenade_mod.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append('<h2 class="pageBreak">Grenade Mod</h2>')
-            details.append(self.grenade_mod.generate_html_tile())
-        if self.shield.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append('<h2 class="pageBreak">Shield</h2>')
-            details.append(self.shield.generate_html_tile())
+
+            if self.archived_builds and self.archived_slots:
+                details.append('<br>')
+
+            archived = []
+            x=1
+            for index, link in enumerate(self.archived_slots):
+                x=1
+                archived.append(self.generate_slot_tile(element=link))
+            if self.archived_slots:
+                details.append(f'''
+                    <div class="dropdown">
+                    <button class="dropbtn">Archived Slots</button>
+                    <div class="dropdown-content">{''.join(archived)}</div>
+                    </div>
+                ''')
 
         details.append('</div>')
         return ''.join(details)
 
+    def generate_slot_tile(self, element):
+        tile = []
+        tile.append('<br>')
+        tile.append(f'<h2 class="pageBreak">{element.slot.value.replace("_", " ").title()}</h2>')
+        tile.append(element.generate_html_tile())
+        return ''.join(tile)
 
 class BorderlandsAccountManager:
     def __init__(self, characters: List[Character] = []):
