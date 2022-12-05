@@ -1,226 +1,48 @@
 [
     {
-        "vault_hunter": "FL4K",
-        "description": "MAIN Pet Build",
-        "gun1": {
-            "slot": "ASSAULT_RIFLE",
-            "elements": [
-                "FIRE"
-            ],
-            "name": "NoPewPew",
-            "link": "https://www.lootlemon.com/weapon/nopewpew-bl3",
-            "description": "Fast firing fire gun",
-            "notes": [],
-            "changelog": []
-        },
-        "gun2": {
-            "slot": "SMG",
-            "elements": [
-                "SHOCK",
-                "FIRE"
-            ],
-            "name": "Expert Hellshock",
-            "link": "https://www.lootlemon.com/weapon/hellshock-bl3",
-            "description": "A solid shield dropping gun",
-            "notes": [],
-            "changelog": []
-        },
-        "gun3": {
-            "slot": "ASSAULT_RIFLE",
-            "elements": [
-                "ACID"
-            ],
-            "name": "Breath of the Dying",
-            "link": "https://www.lootlemon.com/weapon/breath-of-the-dying-bl3",
-            "description": "Solid Acid gun",
-            "notes": [],
-            "changelog": []
-        },
-        "gun4": {
-            "slot": "SNIPER_RIFLE",
-            "elements": [
-                "SHOCK"
-            ],
-            "name": "Expert Storm",
-            "link": "https://www.lootlemon.com/weapon/storm-bl3",
-            "description": "Primary sniper",
-            "notes": [],
-            "changelog": []
-        },
-        "artifact": {
-            "slot": "ARTIFACT",
-            "elements": [
-                "KENETIC"
-            ],
-            "name": "Rear Ender Safeguard",
-            "link": "",
-            "description": "Creates a shield on ground slam",
-            "notes": [],
-            "changelog": []
-        },
-        "class_mod": {
-            "slot": "CLASS_MOD",
-            "elements": [
-                "KENETIC"
-            ],
-            "name": "Showboating Red Fang",
-            "link": "",
-            "description": "Gamma Burst, pet taunts and +7 grenade capacity",
-            "notes": [],
-            "changelog": []
-        },
-        "grenade_mod": {
-            "slot": "GRENADE_MOD",
-            "elements": [
-                "FIRE"
-            ],
-            "name": "Firestorm",
-            "link": "",
-            "description": "A lot of damage but also doesnt kill me",
-            "notes": [],
-            "changelog": []
-        },
-        "shield": {
-            "slot": "SHIELD",
-            "elements": [
-                "SHOCK"
-            ],
-            "name": "Absorbing Messy Breakup",
-            "link": "",
-            "description": "A shield that shoots at enemies and absorbs bullets",
-            "notes": [],
-            "changelog": []
-        },
-        "associated_slots": [
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "CRYO"
-                ],
-                "name": "Arctic Tamed Stalker",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "Stark Krakatoa",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "PISTOL",
-                "elements": [
-                    "ACID"
-                ],
-                "name": "Venomous Hornet",
-                "link": "",
-                "description": "An alternative to the Breat of the Dying",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "archived_slots": [
-            {
-                "slot": "ASSAULT_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "NoPewPew",
-                "link": "https://www.lootlemon.com/weapon/nopewpew-bl3",
-                "description": "Fast firing fire gun",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "active_build": {
-            "url": "https://www.lootlemon.com/class/fl4k#https://www.lootlemon.com/class/fl4k#bxxf_005505100000_5050351351301_500000000000_54200301002000",
-            "description": "Pet focused DPS",
-            "notes": [],
-            "changelog": []
-        },
-        "associated_builds": [
-            {
-                "url": "https://www.lootlemon.com/class/fl4k#bgef_505525130051_5055351351311_000000000000_00000000000000",
-                "description": "Non DLC Pet DPS",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "archived_builds": [
-            {
-                "url": "https://www.lootlemon.com/class/fl4k#bxxf_005505100000_5050351351301_500000000000_54200301002000",
-                "description": "Unused build",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "url": "https://www.lootlemon.com/class/fl4k#beff_005505100000_5050351351301_500000000000_54400301000000",
-                "description": "Unused build",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "url": "https://www.lootlemon.com/class/fl4k#beff_035505103501_5050351301000_500000000000_50500301000000",
-                "description": "Unused build",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "active": true,
-        "notes": [],
-        "changelog": []
-    },
-    {
         "vault_hunter": "MOZE",
-        "description": "MAIN Nuke Build",
+        "description": "Nuke Build",
         "gun1": {
             "slot": "ASSAULT_RIFLE",
             "elements": [
-                "FIRE"
+                "KENETIC"
             ],
-            "name": "NoPewPew",
+            "name": "",
             "link": "",
-            "description": "Fast firing fire gun",
+            "description": "",
             "notes": [],
             "changelog": []
         },
         "gun2": {
-            "slot": "ASSAULT_RIFLE",
+            "slot": "PISTOL",
             "elements": [
-                "RADIATION"
+                "KENETIC"
             ],
-            "name": "Double-Penetrating Gross Bearcat",
+            "name": "",
             "link": "",
-            "description": "Grenade gun for shields",
+            "description": "",
             "notes": [],
             "changelog": []
         },
         "gun3": {
-            "slot": "ASSAULT_RIFLE",
-            "elements": [
-                "CRYO"
-            ],
-            "name": "Double-Penetrating Gross Bearcat",
-            "link": "",
-            "description": "Grenade gun for armor",
-            "notes": [],
-            "changelog": []
-        },
-        "gun4": {
             "slot": "ROCKET_LAUNCHER",
             "elements": [
                 "KENETIC"
             ],
-            "name": "Tunguska",
+            "name": "",
             "link": "",
-            "description": "Large AOE damager",
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "gun4": {
+            "slot": "SHOTGUN",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "",
+            "link": "",
+            "description": "",
             "notes": [],
             "changelog": []
         },
@@ -229,9 +51,9 @@
             "elements": [
                 "KENETIC"
             ],
-            "name": "Ravaging Last Stand",
+            "name": "",
             "link": "",
-            "description": "Nothing special. Eventually find a new one",
+            "description": "",
             "notes": [],
             "changelog": []
         },
@@ -240,9 +62,9 @@
             "elements": [
                 "KENETIC"
             ],
-            "name": "Growling Reinforced Bear Trooper",
+            "name": "",
             "link": "",
-            "description": "Build centered class mod",
+            "description": "",
             "notes": [],
             "changelog": []
         },
@@ -251,360 +73,73 @@
             "elements": [
                 "KENETIC"
             ],
-            "name": "Tran-fusion Tracker",
+            "name": "",
             "link": "",
-            "description": "Healing grenade",
+            "description": "",
             "notes": [],
             "changelog": []
         },
         "shield": {
             "slot": "SHIELD",
             "elements": [
-                "FIRE"
+                "KENETIC"
             ],
-            "name": "Bloated Front Loader",
+            "name": "",
             "link": "",
-            "description": "Reduces action skill cooldown",
+            "description": "",
             "notes": [],
             "changelog": []
         },
         "associated_slots": [
             {
-                "slot": "SNIPER_RIFLE",
+                "slot": "SMG",
                 "elements": [
-                    "CRYO"
+                    "KENETIC"
                 ],
-                "name": "Arctic Tamed Stalker",
+                "name": "",
                 "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "Stark Krakatoa",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "PISTOL",
-                "elements": [
-                    "ACID"
-                ],
-                "name": "Venomous Hornet",
-                "link": "",
-                "description": "An alternative to the Breat of the Dying",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "archived_slots": [
-            {
-                "slot": "ASSAULT_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "NoPewPew",
-                "link": "https://www.lootlemon.com/weapon/nopewpew-bl3",
-                "description": "Fast firing fire gun",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "active_build": {
-            "url": "https://www.lootlemon.com/class/moze#xxxx_0000000000000_5350553050151_0150000000000_3353001541001",
-            "description": "",
-            "notes": [],
-            "changelog": []
-        },
-        "associated_builds": [],
-        "archived_builds": [],
-        "active": true,
-        "notes": [],
-        "changelog": []
-    },
-    {
-        "vault_hunter": "ZANE",
-        "description": "MAIN Speedy Boy",
-        "gun1": {
-            "slot": "SHOTGUN",
-            "elements": [
-                "FIRE"
-            ],
-            "name": "Speedloadn Hellwalker",
-            "link": "",
-            "description": "Shotgun with high damange",
-            "notes": [],
-            "changelog": []
-        },
-        "gun2": {
-            "slot": "PISTOL",
-            "elements": [
-                "RADIATION"
-            ],
-            "name": "Nuclear Infinity",
-            "link": "",
-            "description": "A shield gun that never reloads",
-            "notes": [],
-            "changelog": []
-        },
-        "gun3": {
-            "slot": "SMG",
-            "elements": [
-                "CRYO",
-                "RADIATION"
-            ],
-            "name": "Binary Superflous Devoted",
-            "link": "",
-            "description": "Nothing Special",
-            "notes": [],
-            "changelog": []
-        },
-        "gun4": {
-            "slot": "SHOTGUN",
-            "elements": [
-                "SHOCK"
-            ],
-            "name": "The Lab",
-            "link": "",
-            "description": "Shotgun with high damange",
-            "notes": [],
-            "changelog": []
-        },
-        "artifact": {
-            "slot": "ARTIFACT",
-            "elements": [
-                "KENETIC"
-            ],
-            "name": "Hasty Snowdrift",
-            "link": "",
-            "description": "A more useful snowdrift but this is awesome",
-            "notes": [],
-            "changelog": []
-        },
-        "class_mod": {
-            "slot": "CLASS_MOD",
-            "elements": [
-                "KENETIC"
-            ],
-            "name": "Shockwave Smashing Antifreeze",
-            "link": "",
-            "description": "increased damage while sliding or in the air",
-            "notes": [],
-            "changelog": []
-        },
-        "grenade_mod": {
-            "slot": "GRENADE_MOD",
-            "elements": [
-                "KENETIC"
-            ],
-            "name": "Tinas Hippity Hopper",
-            "link": "",
-            "description": "Just an unused grenade",
-            "notes": [],
-            "changelog": []
-        },
-        "shield": {
-            "slot": "SHIELD",
-            "elements": [
-                "FIRE"
-            ],
-            "name": "Snap-Shot Whiskey Tango Foxtrot",
-            "link": "",
-            "description": "Shotgun with high damange",
-            "notes": [],
-            "changelog": []
-        },
-        "associated_slots": [
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "CRYO"
-                ],
-                "name": "Arctic Tamed Stalker",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "Stark Krakatoa",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "PISTOL",
-                "elements": [
-                    "ACID"
-                ],
-                "name": "Venomous Hornet",
-                "link": "",
-                "description": "An alternative to the Breat of the Dying",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "archived_slots": [
-            {
-                "slot": "ASSAULT_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "NoPewPew",
-                "link": "https://www.lootlemon.com/weapon/nopewpew-bl3",
-                "description": "Fast firing fire gun",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "active_build": {
-            "url": "https://www.lootlemon.com/class/zane#xxxxxx_00000000000000_50551015501_50030500000000_500135155301",
-            "description": "",
-            "notes": [],
-            "changelog": []
-        },
-        "associated_builds": [],
-        "archived_builds": [
-            {
-                "url": "https://www.lootlemon.com/class/zane#xxxxxx_50553011513131_55551015531_00000000000000_000000000000",
                 "description": "",
                 "notes": [],
                 "changelog": []
             },
             {
-                "url": "https://www.lootlemon.com/class/zane#aabdtr_50000000000000_55551515501_00000000000000_500135105331",
+                "slot": "SNIPER_RIFLE",
+                "elements": [
+                    "KENETIC"
+                ],
+                "name": "",
+                "link": "",
                 "description": "",
                 "notes": [],
                 "changelog": []
-            }
-        ],
-        "active": true,
-        "notes": [],
-        "changelog": []
-    },
-    {
-        "vault_hunter": "AMARA",
-        "description": "MAIN Melee Build",
-        "gun1": {
-            "slot": "SHOTGUN",
-            "elements": [
-                "FIRE"
-            ],
-            "name": "Speedloadn Hellwalker",
-            "link": "",
-            "description": "Shotgun with high damange",
-            "notes": [],
-            "changelog": []
-        },
-        "gun2": {
-            "slot": "SMG",
-            "elements": [
-                "SHOCK",
-                "FIRE"
-            ],
-            "name": "Expert Hellshock",
-            "link": "",
-            "description": "A solid shield dropping gun",
-            "notes": [],
-            "changelog": []
-        },
-        "gun3": {
-            "slot": "PISTOL",
-            "elements": [
-                "ACID"
-            ],
-            "name": "Venomous Hornet",
-            "link": "",
-            "description": "An alternative to the Breat of the Dying",
-            "notes": [],
-            "changelog": []
-        },
-        "gun4": {
-            "slot": "ASSAULT_RIFLE",
-            "elements": [
-                "KENETIC"
-            ],
-            "name": "Blade Fury",
-            "link": "",
-            "description": "Shoots melee damage",
-            "notes": [],
-            "changelog": []
-        },
-        "artifact": {
-            "slot": "ARTIFACT",
-            "elements": [
-                "KENETIC"
-            ],
-            "name": "Knife Drain White Elephant",
-            "link": "",
-            "description": "Melee damage and heals on melee damage",
-            "notes": [],
-            "changelog": []
-        },
-        "class_mod": "EMPTY",
-        "grenade_mod": "EMPTY",
-        "shield": "EMPTY",
-        "associated_slots": [
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "CRYO"
-                ],
-                "name": "Arctic Tamed Stalker",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
             },
             {
-                "slot": "SNIPER_RIFLE",
+                "slot": "ARTIFACT",
                 "elements": [
-                    "FIRE"
+                    "KENETIC"
                 ],
-                "name": "Stark Krakatoa",
+                "name": "",
                 "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "PISTOL",
-                "elements": [
-                    "ACID"
-                ],
-                "name": "Venomous Hornet",
-                "link": "",
-                "description": "An alternative to the Breat of the Dying",
+                "description": "Associate only",
                 "notes": [],
                 "changelog": []
             }
         ],
         "archived_slots": [
             {
-                "slot": "ASSAULT_RIFLE",
+                "slot": "ARTIFACT",
                 "elements": [
-                    "FIRE"
+                    "KENETIC"
                 ],
-                "name": "NoPewPew",
-                "link": "https://www.lootlemon.com/weapon/nopewpew-bl3",
-                "description": "Fast firing fire gun",
+                "name": "",
+                "link": "",
+                "description": "Archive only",
                 "notes": [],
                 "changelog": []
             }
         ],
         "active_build": {
-            "url": "https://www.lootlemon.com/class/amara#efd_53000531300501_5050051033031_5000100000000_0500331000000",
+            "url": null,
             "description": "",
             "notes": [],
             "changelog": []
@@ -612,290 +147,6 @@
         "associated_builds": [],
         "archived_builds": [],
         "active": true,
-        "notes": [],
-        "changelog": []
-    },
-    {
-        "vault_hunter": "FL4K",
-        "description": "Sniper",
-        "gun1": "EMPTY",
-        "gun2": "EMPTY",
-        "gun3": "EMPTY",
-        "gun4": "EMPTY",
-        "artifact": "EMPTY",
-        "class_mod": "EMPTY",
-        "grenade_mod": "EMPTY",
-        "shield": "EMPTY",
-        "associated_slots": [
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "CRYO"
-                ],
-                "name": "Arctic Tamed Stalker",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "Stark Krakatoa",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "PISTOL",
-                "elements": [
-                    "ACID"
-                ],
-                "name": "Venomous Hornet",
-                "link": "",
-                "description": "An alternative to the Breat of the Dying",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "archived_slots": [
-            {
-                "slot": "ASSAULT_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "NoPewPew",
-                "link": "https://www.lootlemon.com/weapon/nopewpew-bl3",
-                "description": "Fast firing fire gun",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "active_build": {
-            "url": null,
-            "description": "",
-            "notes": [],
-            "changelog": []
-        },
-        "associated_builds": [],
-        "archived_builds": [],
-        "active": false,
-        "notes": [],
-        "changelog": []
-    },
-    {
-        "vault_hunter": "MOZE",
-        "description": "Boss Killer",
-        "gun1": "EMPTY",
-        "gun2": "EMPTY",
-        "gun3": "EMPTY",
-        "gun4": "EMPTY",
-        "artifact": "EMPTY",
-        "class_mod": "EMPTY",
-        "grenade_mod": "EMPTY",
-        "shield": "EMPTY",
-        "associated_slots": [
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "CRYO"
-                ],
-                "name": "Arctic Tamed Stalker",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "Stark Krakatoa",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "PISTOL",
-                "elements": [
-                    "ACID"
-                ],
-                "name": "Venomous Hornet",
-                "link": "",
-                "description": "An alternative to the Breat of the Dying",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "archived_slots": [
-            {
-                "slot": "ASSAULT_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "NoPewPew",
-                "link": "https://www.lootlemon.com/weapon/nopewpew-bl3",
-                "description": "Fast firing fire gun",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "active_build": {
-            "url": null,
-            "description": "",
-            "notes": [],
-            "changelog": []
-        },
-        "associated_builds": [],
-        "archived_builds": [],
-        "active": false,
-        "notes": [],
-        "changelog": []
-    },
-    {
-        "vault_hunter": "MOZE",
-        "description": "Iron Cub",
-        "gun1": "EMPTY",
-        "gun2": "EMPTY",
-        "gun3": "EMPTY",
-        "gun4": "EMPTY",
-        "artifact": "EMPTY",
-        "class_mod": "EMPTY",
-        "grenade_mod": "EMPTY",
-        "shield": "EMPTY",
-        "associated_slots": [
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "CRYO"
-                ],
-                "name": "Arctic Tamed Stalker",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "Stark Krakatoa",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "PISTOL",
-                "elements": [
-                    "ACID"
-                ],
-                "name": "Venomous Hornet",
-                "link": "",
-                "description": "An alternative to the Breat of the Dying",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "archived_slots": [
-            {
-                "slot": "ASSAULT_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "NoPewPew",
-                "link": "https://www.lootlemon.com/weapon/nopewpew-bl3",
-                "description": "Fast firing fire gun",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "active_build": {
-            "url": null,
-            "description": "",
-            "notes": [],
-            "changelog": []
-        },
-        "associated_builds": [],
-        "archived_builds": [],
-        "active": false,
-        "notes": [],
-        "changelog": []
-    },
-    {
-        "vault_hunter": "AMARA",
-        "description": "Big Damage",
-        "gun1": "EMPTY",
-        "gun2": "EMPTY",
-        "gun3": "EMPTY",
-        "gun4": "EMPTY",
-        "artifact": "EMPTY",
-        "class_mod": "EMPTY",
-        "grenade_mod": "EMPTY",
-        "shield": "EMPTY",
-        "associated_slots": [
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "CRYO"
-                ],
-                "name": "Arctic Tamed Stalker",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "SNIPER_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "Stark Krakatoa",
-                "link": "",
-                "description": "Alternative sniper",
-                "notes": [],
-                "changelog": []
-            },
-            {
-                "slot": "PISTOL",
-                "elements": [
-                    "ACID"
-                ],
-                "name": "Venomous Hornet",
-                "link": "",
-                "description": "An alternative to the Breat of the Dying",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "archived_slots": [
-            {
-                "slot": "ASSAULT_RIFLE",
-                "elements": [
-                    "FIRE"
-                ],
-                "name": "NoPewPew",
-                "link": "https://www.lootlemon.com/weapon/nopewpew-bl3",
-                "description": "Fast firing fire gun",
-                "notes": [],
-                "changelog": []
-            }
-        ],
-        "active_build": {
-            "url": null,
-            "description": "",
-            "notes": [],
-            "changelog": []
-        },
-        "associated_builds": [],
-        "archived_builds": [],
-        "active": false,
         "notes": [],
         "changelog": []
     }
