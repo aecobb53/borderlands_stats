@@ -114,8 +114,11 @@ char.add_equipment(Equipment(slot=Slot.SNIPER_RIFLE, elements=[Element.CRYO], na
 char.add_equipment(Equipment(slot=Slot.SNIPER_RIFLE, elements=[Element.FIRE], name='Stark Krakatoa', description='Alternative sniper'))
 char.add_equipment(Equipment(slot=Slot.PISTOL, elements=[Element.ACID], name='Venomous Hornet', description='An alternative to the Breat of the Dying'))
 char.archived_slots.append(Equipment(slot=Slot.ASSAULT_RIFLE, elements=[Element.FIRE], name='NoPewPew', description='Fast firing fire gun', link='https://www.lootlemon.com/weapon/nopewpew-bl3'))
-# print(json.dumps(char.put, indent=4))
-# x=1
+
+# # For testing only
+# char.add_equipment(Equipment(slot=Slot.SMG, elements=[Element.CRYO, Element.RADIATION], name='Binary Superflous Devoted', description='Nothing Special', link='https://www.lootlemon.com/weapon/nopewpew-bl3'))
+# # print(json.dumps(char.put, indent=4))
+# # x=1
 
 
 char = bam.add_character(vault_hunter='MOZE', descriptor='MAIN Nuke Build')

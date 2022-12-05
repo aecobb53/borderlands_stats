@@ -96,24 +96,26 @@ class Equipment(BaseModel):
 
     def generate_html_tile(self):
         details = []
-        details.append('<div>')
+        details.append('<div class="equipment-tile">')
         details.append('<p>')
-        details.append(f"Type: {self.slot.name.replace('_', ' ').title()}")
+        data = []
+        data.append(f"Type: {self.slot.name.replace('_', ' ').title()}")
         if self.name:
-            details.append('</br>')
-            details.append(f"Name: {self.name}")
-        if self.link:
-            details.append('</br>')
-            details.append(f'Link: <a href="{self.link}">Equipment Link</a>')
+        #     details.append('</br>')
+            data.append(f"Name: {self.name}")
         elements = []
         for el in self.elements:
             elements.append(f'<a style="color:{getattr(ElementColor, el.name).value};">{el.name}</a>')
         if elements:
-            details.append('</br>')
+        #     details.append('</br>')
             name = 'Element'
             if len(elements) > 1:
                 name += 's'
-            details.append(f'{name}: {" / ".join(elements)}')
+            data.append(f'{name}: {" / ".join(elements)}')
+        if self.link:
+        #     details.append('</br>')
+            data.append(f'Link: <a href="{self.link}">Equipment Link</a>')
+        details.append('<br>'.join(data))
         details.append('</p>')
         details.append('</div>')
         return ''.join(details)
@@ -248,11 +250,12 @@ class Character:
         details = []
         # details.append(f'<div class=tile fill-style: solid; fill-color: {getattr(VaultHunterColor, self.vault_hunter.name).value};>')
         # details.append(f'<div class=tile; border-color: {getattr(VaultHunterColor, self.vault_hunter.name).value};>')
-        details.append('<div class=tile>')
-        a = getattr(VaultHunterColor, self.vault_hunter.name).value
+        details.append(f'<div class=tile style="border-color: {getattr(VaultHunterColor, self.vault_hunter.name).value};">')
+        # a = getattr(VaultHunterColor, self.vault_hunter.name).value
         details.append(f'<h1 style="color:{getattr(VaultHunterColor, self.vault_hunter.name).value};">{self.vault_hunter.name.title()}</h1>')
         # details.append(f"<h1>{self.vault_hunter.name.title()}</h1>")
         details.append('<br>')
+        # details.append('<br>')
         details.append(f"<p>{self.description}</p>")
         if self.active_build:
             details.append('<br>')
@@ -278,28 +281,36 @@ class Character:
                 details.append(f'</p>')
 
         if self.gun1.slot != Slot.EMPTY:
-            details.append(self.generate_slot_tile(element=self.gun1))
+            details.append('<br>')
+            details.append(self.generate_slot_tile(element=self.gun1, slot='Gun 1'.upper()))
 
         if self.gun2.slot != Slot.EMPTY:
-            details.append(self.generate_slot_tile(element=self.gun2))
+            details.append('<br>')
+            details.append(self.generate_slot_tile(element=self.gun2, slot='Gun 2'.upper()))
 
         if self.gun3.slot != Slot.EMPTY:
-            details.append(self.generate_slot_tile(element=self.gun3))
+            details.append('<br>')
+            details.append(self.generate_slot_tile(element=self.gun3, slot='Gun 3'.upper()))
 
         if self.gun4.slot != Slot.EMPTY:
-            details.append(self.generate_slot_tile(element=self.gun4))
+            details.append('<br>')
+            details.append(self.generate_slot_tile(element=self.gun4, slot='Gun 4'.upper()))
 
         if self.artifact.slot != Slot.EMPTY:
-            details.append(self.generate_slot_tile(element=self.artifact))
+            details.append('<br>')
+            details.append(self.generate_slot_tile(element=self.artifact, slot='Artifact'.upper()))
 
         if self.class_mod.slot != Slot.EMPTY:
-            details.append(self.generate_slot_tile(element=self.class_mod))
+            details.append('<br>')
+            details.append(self.generate_slot_tile(element=self.class_mod, slot='Class Mod'.upper()))
 
         if self.grenade_mod.slot != Slot.EMPTY:
-            details.append(self.generate_slot_tile(element=self.grenade_mod))
+            details.append('<br>')
+            details.append(self.generate_slot_tile(element=self.grenade_mod, slot='Grenade Mod'.upper()))
 
         if self.shield.slot != Slot.EMPTY:
-            details.append(self.generate_slot_tile(element=self.shield))
+            details.append('<br>')
+            details.append(self.generate_slot_tile(element=self.shield, slot='Shield'.upper()))
 
         if self.associated_builds or self.associated_slots:
             details.append('<h2 class="pageBreak">Associated Items</h2>')
@@ -315,7 +326,7 @@ class Character:
                 details.append(f'''
                     <div class="dropdown">
                     <button class="dropbtn">Associated Builds</button>
-                    <div class="dropdown-content">{''.join(associated)}</div>
+                    <div class="dropdown-content build-link">{''.join(associated)}</div>
                     </div>
                 ''')
 
@@ -331,7 +342,7 @@ class Character:
                 details.append(f'''
                     <div class="dropdown">
                     <button class="dropbtn">Associated Slots</button>
-                    <div class="dropdown-content">{''.join(associated)}</div>
+                    <div class="dropdown-content slot-tile">{''.join(associated)}</div>
                     </div>
                 ''')
 
@@ -348,7 +359,7 @@ class Character:
                 details.append(f'''
                     <div class="dropdown">
                     <button class="dropbtn">Archived Builds</button>
-                    <div class="dropdown-content">{''.join(archived)}</div>
+                    <div class="dropdown-content build-link">{''.join(archived)}</div>
                     </div>
                 ''')
 
@@ -364,18 +375,24 @@ class Character:
                 details.append(f'''
                     <div class="dropdown">
                     <button class="dropbtn">Archived Slots</button>
-                    <div class="dropdown-content">{''.join(archived)}</div>
+                    <div class="dropdown-content slot-tile">{''.join(archived)}</div>
                     </div>
                 ''')
 
         details.append('</div>')
         return ''.join(details)
 
-    def generate_slot_tile(self, element):
+    def generate_slot_tile(self, element, slot=None):
         tile = []
-        tile.append('<br>')
-        tile.append(f'<h2 class="pageBreak">{element.slot.value.replace("_", " ").title()}</h2>')
-        tile.append(element.generate_html_tile())
+        # tile.append('<br>')
+        # tile.append(f'<h2>{element.slot.value.replace("_", " ").title()}</h2>')
+        # tile.append(f'<h2 class="pageBreak">{element.slot.value.replace("_", " ").title()}</h2>')
+        tile.append(f'<div class="slot-tile">')
+        if slot:
+            tile.append(f'<h2>{slot}</h2>')
+        tile.append(f'{element.generate_html_tile()}')
+        tile.append('</div>')
+        # tile.append(element.generate_html_tile())
         return ''.join(tile)
 
 class BorderlandsAccountManager:

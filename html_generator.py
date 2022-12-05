@@ -7,7 +7,7 @@ class CharacterHTML:
 
     def return_html(self, characters=[]):
         self.body.append('<h1>Borderlands 3 Characters</h1>')
-        self.body.append('<h2>Tiles</h2>')
+        self.body.append('<h2 style="text-align:center;">Characters</h2>')
         for c in characters:
             if not c.active:
                 continue
