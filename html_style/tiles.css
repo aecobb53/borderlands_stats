@@ -6,10 +6,6 @@ h1 {
     color: #f4f4f4;
 }
 
-p {
-    color: red;
-}
-
 .tiles {
     margin:50px;
     padding:10px;
@@ -29,6 +25,12 @@ p {
     border-style: solid;
     border-color: white;
     background-color: #373737;
+}
+
+div.tile p {
+    margin:5px;
+    padding:0px;
+    color: red;
 }
 
 .tile h1 {

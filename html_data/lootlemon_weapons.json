@@ -1,0 +1,1532 @@
+[
+    {
+        "name": "9-Volt",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "SMG",
+        "manufacture": "DAHL",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Killavolt Boss",
+            "location": "Lectra City",
+            "link": "/loot-source/killavolt"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/weapon/9-volt-bl3"
+    },
+    {
+        "name": "AAA",
+        "drop_type": "World Drop",
+        "equipment_type": "Pistol",
+        "manufacture": "DAHL",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Wick and Warty Named Enemy",
+            "location": "Lectra City",
+            "link": "/loot-source/wick-and-warty"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/aaa-bl3"
+    },
+    {
+        "name": "ASMD",
+        "drop_type": "World Drop",
+        "equipment_type": "Sniper",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Maxitrillion Named Enemy",
+            "location": "Voracious Canopy",
+            "link": "/loot-source/maxitrillion"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/asmd-bl3"
+    },
+    {
+        "name": "Agonizer 1500",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Launcher",
+        "manufacture": "COV",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Agonizer 9000, Pain & Terror Boss",
+            "location": "Guts of Carnivora",
+            "link": "/loot-source/agonizer-9000"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/weapon/agonizer-1500-bl3"
+    },
+    {
+        "name": "Alchemist",
+        "drop_type": "World Drop",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "Torgue",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Heckle/Hyde Target of Opportunity",
+            "location": "Jakobs Estate",
+            "link": "/loot-source/heckle-hyde"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/alchemist-bl3"
+    },
+    {
+        "name": "Amazing Grace",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Pistol",
+        "manufacture": "Jakobs",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Life of the Party Quest",
+            "location": "Devil's Razor",
+            "link": "/loot-source/quest-life-of-the-party"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/weapon/amazing-grace-bl3"
+    },
+    {
+        "name": "Amber Management",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "Torgue",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Homeopathological Quest",
+            "location": "Desolation's Edge",
+            "link": "/loot-source/quest-homeopathological"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/weapon/amber-management-bl3"
+    },
+    {
+        "name": "Anarchy",
+        "drop_type": "DLC 2 - World Drop",
+        "equipment_type": "Shotgun",
+        "manufacture": "Tediore",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "Kukuwajack Legendary Hunt",
+            "location": "Negul Neshai",
+            "link": "/loot-source/kukuwajack"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
+        "extension": "/weapon/anarchy-bl3"
+    },
+    {
+        "name": "Ashen Beast",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "SMG",
+        "manufacture": "DAHL",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Psycho Krieg",
+        "source": {
+            "mob": "Does a Body Good Quest",
+            "location": "Benediction of Pain",
+            "link": "/loot-source/does-a-body-good"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/weapon/ashen-beast-bl3"
+    },
+    {
+        "name": "Atlas Replay",
+        "drop_type": "DLC 6 - World Drop",
+        "equipment_type": "Pistol",
+        "manufacture": "Atlas",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Director's Cut",
+        "source": {
+            "mob": "Hemovorous Raid Boss",
+            "location": "Darkthirst Dominion",
+            "link": "/loot-source/hemovorous"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+        "extension": "/weapon/atlas-replay-bl3"
+    },
+    {
+        "name": "AutoAim\u00c3\u00a8",
+        "drop_type": "DLC 1 - World Drop",
+        "equipment_type": "Sniper",
+        "manufacture": "DAHL",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive"
+        ],
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Freddie the Traitor Boss",
+            "location": "VIP Tower",
+            "link": "/loot-source/freddie-the-traitor"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+        "extension": "/weapon/autoaime-bl3"
+    },
+    {
+        "name": "Baby Maker",
+        "drop_type": "World Drop",
+        "equipment_type": "Pistol",
+        "manufacture": "Tediore",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Brood Mother Legendary Hunt",
+            "location": "The Pyre of Stars",
+            "link": "/loot-source/brood-mother"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/baby-maker-bl3"
+    },
+    {
+        "name": "Backburner",
+        "drop_type": "Mayhem 6 Item",
+        "equipment_type": "Launcher",
+        "manufacture": "Vladof",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Agonizer 9000, Pain & Terror Boss",
+            "location": "Guts of Carnivora",
+            "link": "/loot-source/agonizer-9000"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122900f90b1a4fc82012c9a_M6.svg",
+        "extension": "/weapon/backburner-bl3"
+    },
+    {
+        "name": "Bangarang",
+        "drop_type": "World Drop",
+        "equipment_type": "Pistol",
+        "manufacture": "Tediore",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Captain Thunk & Sloth Named Enemy",
+            "location": "Konrad's Hold",
+            "link": "/loot-source/thunk-sloth"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/bangarang-xl-bl3"
+    },
+    {
+        "name": "Barrage",
+        "drop_type": "World Drop",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "DAHL",
+        "elements": [
+            "Nonelemental",
+            "Corrosive",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Mincemeat, Trufflemunch & Buttmunch Named Enemy",
+            "location": "The Droughts",
+            "link": "/loot-source/mincemeat-trufflemunch-buttmunch"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/barrage-bl3"
+    },
+    {
+        "name": "Beacon",
+        "drop_type": "DLC 3 - World Drop",
+        "equipment_type": "Pistol",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Bounty of Blood",
+        "source": {
+            "mob": "Jerrick Logan Most Wanted",
+            "location": "Bloodsun Canyon",
+            "link": "/loot-source/jerrick-logan"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
+        "extension": "/weapon/beacon-bl3"
+    },
+    {
+        "name": "Bearcat",
+        "drop_type": "World Drop",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Mincemeat, Trufflemunch & Buttmunch Named Enemy",
+            "location": "The Droughts",
+            "link": "/loot-source/mincemeat-trufflemunch-buttmunch"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/bearcat-bl3"
+    },
+    {
+        "name": "Bekah",
+        "drop_type": "Trophy",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "Jakobs",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Legendary Hunt Challenge",
+            "location": "Global",
+            "link": "/loot-source/all-legendary-hunts"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b4460fd7e8809ed46527_Trophy.svg",
+        "extension": "/weapon/bekah-bl3"
+    },
+    {
+        "name": "Bird of Prey",
+        "drop_type": "Fallen Heros - Vault Card",
+        "equipment_type": "Sniper",
+        "manufacture": "Jakobs",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Director's Cut",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229ec975cce20cec73a9ba_card-1.svg",
+        "extension": "/weapon/bird-of-prey-bl3"
+    },
+    {
+        "name": "Bitch",
+        "drop_type": "World Drop",
+        "equipment_type": "SMG",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Tyreen the Destroyer Boss",
+            "location": "Destroyer's Rift",
+            "link": "/loot-source/tyreen-the-destroyer"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/bitch-bl3"
+    },
+    {
+        "name": "Bite Size",
+        "drop_type": "Unobtainable",
+        "equipment_type": "Pistol",
+        "manufacture": "Jakobs",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Datamined",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
+        "extension": "/weapon/bite-size-bl3"
+    },
+    {
+        "name": "Black Flame",
+        "drop_type": "Quest Item",
+        "equipment_type": "Shotgun",
+        "manufacture": "Torgue",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Witch's Brew Quest",
+            "location": "Jakobs Estate",
+            "link": "/loot-source/quest-witchs-brew"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6143a8b76791e98a74172d71_Quest-Item.svg",
+        "extension": "/weapon/black-flame-bl3"
+    },
+    {
+        "name": "Blade Fury",
+        "drop_type": "Bunker Masters - Vault Card",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "Jakobs",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Director's Cut",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6196a0733008a82fc1e96879_card-3.svg",
+        "extension": "/weapon/blade-fury-bl3"
+    },
+    {
+        "name": "Blind Bandit",
+        "drop_type": "DLC 4 - World Drop",
+        "equipment_type": "Shotgun",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Corrosive",
+            "Radiation"
+        ],
+        "content": "Psycho Krieg",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+        "extension": "/weapon/blind-bandit-bl3"
+    },
+    {
+        "name": "Blind Sage",
+        "drop_type": "DLC 4 - World Drop",
+        "equipment_type": "Shotgun",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Psycho Krieg",
+        "source": {
+            "mob": "Locom\u00c3\u00b6bius Boss",
+            "location": "Sapphire's Run",
+            "link": "/loot-source/locomobius"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+        "extension": "/weapon/blind-sage-bl3"
+    },
+    {
+        "name": "Blood-Starved Beast",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "SMG",
+        "manufacture": "DAHL",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Psycho Krieg",
+        "source": {
+            "mob": "Evil Lilith Boss",
+            "location": "Castle Crimson",
+            "link": "/loot-source/evil-lilith"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/weapon/blood-starved-beast-bl3"
+    },
+    {
+        "name": "Bloom",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Pistol",
+        "manufacture": "Jakobs",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Bounty of Blood",
+        "source": {
+            "mob": "The Ruiner Boss",
+            "location": "Crater's Edge",
+            "link": "/loot-source/the-ruiner"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/weapon/bloom-bl3"
+    },
+    {
+        "name": "Bone Shredder",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Pistol",
+        "manufacture": "Vladof",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Crushjaw Target of Opportunity",
+            "location": "Cathedral of the Twin Gods",
+            "link": "/loot-source/crushjaw"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/weapon/bone-shredder-bl3"
+    },
+    {
+        "name": "Boogeyman",
+        "drop_type": "DLC 5 - World Drop",
+        "equipment_type": "Sniper",
+        "manufacture": "Vladof",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Dam, WTF Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/dam-wtf"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/weapon/boogeyman-bl3"
+    },
+    {
+        "name": "Boomer",
+        "drop_type": "DLC 1 - World Drop",
+        "equipment_type": "SMG",
+        "manufacture": "DAHL",
+        "elements": [
+            "Nonelemental",
+            "Incindiary"
+        ],
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Scraptrap Prime Boss",
+            "location": "The Compactor",
+            "link": "/loot-source/scraptrap-prime"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+        "extension": "/weapon/boomer-bl3"
+    },
+    {
+        "name": "Brad Luck",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "COV",
+        "elements": [
+            "Cryo"
+        ],
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "One Man's Treasure Quest",
+            "location": "Impound Deluxe",
+            "link": "/loot-source/one-mans-treasure"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/weapon/brad-luck-bl3"
+    },
+    {
+        "name": "Brainstormer",
+        "drop_type": "World Drop",
+        "equipment_type": "Shotgun",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Katagawa Ball Boss",
+            "location": "Skywell-27",
+            "link": "/loot-source/katagawa-ball"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/brainstormer-bl3"
+    },
+    {
+        "name": "Brashi's Dedication",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Sniper",
+        "manufacture": "DAHL",
+        "elements": [
+            "Shock",
+            "Corrosive"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Head Case Quest",
+            "location": "Ascension Bluff",
+            "link": "/loot-source/quest-head-case"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/weapon/brashis-dedication-bl3"
+    },
+    {
+        "name": "Breath of the Dying",
+        "drop_type": "World Drop",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "DAHL",
+        "elements": [
+            "Corrosive"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Blinding Banshee Legendary Hunt",
+            "location": "Desolation's Edge",
+            "link": "/loot-source/blinding-banshee"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/breath-of-the-dying-bl3"
+    },
+    {
+        "name": "Breeder",
+        "drop_type": "World Drop",
+        "equipment_type": "Pistol",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Big Donny & The Big-D Named Enemy",
+            "location": "The Splinterlands",
+            "link": "/loot-source/big-donny-the-big-d"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/breeder-bl3"
+    },
+    {
+        "name": "Brightside",
+        "drop_type": "DLC 3 - World Drop",
+        "equipment_type": "Shotgun",
+        "manufacture": "Tediore",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Bounty of Blood",
+        "source": {
+            "mob": "Bronsons Most Wanted",
+            "location": "The Blastplains",
+            "link": "/loot-source/bronsons"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
+        "extension": "/weapon/brightside-bl3"
+    },
+    {
+        "name": "Bubble Blaster",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "Pistol",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Radiation"
+        ],
+        "content": "Bounty of Blood",
+        "source": {
+            "mob": "Dirty Deeds Quest",
+            "location": "Ashfall Peaks",
+            "link": "/loot-source/dirty-deeds"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/weapon/bubble-blaster-bl3"
+    },
+    {
+        "name": "Buttplug",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Pistol",
+        "manufacture": "Jakobs",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Dump on Dumptruck Quest",
+            "location": "The Droughts",
+            "link": "/loot-source/quest-dump-on-dumptruck"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/weapon/buttplug-bl3"
+    },
+    {
+        "name": "Carrier",
+        "drop_type": "World Drop",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "Atlas",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Judge Hightower Target of Opportunity",
+            "location": "Lectra City",
+            "link": "/loot-source/judge-hightower"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/carrier-bl3"
+    },
+    {
+        "name": "Chandelier",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Shotgun",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Bounty of Blood",
+        "source": {
+            "mob": "Bellik Primis Boss",
+            "location": "Obsidian Forest",
+            "link": "/loot-source/bellik-primis"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/weapon/chandelier-bl3"
+    },
+    {
+        "name": "Cheap Tips",
+        "drop_type": "DLC 1 - World Drop",
+        "equipment_type": "SMG",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Jackbot Boss",
+            "location": "VIP Tower",
+            "link": "/loot-source/jackbot"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+        "extension": "/weapon/cheap-tips-bl3"
+    },
+    {
+        "name": "Chomper",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Shotgun",
+        "manufacture": "Torgue",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Lagromar Named Enemy",
+            "location": "Konrad's Hold",
+            "link": "/loot-source/lagromar"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/weapon/chomper-bl3"
+    },
+    {
+        "name": "Clairvoyance",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "Jakobs",
+        "elements": [
+            "Cryo"
+        ],
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "Kritchy Legendary Hunt",
+            "location": "Cursehaven",
+            "link": "/loot-source/kritchy"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/weapon/clairvoyance-bl3"
+    },
+    {
+        "name": "Cloud Kill",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "SMG",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Corrosive"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Beneath the Meridian Quest",
+            "location": "The Forgotten Basilica",
+            "link": "/loot-source/quest-beneath-the-meridian"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/weapon/cloud-kill-bl3"
+    },
+    {
+        "name": "Cocky Bastard",
+        "drop_type": "DLC 2 - World Drop",
+        "equipment_type": "Sniper",
+        "manufacture": "Jakobs",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "Eista Boss",
+            "location": "Skittermaw Basin",
+            "link": "/loot-source/eista"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
+        "extension": "/weapon/cocky-bastard-bl3"
+    },
+    {
+        "name": "Cold Shoulder",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Sniper",
+        "manufacture": "Vladof",
+        "elements": [
+            "Cryo"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Hammerlocked Quest",
+            "location": "Sanctuary III",
+            "link": "/loot-source/quest-hammerlocked"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/weapon/cold-shoulder-bl3"
+    },
+    {
+        "name": "Complex Root",
+        "drop_type": "DLC 3 - World Drop",
+        "equipment_type": "Sniper",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Bounty of Blood",
+        "source": {
+            "mob": "Lani Dixon Most Wanted",
+            "location": "Ashfall Peaks",
+            "link": "/loot-source/lani-dixon"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
+        "extension": "/weapon/complex-root-bl3"
+    },
+    {
+        "name": "Conference Call",
+        "drop_type": "World Drop",
+        "equipment_type": "Shotgun",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Judge Hightower Target of Opportunity",
+            "location": "Lectra City",
+            "link": "/loot-source/judge-hightower"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/conference-call-bl3"
+    },
+    {
+        "name": "Contained Blast",
+        "drop_type": "DLC 3 - World Drop",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Bounty of Blood",
+        "source": {
+            "mob": "Abbadoxis Hunt Target",
+            "location": "Ashfall Peaks",
+            "link": "/loot-source/abbadoxis"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
+        "extension": "/weapon/contained-blast-bl3"
+    },
+    {
+        "name": "Convergence",
+        "drop_type": "DLC 4 - World Drop",
+        "equipment_type": "Shotgun",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Psycho Krieg",
+        "source": {
+            "mob": "Dr. Benedict Boss",
+            "location": "Benediction of Pain",
+            "link": "/loot-source/dr-benedict"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+        "extension": "/weapon/convergence-bl3"
+    },
+    {
+        "name": "Crader's EM-P5",
+        "drop_type": "Mayhem 4 Item",
+        "equipment_type": "SMG",
+        "manufacture": "DAHL",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Agonizer 9000, Pain & Terror Boss",
+            "location": "Guts of Carnivora",
+            "link": "/loot-source/agonizer-9000"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122900662dde01967ce3a79_M4.svg",
+        "extension": "/weapon/craders-em-p5-bl3"
+    },
+    {
+        "name": "Craps",
+        "drop_type": "DLC 1 - World Drop",
+        "equipment_type": "Pistol",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Jackbot Boss",
+            "location": "VIP Tower",
+            "link": "/loot-source/jackbot"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+        "extension": "/weapon/craps-bl3"
+    },
+    {
+        "name": "Creamer",
+        "drop_type": "DLC 1 - World Drop",
+        "equipment_type": "Launcher",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Junpai Goat Eater Mayor's Killer Look",
+            "location": "The Spendopticon",
+            "link": "/loot-source/junpai-goat-eater"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+        "extension": "/weapon/creamer-bl3"
+    },
+    {
+        "name": "Creeping Corruption",
+        "drop_type": "Bunker Masters - Vault Card",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "DAHL",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Director's Cut",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6196a0733008a82fc1e96879_card-3.svg",
+        "extension": "/weapon/creeping-corruption-bl3"
+    },
+    {
+        "name": "Creeping Death",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Shotgun",
+        "manufacture": "Tediore",
+        "elements": [
+            "Corrosive"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Mother of Grogans Named Enemy",
+            "location": "The Anvil",
+            "link": "/loot-source/mother-of-grogans"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/weapon/creeping-death-bl3"
+    },
+    {
+        "name": "Crit",
+        "drop_type": "Shop Item",
+        "equipment_type": "SMG",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Moxxi's Tip Jar Unique",
+            "location": "Sanctuary III",
+            "link": "/loot-source/moxxis-tip-jar-bl3"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6179c18a97c57f352c19a5d0_buyable.svg",
+        "extension": "/weapon/crit-bl3"
+    },
+    {
+        "name": "Critical Mass",
+        "drop_type": "DLC 4 - World Drop",
+        "equipment_type": "Pistol",
+        "manufacture": "Torgue",
+        "elements": [
+            "Radiation"
+        ],
+        "content": "Psycho Krieg",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+        "extension": "/weapon/critical-mass-bl3"
+    },
+    {
+        "name": "Critical Thug",
+        "drop_type": "DLC 5 - World Drop",
+        "equipment_type": "Shotgun",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Seepage & Creepage Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/seepage-creepage"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/weapon/critical-thug-bl3"
+    },
+    {
+        "name": "Crossroad",
+        "drop_type": "World Drop",
+        "equipment_type": "SMG",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Big Donny & The Big-D Named Enemy",
+            "location": "The Splinterlands",
+            "link": "/loot-source/big-donny-the-big-d"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/crossroad-bl3"
+    },
+    {
+        "name": "Cutsman",
+        "drop_type": "World Drop",
+        "equipment_type": "SMG",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Borman Nates Named Enemy",
+            "location": "Meridian Outskirts",
+            "link": "/loot-source/borman-nates"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/cutsman-bl3"
+    },
+    {
+        "name": "D.N.A.",
+        "drop_type": "Mayhem 6 Item",
+        "equipment_type": "SMG",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "General Traunt Boss",
+            "location": "Desolation's Edge",
+            "link": "/loot-source/general-traunt"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122900f90b1a4fc82012c9a_M6.svg",
+        "extension": "/weapon/dna-bl3"
+    },
+    {
+        "name": "Dakota",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "Shotgun",
+        "manufacture": "Jakobs",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Bounty of Blood",
+        "source": {
+            "mob": "Riding to Ruin Quest",
+            "location": "Vestige",
+            "link": "/loot-source/riding-to-ruin"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/weapon/dakota-bl3"
+    },
+    {
+        "name": "Damned",
+        "drop_type": "World Drop",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "Vladof",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Agonizer 9000, Pain & Terror Boss",
+            "location": "Guts of Carnivora",
+            "link": "/loot-source/agonizer-9000"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/damned-bl3"
+    },
+    {
+        "name": "Dark Army",
+        "drop_type": "DLC 5 - World Drop",
+        "equipment_type": "SMG",
+        "manufacture": "Tediore",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Madwidth Power Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/madwidth-power"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/weapon/dark-army-bl3"
+    },
+    {
+        "name": "Dead Chamber",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Pistol",
+        "manufacture": "Jakobs",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Malevolent Practice Quest",
+            "location": "Floodmoor Basin",
+            "link": "/loot-source/quest-malevolent-practice"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/weapon/dead-chamber-bl3"
+    },
+    {
+        "name": "Destructo Spinner",
+        "drop_type": "World Drop",
+        "equipment_type": "SMG",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Power Troopers Named Enemy",
+            "location": "Atlas HQ",
+            "link": "/loot-source/power-troopers"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/destructo-spinner-bl3"
+    },
+    {
+        "name": "Devastator",
+        "drop_type": "World Drop",
+        "equipment_type": "Pistol",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "The Unstoppable Named Enemy",
+            "location": "Ambermire",
+            "link": "/loot-source/the-unstoppable"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/devastator-bl3"
+    },
+    {
+        "name": "Devil's Foursum",
+        "drop_type": "World Drop",
+        "equipment_type": "Pistol",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Psychobillies Target of Opportunity",
+            "location": "Ambermire",
+            "link": "/loot-source/psychobillies"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/devils-foursum-bl3"
+    },
+    {
+        "name": "Devoted",
+        "drop_type": "World Drop",
+        "equipment_type": "SMG",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Brood Mother Legendary Hunt",
+            "location": "The Pyre of Stars",
+            "link": "/loot-source/brood-mother"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/devoted-bl3"
+    },
+    {
+        "name": "Digby's Smooth Tube",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "DAHL",
+        "elements": [
+            "Cryo"
+        ],
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Do it for Digby (Part 3) Quest",
+            "location": "The Spendopticon",
+            "link": "/loot-source/do-it-for-digby"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/weapon/digbys-smooth-tube-bl3"
+    },
+    {
+        "name": "Dowsing Rod",
+        "drop_type": "DLC 3 - World Drop",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "Vladof",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Bounty of Blood",
+        "source": {
+            "mob": "Pterodomini Hunt Target",
+            "location": "The Blastplains",
+            "link": "/loot-source/pterodomini"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
+        "extension": "/weapon/dowsing-rod-bl3"
+    },
+    {
+        "name": "E-Gone",
+        "drop_type": "Quest Reward",
+        "equipment_type": "SMG",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Cannonization Quest",
+            "location": "Desolation's Edge",
+            "link": "/loot-source/quest-cannonization"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/weapon/e-gone-bl3"
+    },
+    {
+        "name": "Earworm",
+        "drop_type": "Unobtainable",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "DAHL",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Anniversary Week",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
+        "extension": "/weapon/earworm-bl3"
+    },
+    {
+        "name": "Echo",
+        "drop_type": "World Drop",
+        "equipment_type": "Pistol",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Big Donny & The Big-D Named Enemy",
+            "location": "The Splinterlands",
+            "link": "/loot-source/big-donny-the-big-d"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/echo-bl3"
+    },
+    {
+        "name": "Ember's Purge",
+        "drop_type": "Trophy",
+        "equipment_type": "SMG",
+        "manufacture": "Maliwan",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Pieces of R\u00c3\u00a9sistance Challenge",
+            "location": "Global - DLC 1",
+            "link": "/loot-source/all-bombs-of-ember"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b4460fd7e8809ed46527_Trophy.svg",
+        "extension": "/weapon/purge-bl3"
+    },
+    {
+        "name": "Embrace the Pain",
+        "drop_type": "World Drop",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "COV",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Hot Karl Target of Opportunity",
+            "location": "Devil's Razor",
+            "link": "/loot-source/hot-karl"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/embrace-the-pain-bl3"
+    },
+    {
+        "name": "Eridian Fabricator",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "Launcher",
+        "manufacture": "Eridian",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Footsteps of Giants Quest",
+            "location": "Desolation's Edge",
+            "link": "/loot-source/quest-footsteps-of-giants"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/weapon/eridian-fabricator-bl3"
+    },
+    {
+        "name": "Extreme Hangin' Chadd",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Pistol",
+        "manufacture": "COV",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Swamp Bro Quest",
+            "location": "Floodmoor Basin",
+            "link": "/loot-source/quest-swamp-bro"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/weapon/hangin-chadd-bl3"
+    },
+    {
+        "name": "Face-puncher",
+        "drop_type": "World Drop",
+        "equipment_type": "Shotgun",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Muldock the Anointed Named Enemy",
+            "location": "Floodmoor Basin",
+            "link": "/loot-source/muldock-the-anointed"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/face-puncher-bl3"
+    },
+    {
+        "name": "Faisor",
+        "drop_type": "World Drop",
+        "equipment_type": "Assault Rifle",
+        "manufacture": "Vladof",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Atomic & Sylestro Target of Opportunity",
+            "location": "Tazendeer Ruins",
+            "link": "/loot-source/atomic-sylestro"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/weapon/faisor-bl3"
+    },
+    {
+        "name": "Fearmonger",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Shotgun",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Bloody Harvest",
+        "source": {
+            "mob": "Loot Ghost Rare Spawn",
+            "location": "Global",
+            "link": "/loot-source/loot-ghost"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/weapon/fearmonger-bl3"
+    },
+    {
+        "name": "Fingerbiter",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Shotgun",
+        "manufacture": "Jakobs",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "On the Blood Path Quest",
+            "location": "The Anvil",
+            "link": "/loot-source/quest-on-the-blood-path"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/weapon/fingerbiter-bl3"
+    },
+    {
+        "name": "Firecracker",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "Shotgun",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "Happily Ever After Quest",
+            "location": "The Lodge",
+            "link": "/loot-source/happily-ever-after"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/weapon/firecracker-bl3"
+    }
+]

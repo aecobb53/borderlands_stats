@@ -1,0 +1,983 @@
+[
+    {
+        "name": "Acsetic",
+        "drop_type": "DLC 6 - World Drop",
+        "vault_hunter": "Amara",
+        "content": "Director's Cut",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+        "extension": "/class-mod/acsetic-amara-bl3"
+    },
+    {
+        "name": "Agent",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/agent-zane-bl3"
+    },
+    {
+        "name": "Antifreeze",
+        "drop_type": "Mayhem 4 Item",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": {
+            "mob": "Arbalest of Discipline Boss",
+            "location": "Trial of Discipline",
+            "link": "/loot-source/arbelest-of-discipline"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122900662dde01967ce3a79_M4.svg",
+        "extension": "/class-mod/antifreeze-bl3"
+    },
+    {
+        "name": "Artisan",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/artisan-amara-bl3"
+    },
+    {
+        "name": "Avenger",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/avenger-amara-bl3"
+    },
+    {
+        "name": "Baby Boomer",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/baby-boomer-moze-bl3"
+    },
+    {
+        "name": "Bear Trooper",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": {
+            "mob": "Anointed X-4 Named Enemy",
+            "location": "The Anvil",
+            "link": "/loot-source/anointed-x-4"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/bear-trooper-bl3"
+    },
+    {
+        "name": "Blast Master",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": {
+            "mob": "King Gnasher Named Enemy",
+            "location": "Ambermire",
+            "link": "/loot-source/king-gnasher"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/blast-master-bl3"
+    },
+    {
+        "name": "Bloodletter",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": {
+            "mob": "Skag of Survival Boss",
+            "location": "Trial of Survival",
+            "link": "/loot-source/skag-of-survival"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/bloodletter-bl3"
+    },
+    {
+        "name": "Bounty Hunter",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": {
+            "mob": "Lt. Preston Named Enemy",
+            "location": "Tazendeer Ruins",
+            "link": "/loot-source/lt-preston"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/bounty-hunter-bl3"
+    },
+    {
+        "name": "Brawler",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/brawler-amara-bl3"
+    },
+    {
+        "name": "Breaker",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": {
+            "mob": "Skag of Survival Boss",
+            "location": "Trial of Survival",
+            "link": "/loot-source/skag-of-survival"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/breaker-bl3"
+    },
+    {
+        "name": "Bulldog",
+        "drop_type": "DLC 6 - World Drop",
+        "vault_hunter": "Zane",
+        "content": "Director's Cut",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+        "extension": "/class-mod/bulldog-zane-bl3"
+    },
+    {
+        "name": "Bushmaster",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/bushmaster-fl4k-bl3"
+    },
+    {
+        "name": "Cmdl3t",
+        "drop_type": "DLC 5 - World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "The Hunker Bunker Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/the-hunker-bunker"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/class-mod/3rror-cmdl3t-fl4k-bl3"
+    },
+    {
+        "name": "Cold Warrior",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": {
+            "mob": "Tremendous Rex Boss",
+            "location": "Cistern of Slaughter",
+            "link": "/loot-source/tremendous-rex"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/cold-warrior-bl3"
+    },
+    {
+        "name": "Commander",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/commander-moze-bl3"
+    },
+    {
+        "name": "Conductor",
+        "drop_type": "DLC 2 - World Drop",
+        "vault_hunter": "Zane",
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "Voltborn Named Enemy",
+            "location": "Negul Neshai",
+            "link": "/loot-source/voltborn"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
+        "extension": "/class-mod/conductor-bl3"
+    },
+    {
+        "name": "Cosmic Stalker",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": {
+            "mob": "Tyrant of Instinct Boss",
+            "location": "Trial of Instinct",
+            "link": "/loot-source/tyrant-of-instinct"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/cosmic-stalker-bl3"
+    },
+    {
+        "name": "Critical Mass",
+        "drop_type": "DLC 6 - World Drop",
+        "vault_hunter": "Zane",
+        "content": "Director's Cut",
+        "source": {
+            "mob": "The Seer Boss",
+            "location": "Scryer's Crypt",
+            "link": "/loot-source/the-seer"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+        "extension": "/class-mod/critical-mass-bl3"
+    },
+    {
+        "name": "D.A.R.P.A.W.",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/darpaw-fl4k-bl3"
+    },
+    {
+        "name": "DE4DEYE",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": {
+            "mob": "Mother of Grogans Named Enemy",
+            "location": "The Anvil",
+            "link": "/loot-source/mother-of-grogans"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/de4deye-bl3"
+    },
+    {
+        "name": "Death's Blessing",
+        "drop_type": "DLC 6 - World Drop",
+        "vault_hunter": "Amara",
+        "content": "Director's Cut",
+        "source": {
+            "mob": "The Seer Boss",
+            "location": "Scryer's Crypt",
+            "link": "/loot-source/the-seer"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+        "extension": "/class-mod/deaths-blessing-bl3"
+    },
+    {
+        "name": "Deceiver",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/deceiver-zane-bl3"
+    },
+    {
+        "name": "Disruptor",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/disruptor-zane-bl3"
+    },
+    {
+        "name": "Divergent",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/divergent-fl4k-bl3"
+    },
+    {
+        "name": "Dragon",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": {
+            "mob": "Tink of Cunning Boss",
+            "location": "Trial of Cunning",
+            "link": "/loot-source/tink-of-cunning"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/dragon-bl3"
+    },
+    {
+        "name": "Elementalist",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": {
+            "mob": "Sera of Supremacy Boss",
+            "location": "Trial of Supremacy",
+            "link": "/loot-source/sera-of-supremacy"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/elementalist-bl3"
+    },
+    {
+        "name": "Eternal Flame",
+        "drop_type": "DLC 5 - World Drop",
+        "vault_hunter": "Moze",
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Dam, WTF Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/dam-wtf"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/class-mod/eternal-flame-bl3"
+    },
+    {
+        "name": "Executor",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": {
+            "mob": "Baron Noggin Target of Opportunity",
+            "location": "Meridian Metroplex",
+            "link": "/loot-source/baron-noggin"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/executor-bl3"
+    },
+    {
+        "name": "Firewalker",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/firewalker-moze-bl3"
+    },
+    {
+        "name": "Flare",
+        "drop_type": "DLC 4 - World Drop",
+        "vault_hunter": "Moze",
+        "content": "Psycho Krieg",
+        "source": {
+            "mob": "Evil Mordecai Boss",
+            "location": "Castle Crimson",
+            "link": "/loot-source/evil-mordecai"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+        "extension": "/class-mod/flare-bl3"
+    },
+    {
+        "name": "Freedom Fighter",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/freedom-fighter-zane-bl3"
+    },
+    {
+        "name": "Friend-Bot",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": {
+            "mob": "Arbalest of Discipline Boss",
+            "location": "Trial of Discipline",
+            "link": "/loot-source/arbelest-of-discipline"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/friend-bot-bl3"
+    },
+    {
+        "name": "Full Automaton",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/full-automaton-fl4k-bl3"
+    },
+    {
+        "name": "Gadgeteer",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/gadgeteer-zane-bl3"
+    },
+    {
+        "name": "Golden Rule",
+        "drop_type": "DLC 1 - World Drop",
+        "vault_hunter": "Amara",
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Jackbot Boss",
+            "location": "VIP Tower",
+            "link": "/loot-source/jackbot"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+        "extension": "/class-mod/golden-rule-bl3"
+    },
+    {
+        "name": "Green Monster",
+        "drop_type": "DLC 1 - World Drop",
+        "vault_hunter": "Moze",
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Jackbot Boss",
+            "location": "VIP Tower",
+            "link": "/loot-source/jackbot"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+        "extension": "/class-mod/green-monster-bl3"
+    },
+    {
+        "name": "Grenadier",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/grenadier-moze-bl3"
+    },
+    {
+        "name": "Guzzler",
+        "drop_type": "DLC 6 - World Drop",
+        "vault_hunter": "Moze",
+        "content": "Director's Cut",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+        "extension": "/class-mod/guzzler-moze-bl3"
+    },
+    {
+        "name": "Headcase",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/headcase-fl4k-bl3"
+    },
+    {
+        "name": "Heat Exchanger",
+        "drop_type": "DLC 6 - World Drop",
+        "vault_hunter": "Moze",
+        "content": "Director's Cut",
+        "source": {
+            "mob": "The Seer Boss",
+            "location": "Scryer's Crypt",
+            "link": "/loot-source/the-seer"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+        "extension": "/class-mod/heat-exchanger-bl3"
+    },
+    {
+        "name": "Hellhound",
+        "drop_type": "DLC 6 - World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Director's Cut",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+        "extension": "/class-mod/hellhound-fl4k-bl3"
+    },
+    {
+        "name": "Hustler",
+        "drop_type": "DLC 4 - World Drop",
+        "vault_hunter": "Zane",
+        "content": "Psycho Krieg",
+        "source": {
+            "mob": "Locom\u00c3\u00b6bius Boss",
+            "location": "Sapphire's Run",
+            "link": "/loot-source/locomobius"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+        "extension": "/class-mod/hustler-bl3"
+    },
+    {
+        "name": "Infiltrator",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": {
+            "mob": "Skrakk Legendary Hunt",
+            "location": "Ascension Bluff",
+            "link": "/loot-source/skrakk"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/infiltrator-bl3"
+    },
+    {
+        "name": "Kensei",
+        "drop_type": "DLC 5 - World Drop",
+        "vault_hunter": "Amara",
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Dreadnought Drydock Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/dreadnought-drydock"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/class-mod/kensei-bl3"
+    },
+    {
+        "name": "Lemniscate",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/lemniscate-moze-bl3"
+    },
+    {
+        "name": "Low-Life",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/low-life-moze-bl3"
+    },
+    {
+        "name": "Mantis",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/mantis-amara-bl3"
+    },
+    {
+        "name": "Marksman",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/marksman-moze-bl3"
+    },
+    {
+        "name": "Master",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/master-amara-bl3"
+    },
+    {
+        "name": "Mind Sweeper",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": {
+            "mob": "Archer Rowe Named Enemy",
+            "location": "Meridian Metroplex",
+            "link": "/loot-source/archer-rowe"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/mind-sweeper-bl3"
+    },
+    {
+        "name": "Muse",
+        "drop_type": "DLC 4 - World Drop",
+        "vault_hunter": "Amara",
+        "content": "Psycho Krieg",
+        "source": {
+            "mob": "Evil Lilith Boss",
+            "location": "Castle Crimson",
+            "link": "/loot-source/evil-lilith"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+        "extension": "/class-mod/muse-bl3"
+    },
+    {
+        "name": "Nimbus",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": {
+            "mob": "Sera of Supremacy Boss",
+            "location": "Trial of Supremacy",
+            "link": "/loot-source/sera-of-supremacy"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/nimbus-bl3"
+    },
+    {
+        "name": "Overdrive",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/overdrive-fl4k-bl3"
+    },
+    {
+        "name": "Peregrine",
+        "drop_type": "DLC 4 - World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Psycho Krieg",
+        "source": {
+            "mob": "Dr. Benedict Boss",
+            "location": "Benediction of Pain",
+            "link": "/loot-source/dr-benedict"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+        "extension": "/class-mod/peregrine-bl3"
+    },
+    {
+        "name": "Phasezerker",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": {
+            "mob": "Hag of Fervor Boss",
+            "location": "Trial of Fervor",
+            "link": "/loot-source/hag-of-fervor"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/phasezerker-bl3"
+    },
+    {
+        "name": "Pilgrim",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/pilgrim-amara-bl3"
+    },
+    {
+        "name": "R4kk P4k",
+        "drop_type": "Mayhem 4 Item",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": {
+            "mob": "Tink of Cunning Boss",
+            "location": "Trial of Cunning",
+            "link": "/loot-source/tink-of-cunning"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122900662dde01967ce3a79_M4.svg",
+        "extension": "/class-mod/r4kk-p4k-bl3"
+    },
+    {
+        "name": "Rabbit",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/rabbit-amara-bl3"
+    },
+    {
+        "name": "Rabble Rouseer",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/rabble-rouseer-zane-bl3"
+    },
+    {
+        "name": "Radical",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/radical-zane-bl3"
+    },
+    {
+        "name": "Raging Bear",
+        "drop_type": "Mayhem 4 Item",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": {
+            "mob": "Billy, The Anointed Boss",
+            "location": "Jakobs Estate",
+            "link": "/loot-source/billy-the-anointed"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122900662dde01967ce3a79_M4.svg",
+        "extension": "/class-mod/raging-bear-bl3"
+    },
+    {
+        "name": "Rakk Commander",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": {
+            "mob": "Azalea Named Enemy",
+            "location": "Jakobs Estate",
+            "link": "/loot-source/azalea"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/rakk-commander-bl3"
+    },
+    {
+        "name": "Red Fang",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": {
+            "mob": "Tyrant of Instinct Boss",
+            "location": "Trial of Instinct",
+            "link": "/loot-source/tyrant-of-instinct"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/red-fang-bl3"
+    },
+    {
+        "name": "Ringleader",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/ringleader-zane-bl3"
+    },
+    {
+        "name": "Rocketeer",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": {
+            "mob": "Tumorhead Named Enemy",
+            "location": "Lectra City",
+            "link": "/loot-source/tumorhead"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/rocketeer-bl3"
+    },
+    {
+        "name": "Roll Reversal",
+        "drop_type": "DLC 6 - World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Director's Cut",
+        "source": {
+            "mob": "The Seer Boss",
+            "location": "Scryer's Crypt",
+            "link": "/loot-source/the-seer"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+        "extension": "/class-mod/roll-reversal-bl3"
+    },
+    {
+        "name": "Ruffian",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/ruffian-zane-bl3"
+    },
+    {
+        "name": "Sapper",
+        "drop_type": "DLC 2 - World Drop",
+        "vault_hunter": "Moze",
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "Empowered Grawn Boss",
+            "location": "Negul Neshai",
+            "link": "/loot-source/empowered-grawn"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
+        "extension": "/class-mod/sapper-bl3"
+    },
+    {
+        "name": "Seein' Dead",
+        "drop_type": "DLC 1 - World Drop",
+        "vault_hunter": "Zane",
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Jackbot Boss",
+            "location": "VIP Tower",
+            "link": "/loot-source/jackbot"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+        "extension": "/class-mod/seein-dead-bl3"
+    },
+    {
+        "name": "Shield Maiden",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/shield-maiden-moze-bl3"
+    },
+    {
+        "name": "Shockerator",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": {
+            "mob": "Hag of Fervor Boss",
+            "location": "Trial of Fervor",
+            "link": "/loot-source/hag-of-fervor"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/shockerator-bl3"
+    },
+    {
+        "name": "Spiritual Driver",
+        "drop_type": "Mayhem 4 Item",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": {
+            "mob": "Atomic & Sylestro Target of Opportunity",
+            "location": "Tazendeer Ruins",
+            "link": "/loot-source/atomic-sylestro"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122900662dde01967ce3a79_M4.svg",
+        "extension": "/class-mod/spiritual-driver-bl3"
+    },
+    {
+        "name": "Spy",
+        "drop_type": "DLC 5 - World Drop",
+        "vault_hunter": "Zane",
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Madwidth Power Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/madwidth-power"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/class-mod/spy-bl3"
+    },
+    {
+        "name": "St4ckbot",
+        "drop_type": "DLC 1 - World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Jackbot Boss",
+            "location": "VIP Tower",
+            "link": "/loot-source/jackbot"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+        "extension": "/class-mod/st4ckbot-bl3"
+    },
+    {
+        "name": "Stone",
+        "drop_type": "DLC 2 - World Drop",
+        "vault_hunter": "Amara",
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "Fungal Gorger Named Enemy",
+            "location": "The Cankerwood",
+            "link": "/loot-source/fungal-gorger"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
+        "extension": "/class-mod/stone-bl3"
+    },
+    {
+        "name": "Stormbinder",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/stormbinder-amara-bl3"
+    },
+    {
+        "name": "Supercharger",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/supercharger-fl4k-bl3"
+    },
+    {
+        "name": "T4mer",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/t4mer-fl4k-bl3"
+    },
+    {
+        "name": "Tactician",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/tactician-moze-bl3"
+    },
+    {
+        "name": "Tank Gal",
+        "drop_type": "World Drop",
+        "vault_hunter": "Moze",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/tank-gal-moze-bl3"
+    },
+    {
+        "name": "Techspert",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": {
+            "mob": "Rachel the Anointed Named Enemy",
+            "location": "Cathedral of the Twin Gods",
+            "link": "/loot-source/rachel-the-anointed"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/techspert-bl3"
+    },
+    {
+        "name": "Thrillbot",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/thrillbot-fl4k-bl3"
+    },
+    {
+        "name": "Tiger",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/tiger-amara-bl3"
+    },
+    {
+        "name": "Tr4iner",
+        "drop_type": "DLC 2 - World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "Shiverous the Unscathed Named Enemy",
+            "location": "Negul Neshai",
+            "link": "/loot-source/shiverous-the-unscathed"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
+        "extension": "/class-mod/tr4iner-bl3"
+    },
+    {
+        "name": "Trainer",
+        "drop_type": "World Drop",
+        "vault_hunter": "Fl4k",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/trainer-fl4k-bl3"
+    },
+    {
+        "name": "Troublemaker",
+        "drop_type": "World Drop",
+        "vault_hunter": "Zane",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/troublemaker-zane-bl3"
+    },
+    {
+        "name": "Warrior",
+        "drop_type": "World Drop",
+        "vault_hunter": "Amara",
+        "content": "Base Game",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/class-mod/warrior-amara-bl3"
+    }
+]

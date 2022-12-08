@@ -254,20 +254,22 @@ class Character:
         # a = getattr(VaultHunterColor, self.vault_hunter.name).value
         details.append(f'<h1 style="color:{getattr(VaultHunterColor, self.vault_hunter.name).value};">{self.vault_hunter.name.title()}</h1>')
         # details.append(f"<h1>{self.vault_hunter.name.title()}</h1>")
-        details.append('<br>')
         # details.append('<br>')
-        details.append(f"<p>{self.description}</p>")
+        # details.append('<br>')
+        details.append(f"<p>")
+        details.append(f"{self.description}")
+        
         if self.active_build:
             details.append('<br>')
-            details.append(f'</p>')
-            details.append(f'<a href="{self.active_build.url}">Current Build</a>')
-            details.append('<br>')
+            # details.append(f'</p>')
+            details.append(f'<a href="{self.active_build.url}">Current Build</a>    ')
+            # details.append('<br>')
 
             if self.active_build.url:
                 match = re.search(r'https://www.lootlemon.com/class/[a-z0-9#]+_(\d+)_(\d+)_(\d+)_(\d+)', self.active_build.url)
                 if match:
+                    # details.append(f'<br>')
                     groups = match.groups(0)
-                    details.append(f'<br>')
                     details.append(f'<a>( </a>')
                     details.append(f'<a style="color:green;">{sum([int(i) for i in groups[0]])}</a>')
                     details.append(f'<a> / </a>')
@@ -278,7 +280,8 @@ class Character:
                     details.append(f'<a style="color:pink;">{sum([int(i) for i in groups[3]])}</a>')
                     details.append(f'<a> )</a>')
                     details.append(f'<br>')
-                details.append(f'</p>')
+                # details.append(f'</p>')
+        details.append(f"</p>")
 
         if self.gun1.slot != Slot.EMPTY:
             details.append('<br>')

@@ -1,0 +1,1076 @@
+[
+    {
+        "name": "All-in",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "Booster",
+        "manufacture": "Anshin",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Regaining One's Feet Quest",
+            "location": "Grand Opening",
+            "link": "/loot-source/regaining-ones-feet"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/shield/all-in-bl3"
+    },
+    {
+        "name": "Asclepius",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Anathema the Relentless Boss",
+            "location": "Minos Prime",
+            "link": "/loot-source/anathema-the-relentless"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/asclepius-bl3"
+    },
+    {
+        "name": "Back Ham",
+        "drop_type": "World Drop",
+        "equipment_type": "Reflect",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Archer Rowe Named Enemy",
+            "location": "Meridian Metroplex",
+            "link": "/loot-source/archer-rowe"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/back-ham-bl3"
+    },
+    {
+        "name": "Band of Sitorak",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Damage",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "The Unstoppable Named Enemy",
+            "location": "Ambermire",
+            "link": "/loot-source/the-unstoppable"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/band-of-sitorak-bl3"
+    },
+    {
+        "name": "Beskar",
+        "drop_type": "DLC 5 - World Drop",
+        "equipment_type": "Reflect",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Launch Command Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/launch-command"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/shield/beskar-bl3"
+    },
+    {
+        "name": "Big Boom Blaster",
+        "drop_type": "World Drop",
+        "equipment_type": "Booster",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "The Unstoppable Named Enemy",
+            "location": "Ambermire",
+            "link": "/loot-source/the-unstoppable"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/big-boom-blaster-bl3"
+    },
+    {
+        "name": "Black Hole",
+        "drop_type": "World Drop",
+        "equipment_type": "Nova",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Wick and Warty Named Enemy",
+            "location": "Lectra City",
+            "link": "/loot-source/wick-and-warty"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/black-hole-bl3"
+    },
+    {
+        "name": "Deluxe Badass Combustor",
+        "drop_type": "Paid Item",
+        "equipment_type": "Nova",
+        "manufacture": "Anshin",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Boost Mods Pack",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61228a9f821e9f12a50694b9_buyable.svg",
+        "extension": "/shield/deluxe-badass-combustor-bl3"
+    },
+    {
+        "name": "Double Downer",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "Standard",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Double Down Quest",
+            "location": "The Spendopticon",
+            "link": "/loot-source/double-down"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/shield/double-downer-bl3"
+    },
+    {
+        "name": "Ember's Blaze",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "Nova",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Playing with Fire Quest",
+            "location": "The Spendopticon",
+            "link": "/loot-source/playing-with-fire"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/shield/embers-blaze-bl3"
+    },
+    {
+        "name": "Faulty Star",
+        "drop_type": "DLC 4 - World Drop",
+        "equipment_type": "Nova",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Psycho Krieg",
+        "source": {
+            "mob": "Locom\u00c3\u00b6bius Boss",
+            "location": "Sapphire's Run",
+            "link": "/loot-source/locomobius"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+        "extension": "/shield/faulty-star-bl3"
+    },
+    {
+        "name": "Firewall",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Revenge of the Cartels",
+        "source": {
+            "mob": "Joey Ultraviolet Boss",
+            "location": "Villa Ultraviolet",
+            "link": "/loot-source/joey-ultraviolet"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/firewall-bl3"
+    },
+    {
+        "name": "Front Loader",
+        "drop_type": "World Drop",
+        "equipment_type": "Turtle",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Private Beans Named Enemy",
+            "location": "Athenas",
+            "link": "/loot-source/private-beans"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/front-loader-bl3"
+    },
+    {
+        "name": "Frozen Heart",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Nova",
+        "manufacture": "Anshin",
+        "elements": [
+            "Cryo"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Aurelia Boss",
+            "location": "Blackbarrel Cellars",
+            "link": "/loot-source/aurelia-hammerlock"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/frozen-heart-bl3"
+    },
+    {
+        "name": "Gas Mask",
+        "drop_type": "DLC 5 - World Drop",
+        "equipment_type": "Standard",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Corrosive"
+        ],
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Plunderdome Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/plunderdome"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/shield/gas-mask-bl3"
+    },
+    {
+        "name": "Golden Touch",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Roid",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Golden Calves Quest",
+            "location": "The Droughts",
+            "link": "/loot-source/quest-golden-calves"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/shield/golden-touch-bl3"
+    },
+    {
+        "name": "Guilty Spark",
+        "drop_type": "DLC 4 - World Drop",
+        "equipment_type": "Nova",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Psycho Krieg",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+        "extension": "/shield/guilty-spark-bl3"
+    },
+    {
+        "name": "Impaler",
+        "drop_type": "World Drop",
+        "equipment_type": "Spike",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Corrosive"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Antalope Legendary Hunt",
+            "location": "Devil's Razor",
+            "link": "/loot-source/antalope"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/impaler-bl3"
+    },
+    {
+        "name": "Infernal Wish",
+        "drop_type": "DLC 5 - World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Launch Command Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/launch-command"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/shield/infernal-wish-bl3"
+    },
+    {
+        "name": "Initiative",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Damage",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "Vincent Named Enemy",
+            "location": "Cursehaven",
+            "link": "/loot-source/vincent"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/initiative-bl3"
+    },
+    {
+        "name": "Limit Break",
+        "drop_type": "DLC 4 - World Drop",
+        "equipment_type": "Absorb",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Psycho Krieg",
+        "source": {
+            "mob": "What Love Remains Quest",
+            "location": "Sapphire's Run",
+            "link": "/loot-source/what-love-remains"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+        "extension": "/shield/limit-break-bl3"
+    },
+    {
+        "name": "Loop of 4N631",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Standard",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Childhood's End Quest",
+            "location": "Konrad's Hold",
+            "link": "/loot-source/quest-childhoods-end"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/shield/loop-of-4n631-bl3"
+    },
+    {
+        "name": "M.E.A.T. Shield",
+        "drop_type": "Unobtainable",
+        "equipment_type": "Standard",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Datamined",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
+        "extension": "/shield/meat-shield-bl3"
+    },
+    {
+        "name": "MSRC Auto-Dispensary",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Booster",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Healers and Dealers Quest",
+            "location": "Meridian Outskirts",
+            "link": "/loot-source/quest-healers-and-dealers"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/shield/msrc-auto-dispensary-bl3"
+    },
+    {
+        "name": "Madcap",
+        "drop_type": "DLC 5 - World Drop",
+        "equipment_type": "Standard",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Plunderdome Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/plunderdome"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/shield/madcap-bl3"
+    },
+    {
+        "name": "Mana Well",
+        "drop_type": "Bunker Masters - Vault Card",
+        "equipment_type": "Damage",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Director's Cut",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6196a0733008a82fc1e96879_card-3.svg",
+        "extension": "/shield/mana-well-bl3"
+    },
+    {
+        "name": "Mendel's Multivitamin",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Standard",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Holy Spirits Quest",
+            "location": "Athenas",
+            "link": "/loot-source/quest-holy-spirits"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/shield/mendels-multivitamin-bl3"
+    },
+    {
+        "name": "Messy Breakup",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Anshin",
+        "elements": [
+            "Shock",
+            "Corrosive"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Max & Rax Named Enemy",
+            "location": "Meridian Outskirts",
+            "link": "/loot-source/max-rax"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/messy-breakup-bl3"
+    },
+    {
+        "name": "Moxxi's Embrace",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Nova",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Sanctuary Quest",
+            "location": "The Droughts",
+            "link": "/loot-source/quest-sanctuary"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/shield/moxxis-embrace-bl3"
+    },
+    {
+        "name": "Mr Caffeine",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Standard",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Corrosive"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Rise and Grind Quest",
+            "location": "Meridian Metroplex",
+            "link": "/loot-source/quest-rise-and-grind"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/shield/mr-caffeine-shield-bl3"
+    },
+    {
+        "name": "Nova Berner",
+        "drop_type": "World Drop",
+        "equipment_type": "Nova",
+        "manufacture": "Anshin",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Power Troopers Named Enemy",
+            "location": "Atlas HQ",
+            "link": "/loot-source/power-troopers"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/nova-berner-bl3"
+    },
+    {
+        "name": "Old God",
+        "drop_type": "DLC 2 - World Drop",
+        "equipment_type": "Damage",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "Eleanor and the Heart Boss",
+            "location": "Heart's Desire",
+            "link": "/loot-source/eleanor-of-the-heart"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
+        "extension": "/shield/old-god-bl3"
+    },
+    {
+        "name": "Plus Ultra",
+        "drop_type": "DLC 4 - World Drop",
+        "equipment_type": "Absorb",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Psycho Krieg",
+        "source": {
+            "mob": "Dr. Benedict Boss",
+            "location": "Benediction of Pain",
+            "link": "/loot-source/dr-benedict"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+        "extension": "/shield/plus-ultra-bl3"
+    },
+    {
+        "name": "Re-Charge Berner",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Nova",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Incindiary",
+            "Corrosive",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Valkyrie Squad Boss",
+            "location": "Midnight's Cairn",
+            "link": "/loot-source/valkyrie-squad"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/re-charge-berner-bl3"
+    },
+    {
+        "name": "Re-Charger",
+        "drop_type": "World Drop",
+        "equipment_type": "Standard",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Urist McEnforcer Named Enemy",
+            "location": "Lectra City",
+            "link": "/loot-source/urist-mcenforcer"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/re-charger-bl3"
+    },
+    {
+        "name": "Re-Router",
+        "drop_type": "World Drop",
+        "equipment_type": "Amplify",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Princess Tarantella II Named Enemy",
+            "location": "The Splinterlands",
+            "link": "/loot-source/princess-tarantella-ii"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/re-router-bl3"
+    },
+    {
+        "name": "Re-Volter",
+        "drop_type": "DLC 6 - World Drop",
+        "equipment_type": "Damage",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Director's Cut",
+        "source": {
+            "mob": "Sumo Named Enemy",
+            "location": "Eschaton Row",
+            "link": "/loot-source/sumo"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+        "extension": "/shield/re-volter-bl3"
+    },
+    {
+        "name": "Rectifier",
+        "drop_type": "World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Muldock the Anointed Named Enemy",
+            "location": "Floodmoor Basin",
+            "link": "/loot-source/muldock-the-anointed"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/rectifier-bl3"
+    },
+    {
+        "name": "Red Card",
+        "drop_type": "World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Gigamind Boss",
+            "location": "Meridian Metroplex",
+            "link": "/loot-source/gigamind"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/red-card-bl3"
+    },
+    {
+        "name": "Red Card Re-Charger",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Anshin",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Valkyrie Squad Boss",
+            "location": "Midnight's Cairn",
+            "link": "/loot-source/valkyrie-squad"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/red-card-re-charger-bl3"
+    },
+    {
+        "name": "Red Suit",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Atomic & Sylestro Target of Opportunity",
+            "location": "Tazendeer Ruins",
+            "link": "/loot-source/atomic-sylestro"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/razor-wire-red-suit-bl3"
+    },
+    {
+        "name": "Revengenader",
+        "drop_type": "World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Maxitrillion Named Enemy",
+            "location": "Voracious Canopy",
+            "link": "/loot-source/maxitrillion"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/revengenader-bl3"
+    },
+    {
+        "name": "Rico",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "Reflect",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "All Bets Off Quest",
+            "location": "VIP Tower",
+            "link": "/loot-source/all-bets-off"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/shield/rico-bl3"
+    },
+    {
+        "name": "Rough Rider",
+        "drop_type": "World Drop",
+        "equipment_type": "Standard",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Red Jabber Named Enemy",
+            "location": "Ambermire",
+            "link": "/loot-source/red-jabber"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/rough-rider-bl3"
+    },
+    {
+        "name": "Scream of Terror",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Nova",
+        "manufacture": "Anshin",
+        "elements": [
+            "Cryo"
+        ],
+        "content": "Bloody Harvest",
+        "source": {
+            "mob": "Loot Ghost Rare Spawn",
+            "location": "Global",
+            "link": "/loot-source/loot-ghost"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/scream-of-terror-bl3"
+    },
+    {
+        "name": "Shooting Star",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Roid",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Turnkey Tim Named Enemy",
+            "location": "Floodmoor Basin",
+            "link": "/loot-source/turnkey-tim"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/shooting-star-bl3"
+    },
+    {
+        "name": "Snowshoe",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Nova",
+        "manufacture": "Anshin",
+        "elements": [
+            "Cryo"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Valkyrie Squad Boss",
+            "location": "Midnight's Cairn",
+            "link": "/loot-source/valkyrie-squad"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/frozen-snowshoe-bl3"
+    },
+    {
+        "name": "Stinger",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Roid",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Anathema the Relentless Boss",
+            "location": "Minos Prime",
+            "link": "/loot-source/anathema-the-relentless"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/stinger-bl3"
+    },
+    {
+        "name": "Stop-Gap",
+        "drop_type": "World Drop",
+        "equipment_type": "Standard",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "El Dragon Jr. Named Enemy",
+            "location": "Jakobs Estate",
+            "link": "/loot-source/el-dragon-jr"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/stop-gap-bl3"
+    },
+    {
+        "name": "Super Soldier",
+        "drop_type": "Fallen Heros - Vault Card",
+        "equipment_type": "Unique",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Director's Cut",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229ec975cce20cec73a9ba_card-1.svg",
+        "extension": "/shield/super-soldier-bl3"
+    },
+    {
+        "name": "The Transformer",
+        "drop_type": "World Drop",
+        "equipment_type": "Absorb",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Queen Ant Wanette Named Enemy",
+            "location": "The Splinterlands",
+            "link": "/loot-source/queen-ant-wanette"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/the-transformer-bl3"
+    },
+    {
+        "name": "Torch",
+        "drop_type": "DLC 2 - World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "Gmork Legendary Hunt",
+            "location": "The Cankerwood",
+            "link": "/loot-source/gmork"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
+        "extension": "/shield/torch-bl3"
+    },
+    {
+        "name": "Unpaler",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Roid",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "On the Blood Path Quest",
+            "location": "The Anvil",
+            "link": "/loot-source/quest-on-the-blood-path"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/shield/unpaler-bl3"
+    },
+    {
+        "name": "Version 0.m",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Amplify",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Valkyrie Squad Boss",
+            "location": "Midnight's Cairn",
+            "link": "/loot-source/valkyrie-squad"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/version-0-m-bl3"
+    },
+    {
+        "name": "Void Rift",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Nova",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Cryo"
+        ],
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "Empowered Scholar Boss",
+            "location": "Dustbound Archives",
+            "link": "/loot-source/empowered-scholar"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/void-rift-bl3"
+    },
+    {
+        "name": "Ward",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Roid",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Graveward Boss",
+            "location": "The Floating Tomb",
+            "link": "/loot-source/graveward"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/ward-bl3"
+    },
+    {
+        "name": "Wattson",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Booster",
+        "manufacture": "Anshin",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Revenge of the Cartels",
+        "source": {
+            "mob": "Joey Ultraviolet Boss",
+            "location": "Villa Ultraviolet",
+            "link": "/loot-source/joey-ultraviolet"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/shield/wattson-bl3"
+    },
+    {
+        "name": "Whiskey Tango Foxtrot",
+        "drop_type": "World Drop",
+        "equipment_type": "Booster",
+        "manufacture": "Anshin",
+        "elements": [
+            "Incindiary",
+            "Shock",
+            "Corrosive"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Crushjaw Target of Opportunity",
+            "location": "Cathedral of the Twin Gods",
+            "link": "/loot-source/crushjaw"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/shield/whiskey-tango-foxtrot-bl3"
+    }
+]

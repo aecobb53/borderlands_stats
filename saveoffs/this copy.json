@@ -1,0 +1,148 @@
+[
+    {
+        "vault_hunter": "MOZE",
+        "description": "Nuke Build",
+        "gun1": {
+            "slot": "ASSAULT_RIFLE",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "",
+            "link": "",
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "gun2": {
+            "slot": "PISTOL",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "",
+            "link": "",
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "gun3": {
+            "slot": "ROCKET_LAUNCHER",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "",
+            "link": "",
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "gun4": {
+            "slot": "SHOTGUN",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "",
+            "link": "",
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "artifact": {
+            "slot": "ARTIFACT",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "",
+            "link": "",
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "class_mod": {
+            "slot": "CLASS_MOD",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "",
+            "link": "",
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "grenade_mod": {
+            "slot": "GRENADE_MOD",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "",
+            "link": "",
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "shield": {
+            "slot": "SHIELD",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "",
+            "link": "",
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "associated_slots": [
+            {
+                "slot": "SMG",
+                "elements": [
+                    "KENETIC"
+                ],
+                "name": "",
+                "link": "",
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            {
+                "slot": "SNIPER_RIFLE",
+                "elements": [
+                    "KENETIC"
+                ],
+                "name": "",
+                "link": "",
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            {
+                "slot": "ARTIFACT",
+                "elements": [
+                    "KENETIC"
+                ],
+                "name": "",
+                "link": "",
+                "description": "Associate only",
+                "notes": [],
+                "changelog": []
+            }
+        ],
+        "archived_slots": [
+            {
+                "slot": "ARTIFACT",
+                "elements": [
+                    "KENETIC"
+                ],
+                "name": "",
+                "link": "",
+                "description": "Archive only",
+                "notes": [],
+                "changelog": []
+            }
+        ],
+        "active_build": null,
+        "associated_builds": [],
+        "archived_builds": [],
+        "active": true,
+        "notes": [],
+        "changelog": []
+    }
+]

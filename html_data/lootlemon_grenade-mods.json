@@ -1,0 +1,731 @@
+[
+    {
+        "name": "Acid Burn",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "Standard",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Corrosive"
+        ],
+        "content": "Handsome Jackpot",
+        "source": {
+            "mob": "Winners and LosersQuest",
+            "location": "The Spendopticon",
+            "link": "/loot-source/winners-and-losers"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/grenade-mod/acid-burn-bl3"
+    },
+    {
+        "name": "Bloodsucker",
+        "drop_type": "Unobtainable",
+        "equipment_type": "Transfusion",
+        "manufacture": "Atlas",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Datamined",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
+        "extension": "/grenade-mod/bloodsucker-bl3"
+    },
+    {
+        "name": "Burning Summit",
+        "drop_type": "Trophy",
+        "equipment_type": "Standard",
+        "manufacture": "Vladof",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Tyreen's Death MachineChallenge",
+            "location": "Ambermire",
+            "link": "/loot-source/tyreens-death-machine"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b4460fd7e8809ed46527_Trophy.svg",
+        "extension": "/grenade-mod/burning-summit-bl3"
+    },
+    {
+        "name": "Cheddar Shredder",
+        "drop_type": "Paid Item",
+        "equipment_type": "Standard",
+        "manufacture": "Tediore",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Boost Mods Pack",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61228a9f821e9f12a50694b9_buyable.svg",
+        "extension": "/grenade-mod/rubber-cheddar-shredder-bl3"
+    },
+    {
+        "name": "Chocolate Thunder",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Standard",
+        "manufacture": "Tediore",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Just DessertsQuest",
+            "location": "The Splinterlands",
+            "link": "/loot-source/quest-just-desserts"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/grenade-mod/chocolate-thunder-bl3"
+    },
+    {
+        "name": "Chupa's Organ",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Transfusion",
+        "manufacture": "Atlas | Hyperion",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "ChupacabratchLegendary Hunt",
+            "location": "Athenas",
+            "link": "/loot-source/chupacabratch"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/grenade-mod/chupas-organ-bl3"
+    },
+    {
+        "name": "Core Buster",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "MIRV",
+        "manufacture": "Vladof",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Bounty of Blood",
+        "source": {
+            "mob": "Off the RailsQuest",
+            "location": "Obsidian Forest",
+            "link": "/loot-source/off-the-rails"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/grenade-mod/core-buster-bl3"
+    },
+    {
+        "name": "Diamond Butt Bomb",
+        "drop_type": "Paid Item",
+        "equipment_type": "Standard",
+        "manufacture": "Vladof",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Butt Stallion Cosmetic Pack",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61228a9f821e9f12a50694b9_buyable.svg",
+        "extension": "/grenade-mod/diamond-butt-bomb-bl3"
+    },
+    {
+        "name": "Doc Hina's Miracle Bomb",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "equipment_type": "Unique",
+        "manufacture": "Torgue",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Bounty of Blood",
+        "source": {
+            "mob": "Miracle Elixir FixerQuest",
+            "location": "The Blastplains",
+            "link": "/loot-source/miracle-elixer-fixer"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/grenade-mod/miracle-bomb-bl3"
+    },
+    {
+        "name": "ECHO-2",
+        "drop_type": "World Drop",
+        "equipment_type": "Standard",
+        "manufacture": "Tediore",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "MouthpieceBoss",
+            "location": "Ascension Bluff",
+            "link": "/loot-source/mouthpiece"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/echo-2-bl3"
+    },
+    {
+        "name": "EMP",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Standard",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Atomic & SylestroTarget of Opportunity",
+            "location": "Tazendeer Ruins",
+            "link": "/loot-source/atomic-sylestro"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/grenade-mod/emp-bl3"
+    },
+    {
+        "name": "Epicenter",
+        "drop_type": "World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Vladof",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "DJ Deadsk4gTarget of Opportunity",
+            "location": "The Splinterlands",
+            "link": "/loot-source/dj-deadsk4g"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/epicenter-bl3"
+    },
+    {
+        "name": "Exterminator",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Standard",
+        "manufacture": "Atlas",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Life of the PartyQuest",
+            "location": "Devil's Razor",
+            "link": "/loot-source/quest-life-of-the-party"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/grenade-mod/exterminator-bl3"
+    },
+    {
+        "name": "Fastball",
+        "drop_type": "World Drop",
+        "equipment_type": "Standard",
+        "manufacture": "Tediore",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Captain Thunk & SlothNamed Enemy",
+            "location": "Konrad's Hold",
+            "link": "/loot-source/thunk-sloth"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/fastball-bl3"
+    },
+    {
+        "name": "Firestorm",
+        "drop_type": "World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Hyperion | Tediore | Vladof",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "AureliaBoss",
+            "location": "Blackbarrel Cellars",
+            "link": "/loot-source/aurelia-hammerlock"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/firestorm-bl3"
+    },
+    {
+        "name": "Fish Slap",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Bouncing Betty",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Revenge of the Cartels",
+        "source": {
+            "mob": "Joey UltravioletBoss",
+            "location": "Villa Ultraviolet",
+            "link": "/loot-source/joey-ultraviolet"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/grenade-mod/fish-slap-bl3"
+    },
+    {
+        "name": "Fungus Among Us",
+        "drop_type": "Quest Reward",
+        "equipment_type": "MIRV",
+        "manufacture": "Tediore",
+        "elements": [
+            "Corrosive"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Witch's BrewQuest",
+            "location": "Jakobs Estate",
+            "link": "/loot-source/quest-witchs-brew"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/grenade-mod/fungus-among-us-bl3"
+    },
+    {
+        "name": "Ghast Call",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "MIRV",
+        "manufacture": "Torgue",
+        "elements": [
+            "Corrosive"
+        ],
+        "content": "Bloody Harvest",
+        "source": {
+            "mob": "Loot GhostRare Spawn",
+            "location": "Global",
+            "link": "/loot-source/loot-ghost"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/grenade-mod/ghast-call-bl3"
+    },
+    {
+        "name": "HOT Spring",
+        "drop_type": "DLC 5 - World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Launch CommandLoot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/launch-command"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/grenade-mod/hot-spring-bl3"
+    },
+    {
+        "name": "Hex",
+        "drop_type": "World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Atlas",
+        "elements": [
+            "Shock",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Sky BulliesTarget of Opportunity",
+            "location": "The Anvil",
+            "link": "/loot-source/sky-bullys"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/hex-bl3"
+    },
+    {
+        "name": "Hunter-Seeker",
+        "drop_type": "World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Tediore",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Mother of GrogansNamed Enemy",
+            "location": "The Anvil",
+            "link": "/loot-source/mother-of-grogans"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/hunter-seeker-bl3"
+    },
+    {
+        "name": "It's Piss",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "Standard",
+        "manufacture": "Vladof",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Captain Thunk & SlothNamed Enemy",
+            "location": "Konrad's Hold",
+            "link": "/loot-source/thunk-sloth"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/grenade-mod/its-piss-bl3"
+    },
+    {
+        "name": "Kryll",
+        "drop_type": "Unobtainable",
+        "equipment_type": "MIRV",
+        "manufacture": "Atlas",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Datamined",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
+        "extension": "/grenade-mod/kryll-bl3"
+    },
+    {
+        "name": "Lightspeed",
+        "drop_type": "Dedicated Drop",
+        "equipment_type": "MIRV",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Anathema the RelentlessBoss",
+            "location": "Minos Prime",
+            "link": "/loot-source/anathema-the-relentless"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/grenade-mod/lightspeed-bl3"
+    },
+    {
+        "name": "Mesmer",
+        "drop_type": "DLC 6 - World Drop",
+        "equipment_type": "Standard",
+        "manufacture": "Vladof",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Director's Cut",
+        "source": {
+            "mob": "The GravekeeperNamed Enemy",
+            "location": "Enoch's Grove",
+            "link": "/loot-source/the-gravekeeper"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+        "extension": "/grenade-mod/mesmer-bl3"
+    },
+    {
+        "name": "Moxxi's Bouncing Pair",
+        "drop_type": "World Drop",
+        "equipment_type": "Transfusion",
+        "manufacture": "Pangolin",
+        "elements": [
+            "Incindiary"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "ShivBoss",
+            "location": "Covenant Pass",
+            "link": "/loot-source/shiv"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/moxxis-bouncing-pair-bl3"
+    },
+    {
+        "name": "NOG Potion #9",
+        "drop_type": "Quest Reward",
+        "equipment_type": "Standard",
+        "manufacture": "Vladof",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Technical NOGoutQuest",
+            "location": "Meridian Metroplex",
+            "link": "/loot-source/quest-technical-nogout"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/grenade-mod/nog-potion-9-bl3"
+    },
+    {
+        "name": "Nagata",
+        "drop_type": "World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Hyperion",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "ChupacabratchLegendary Hunt",
+            "location": "Athenas",
+            "link": "/loot-source/chupacabratch"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/nagata-bl3"
+    },
+    {
+        "name": "Porcelain Pipe Bomb",
+        "drop_type": "Quest Reward",
+        "equipment_type": "MIRV",
+        "manufacture": "Torgue",
+        "elements": [
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Raiders of the Lost RockQuest",
+            "location": "Sanctuary III",
+            "link": "/loot-source/quest-raiders-of-the-lost-rock"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/grenade-mod/pipe-bomb-bl3"
+    },
+    {
+        "name": "Pyroburst",
+        "drop_type": "Welcome to Pandora - Vault Card",
+        "equipment_type": "MIRV",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Director's Cut",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229ec1c954840459e76c0d_card-2.svg",
+        "extension": "/grenade-mod/pyroburst-bl3"
+    },
+    {
+        "name": "Quasar",
+        "drop_type": "World Drop",
+        "equipment_type": "Singularity",
+        "manufacture": "Atlas | Hyperion | Tediore",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Wick and WartyNamed Enemy",
+            "location": "Lectra City",
+            "link": "/loot-source/wick-and-warty"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/quasar-bl3"
+    },
+    {
+        "name": "Red Queen",
+        "drop_type": "World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Vladof",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Blinding BansheeLegendary Hunt",
+            "location": "Desolation's Edge",
+            "link": "/loot-source/blinding-banshee"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/red-queen-bl3"
+    },
+    {
+        "name": "Ringer",
+        "drop_type": "DLC 6 - World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Director's Cut",
+        "source": {
+            "mob": "HemovorousRaid Boss",
+            "location": "Darkthirst Dominion",
+            "link": "/loot-source/hemovorous"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+        "extension": "/grenade-mod/ringer-bl3"
+    },
+    {
+        "name": "Sidewinder",
+        "drop_type": "Bunker Masters - Vault Card",
+        "equipment_type": "Unique",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Director's Cut",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6196a0733008a82fc1e96879_card-3.svg",
+        "extension": "/grenade-mod/sidewinder-bl3"
+    },
+    {
+        "name": "Slider",
+        "drop_type": "Unobtainable",
+        "equipment_type": "Standard",
+        "manufacture": "Tediore",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Datamined",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
+        "extension": "/grenade-mod/slider-bl3"
+    },
+    {
+        "name": "Storm Front",
+        "drop_type": "World Drop",
+        "equipment_type": "Area of Effect",
+        "manufacture": "Hyperion | Tediore | Vladof",
+        "elements": [
+            "Shock"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Under TakerNamed Enemy",
+            "location": "The Droughts",
+            "link": "/loot-source/under-taker"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/stormfront-bl3"
+    },
+    {
+        "name": "Surge",
+        "drop_type": "World Drop",
+        "equipment_type": "Bouncing Betty",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Power TroopersNamed Enemy",
+            "location": "Atlas HQ",
+            "link": "/loot-source/power-troopers"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/surge-bl3"
+    },
+    {
+        "name": "Tina's Hippity Hopper",
+        "drop_type": "World Drop",
+        "equipment_type": "Bouncing Betty",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Raging TitanBoss",
+            "location": "The Slaughter Shaft",
+            "link": "/loot-source/raging-titan"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/tinas-hippity-hopper-bl3"
+    },
+    {
+        "name": "Tran-fusion",
+        "drop_type": "World Drop",
+        "equipment_type": "Transfusion",
+        "manufacture": "Atlas | Hyperion | Tediore",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Power TroopersNamed Enemy",
+            "location": "Atlas HQ",
+            "link": "/loot-source/power-troopers"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/tran-fusion-bl3"
+    },
+    {
+        "name": "Ultraball",
+        "drop_type": "Paid Item",
+        "equipment_type": "MIRV",
+        "manufacture": "Torgue",
+        "elements": [
+            "Nonelemental"
+        ],
+        "content": "Toy Box",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61228a9f821e9f12a50694b9_buyable.svg",
+        "extension": "/grenade-mod/ultraball-bl3"
+    },
+    {
+        "name": "Whispering Ice",
+        "drop_type": "Quest Reward",
+        "equipment_type": "MIRV",
+        "manufacture": "Vladof",
+        "elements": [
+            "Cryo"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Lair of the HarpyQuest",
+            "location": "Floodmoor Basin",
+            "link": "/loot-source/quest-lair-of-the-harpy"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/grenade-mod/whispering-ice-bl3"
+    },
+    {
+        "name": "Widowmaker",
+        "drop_type": "World Drop",
+        "equipment_type": "Unique",
+        "manufacture": "Hyperion | Tediore | Torgue | Vladof",
+        "elements": [
+            "Nonelemental",
+            "Incindiary",
+            "Shock",
+            "Corrosive",
+            "Cryo",
+            "Radiation"
+        ],
+        "content": "Base Game",
+        "source": {
+            "mob": "Max & RaxNamed Enemy",
+            "location": "Meridian Outskirts",
+            "link": "/loot-source/max-rax"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/grenade-mod/widowmaker-bl3"
+    }
+]

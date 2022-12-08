@@ -1,0 +1,371 @@
+[
+    {
+        "name": "Commander Planetoid",
+        "drop_type": "World Drop",
+        "artifact_type": "Melee",
+        "content": "Base Game",
+        "source": {
+            "mob": "Sheega Named Enemy",
+            "location": "Devil's Razor",
+            "link": "/loot-source/sheega"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/commander-planetoid-bl3"
+    },
+    {
+        "name": "Company Man",
+        "drop_type": "DLC 6 - World Drop",
+        "artifact_type": "Unique",
+        "content": "Director's Cut",
+        "source": {
+            "mob": "Hemovorous Raid Boss",
+            "location": "Darkthirst Dominion",
+            "link": "/loot-source/hemovorous"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+        "extension": "/bonus-item/company-man-bl3"
+    },
+    {
+        "name": "Cosmic Crater",
+        "drop_type": "World Drop",
+        "artifact_type": "Slam",
+        "content": "Base Game",
+        "source": {
+            "mob": "Artemis Named Enemy",
+            "location": "Floodmoor Basin",
+            "link": "/loot-source/artemis"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/cosmic-crater-bl3"
+    },
+    {
+        "name": "Deathless",
+        "drop_type": "World Drop",
+        "artifact_type": "Universal",
+        "content": "Base Game",
+        "source": {
+            "mob": "Phoenix Legendary Hunt",
+            "location": "The Splinterlands",
+            "link": "/loot-source/phoenix"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/deathless-bl3"
+    },
+    {
+        "name": "Deathrattle",
+        "drop_type": "DLC 5 - World Drop",
+        "artifact_type": "Unique",
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Dreadnought Drydock Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/dreadnought-drydock"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/bonus-item/deathrattle-bl3"
+    },
+    {
+        "name": "Electric Banjo",
+        "drop_type": "Dedicated Drop",
+        "artifact_type": "Unique",
+        "content": "Base Game",
+        "source": {
+            "mob": "Psychobillies Target of Opportunity",
+            "location": "Ambermire",
+            "link": "/loot-source/psychobillies"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/bonus-item/electric-banjo-bl3"
+    },
+    {
+        "name": "Grave",
+        "drop_type": "Dedicated Drop",
+        "artifact_type": "Unique",
+        "content": "Base Game",
+        "source": {
+            "mob": "Graveward Boss",
+            "location": "The Floating Tomb",
+            "link": "/loot-source/graveward"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/bonus-item/grave-bl3"
+    },
+    {
+        "name": "Holy Grail",
+        "drop_type": "DLC 5 - World Drop",
+        "artifact_type": "Unique",
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Dreadnought Drydock Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/dreadnought-drydock"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/bonus-item/holy-grail-bl3"
+    },
+    {
+        "name": "Launch Pad",
+        "drop_type": "World Drop",
+        "artifact_type": "Slam",
+        "content": "Base Game",
+        "source": {
+            "mob": "Red Rain Boss",
+            "location": "Slaughterstar 3000",
+            "link": "/loot-source/red-rain"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/launch-pad-bl3"
+    },
+    {
+        "name": "Loaded Dice",
+        "drop_type": "World Drop",
+        "artifact_type": "Universal",
+        "content": "Base Game",
+        "source": {
+            "mob": "Agonizer 9000, Pain & Terror Boss",
+            "location": "Guts of Carnivora",
+            "link": "/loot-source/agonizer-9000"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/loaded-dice-bl3"
+    },
+    {
+        "name": "Lunacy",
+        "drop_type": "Dedicated Drop",
+        "artifact_type": "Unique",
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "Empowered Grawn Boss",
+            "location": "Negul Neshai",
+            "link": "/loot-source/empowered-grawn"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/bonus-item/lunacy-bl3"
+    },
+    {
+        "name": "Moxxi's Endowment",
+        "drop_type": "World Drop",
+        "artifact_type": "Universal",
+        "content": "Base Game",
+        "source": {
+            "mob": "The Tink Train Named Enemy",
+            "location": "Guts of Carnivora",
+            "link": "/loot-source/the-tink-train"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/moxxis-endowment-bl3"
+    },
+    {
+        "name": "Mysterious Artifact",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "artifact_type": "Unique",
+        "content": "Director's Cut",
+        "source": {
+            "mob": "Horror at Scryer's Crypt Quest",
+            "location": "Scryer's Crypt",
+            "link": "/loot-source/horror-at-scryers-crypt"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/bonus-item/mysterious-artifact-bl3"
+    },
+    {
+        "name": "Otto Idol",
+        "drop_type": "World Drop",
+        "artifact_type": "Universal",
+        "content": "Base Game",
+        "source": {
+            "mob": "Rachel the Anointed Named Enemy",
+            "location": "Cathedral of the Twin Gods",
+            "link": "/loot-source/rachel-the-anointed"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/otto-idol-bl3"
+    },
+    {
+        "name": "Phoenix Tears",
+        "drop_type": "Dedicated Drop",
+        "artifact_type": "Unique",
+        "content": "Base Game",
+        "source": {
+            "mob": "Phoenix Legendary Hunt",
+            "location": "The Splinterlands",
+            "link": "/loot-source/phoenix"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/bonus-item/phoenix-tears-bl3"
+    },
+    {
+        "name": "Pull Out Method",
+        "drop_type": "World Drop",
+        "artifact_type": "Slam",
+        "content": "Base Game",
+        "source": {
+            "mob": "DJ Deadsk4g Target of Opportunity",
+            "location": "The Splinterlands",
+            "link": "/loot-source/dj-deadsk4g"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/pull-out-method-bl3"
+    },
+    {
+        "name": "Road Warrior",
+        "drop_type": "Quest Reward",
+        "artifact_type": "Unique",
+        "content": "Base Game",
+        "source": {
+            "mob": "Blood Drive Quest",
+            "location": "The Droughts",
+            "link": "/loot-source/quest-blood-drive"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+        "extension": "/bonus-item/road-warrior-bl3"
+    },
+    {
+        "name": "Rocket Boots",
+        "drop_type": "World Drop",
+        "artifact_type": "Slide",
+        "content": "Base Game",
+        "source": {
+            "mob": "Blue Fire Boss",
+            "location": "Slaughterstar 3000",
+            "link": "/loot-source/blue-fire"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/rocket-boots-bl3"
+    },
+    {
+        "name": "Safegaurd",
+        "drop_type": "World Drop",
+        "artifact_type": "Slam",
+        "content": "Base Game",
+        "source": {
+            "mob": "Big Donny & The Big-D Named Enemy",
+            "location": "The Splinterlands",
+            "link": "/loot-source/big-donny-the-big-d"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/safeguard-bl3"
+    },
+    {
+        "name": "Shlooter",
+        "drop_type": "Welcome to Pandora - Vault Card",
+        "artifact_type": "Unique",
+        "content": "Director's Cut",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229ec1c954840459e76c0d_card-2.svg",
+        "extension": "/bonus-item/shlooter-bl3"
+    },
+    {
+        "name": "Splatter Gun",
+        "drop_type": "World Drop",
+        "artifact_type": "Slide",
+        "content": "Base Game",
+        "source": {
+            "mob": "Road Dog Named Enemy",
+            "location": "The Splinterlands",
+            "link": "/loot-source/road-dog"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/splatter-gun-bl3"
+    },
+    {
+        "name": "Static Charge",
+        "drop_type": "World Drop",
+        "artifact_type": "Melee",
+        "content": "Base Game",
+        "source": {
+            "mob": "Artemis Named Enemy",
+            "location": "Floodmoor Basin",
+            "link": "/loot-source/artemis"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/static-charge-bl3"
+    },
+    {
+        "name": "The Pearl of Ineffable Knowledge",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "artifact_type": "Unique",
+        "content": "Guns, Love, and Tentacles",
+        "source": {
+            "mob": "The Call of Gythian Quest",
+            "location": "Heart's Desire",
+            "link": "/loot-source/the-call-of-gythian"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/bonus-item/the-pearl-of-ineffable-knowledge-bl3"
+    },
+    {
+        "name": "Toboggan",
+        "drop_type": "DLC 5 - World Drop",
+        "artifact_type": "Unique",
+        "content": "Designer's Cut",
+        "source": {
+            "mob": "Plunderdome Loot-Room",
+            "location": "Stormblind Complex",
+            "link": "/loot-source/plunderdome"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+        "extension": "/bonus-item/toboggan-bl3"
+    },
+    {
+        "name": "Unleash the Dragon",
+        "drop_type": "Dedicated Drop",
+        "artifact_type": "Unique",
+        "content": "Base Game",
+        "source": {
+            "mob": "El Dragon Jr. Named Enemy",
+            "location": "Jakobs Estate",
+            "link": "/loot-source/el-dragon-jr"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+        "extension": "/bonus-item/unleash-the-dragon-bl3"
+    },
+    {
+        "name": "Vault Hunter's Relic",
+        "drop_type": "Unobtainable",
+        "artifact_type": "Unique",
+        "content": "Datamined",
+        "source": null,
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
+        "extension": "/bonus-item/vault-hunters-relic-bl3"
+    },
+    {
+        "name": "Vendetta",
+        "drop_type": "Quest Reward (Unfarmable)",
+        "artifact_type": "Unique",
+        "content": "Bounty of Blood",
+        "source": {
+            "mob": "The Name of the Law Quest",
+            "location": "Ashfall Peaks",
+            "link": "/loot-source/the-name-of-the-law"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+        "extension": "/bonus-item/vendetta-bl3"
+    },
+    {
+        "name": "Victory Rush",
+        "drop_type": "World Drop",
+        "artifact_type": "Universal",
+        "content": "Base Game",
+        "source": {
+            "mob": "Azalea Named Enemy",
+            "location": "Jakobs Estate",
+            "link": "/loot-source/azalea"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/victory-rush-bl3"
+    },
+    {
+        "name": "White Elephant",
+        "drop_type": "World Drop",
+        "artifact_type": "Melee",
+        "content": "Base Game",
+        "source": {
+            "mob": "Agonizer 9000, Pain & Terror Boss",
+            "location": "Guts of Carnivora",
+            "link": "/loot-source/agonizer-9000"
+        },
+        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+        "extension": "/bonus-item/white-elephant-bl3"
+    }
+]
