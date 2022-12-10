@@ -735,7 +735,7 @@ class BorderlandsAccountManager:
 
 class EquipmentReview:
     def __init__(self):
-        self.equipemnt = {}
+        self.equipemnt = []
 
     def get_equipment_files(self, dir_path=None):
         if dir_path is None:
@@ -746,21 +746,19 @@ class EquipmentReview:
             with open('html_data/' + fl, 'r') as df:
                 equipment_list = json.load(df)
             key = fl[10:-5]
-            self.equipemnt[key] = []
             for equipment_json in equipment_list:
                 equipment_obj = Equipment.build(equipment_json)
-                self.equipemnt[key].append(equipment_obj)
+                self.equipemnt.append(equipment_obj)
 
     def save_details(self, filepath: str ='saveoffs/equipment_save.json'):
-        data = {name: [e.put for e in equip] for name, equip in self.equipemnt.items()}
+        data = [e.put for e in self.equipemnt]
         with open(filepath, 'w') as df:
             df.write(json.dumps(data, indent=4))
 
     def load_details(self, filepath: str ='saveoffs/equipment_save.json'):
         with open(filepath, 'r') as df:
             data = json.load(df)
-        for key, value in data.items():
-            self.equipemnt[key] = [Equipment.build(e) for e in value]
+        self.equipemnt = [Equipment.build(e) for e in data]
         return self.equipemnt
 
     def find_equipment(
@@ -791,7 +789,7 @@ class EquipmentReview:
             if slot is not None:
                 if equipment_slot not in slot:
                     continue
-            for equipment in self.equipemnt[f"{equipment_slot.name.lower()}s"]:
+            for equipment in self.equipemnt:
                 if slot_type != [None]:
                     if not self._valid_equipment(
                         equipment=equipment,
