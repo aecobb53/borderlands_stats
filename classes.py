@@ -1,11 +1,15 @@
-from operator import eq
-from tkinter import E
-from unittest import skip
+from filecmp import DEFAULT_IGNORES
 from pydantic import BaseModel
 from typing import List
 from enum import Enum
 import json
 import re
+import os
+import webbrowser
+from datetime import datetime
+
+
+DATE_STRING = '%Y-%m-%dT%H:%M:%S.%f'
 
 
 class Element(Enum):
@@ -27,17 +31,77 @@ class ElementColor(Enum):
 
 
 class Slot(Enum):
+    WEAPON = 'weapon'
     ARTIFACT = 'artifact'
-    ASSAULT_RIFLE = 'assault_rifle'
     CLASS_MOD = 'class_mod'
     GRENADE_MOD = 'grenade_mod'
+    SHIELD = 'shield'
+    EMPTY = None
+
+
+class SlotType(Enum):
+    STANDARD = 'standard'
+    UNIQUE = 'unique'
+    EMPTY = None
+
+    # Weapons
+    ASSAULT_RIFLE = 'assault_rifle'
     PISTOL = 'pistol'
     ROCKET_LAUNCHER = 'rocket_launcher'
-    SHIELD = 'shield'
     SHOTGUN = 'shotgun'
     SMG = 'smg'
     SNIPER_RIFLE = 'sniper_rifle'
-    EMPTY = None
+
+    # Shields
+    BOOSTER = 'booster'
+    REFLECT = 'reflect'
+    DAMAGE = 'damage'
+    NOVA = 'nova'
+    TURTLE = 'turtle'
+    AMPLIFY = 'amplify'
+    ROID = 'roid'
+    SPIKE = 'spike'
+    ABSORB = 'absorb'
+
+    # Grenades
+    TRANSFUSION = 'transfusion'
+    MIRV = 'mirv'
+    BOUNCING_BETTY = 'bouncing_betty'
+    AREA_OF_EFFECT = 'area_of_effect'
+    SINGULARITY = 'singularity'
+
+    # Artifacts
+    MELEE = 'melee'
+    SLAM = 'slam'
+    UNIVERSAL = 'universal'
+    SLIDE = 'slide'
+
+    AMARA = 'amara'
+    FL4K = 'fl4k'
+    MOZE = 'moze'
+    ZANE = 'zane'
+
+    WEAPON = 'weapon'
+    ARTIFACT = 'artifact'
+    CLASS_MOD = 'class_mod'
+    GRENADE_MOD = 'grenade_mod'
+    SHIELD = 'shield'
+
+
+class Manufacture(Enum):
+    HYPERION = 'hyperion'
+    VLADOF = 'vladof'
+    COV = 'cov'
+    ATLAS = 'atlas'
+    TEDIORE = 'tediore'
+    DAHL = 'dahl'
+    JAKOBS = 'jakobs'
+    MALIWAN = 'maliwan'
+    TORGUE = 'torgue'
+    ERIDIAN = 'eridian'
+    ANSHIN = 'anshin'
+    PANGOLIN = 'pangolin'
+    UNKNOWN = 'unknown'
 
 
 class VaultHunter(Enum):
@@ -54,14 +118,121 @@ class VaultHunterColor(Enum):
     ZANE = 'cyan'
 
 
+class ChangeLogEntry(BaseModel):
+    note: str
+    date: datetime = datetime.now()
+
+    @property
+    def put(self):
+        details = {
+            'note': self.note,
+            'date': datetime.strftime(self.date, DATE_STRING),
+        }
+        return details
+
+    @classmethod
+    def build(cls, data):
+        details = {
+            'note': data['note'],
+            'date': datetime.strptime(data['date'], DATE_STRING),
+        }
+        return  cls(**details)
+
+
+class EquipmentSource(BaseModel):
+    drop_source_format: str = None
+    content: str = None
+    mob: str = None
+    location: str = None
+    location_link: str = None
+    link: str = None
+    image_url: str = None
+    image_data: str = None
+    description:str = ''
+    notes: List[str] = []
+    changelog: List[ChangeLogEntry] = []
+
+    @property
+    def put(self):
+        details = {
+            'drop_source_format': self.drop_source_format,
+            'content': self.content,
+            'mob': self.mob,
+            'location': self.location,
+            'link': self.link,
+            'image_url': self.image_url,
+            'image_data': self.image_data,
+            'description': self.description,
+            'notes': self.notes,
+            'changelog': [c.put for c in self.changelog],
+        }
+        return details
+
+    @classmethod
+    def build(cls, data):
+        details = {}
+        if data.get('drop_source_format') is not None:
+            details['drop_source_format'] = data['drop_source_format']
+        if data.get('content') is not None:
+            details['content'] = data['content']
+        if data.get('mob') is not None:
+            details['mob'] = data['mob']
+        if data.get('location') is not None:
+            details['location'] = data['location']
+        if data.get('location_link') is not None:
+            details['location_link'] = data['location_link']
+        if data.get('link') is not None:
+            details['link'] = data['link']
+        if data.get('image_url') is not None:
+            details['image_url'] = data['image_url']
+        if data.get('image_data') is not None:
+            details['image_data'] = data['image_data']
+        if data.get('description') is not None:
+            details['description'] = data['description']
+        if data.get('notes') is not None:
+            details['notes'] = data['notes']
+        if data.get('changelog') is not None:
+            details['changelog'] = [ChangeLogEntry.build(c) for c in data['changelog']]
+        return cls(**details)
+
+    def update(self, obj):
+        if obj.drop_source_format is not None:
+            self.drop_source_format = obj.drop_source_format
+        if obj.content is not None:
+            self.content = obj.content
+        if obj.mob is not None:
+            self.mob = obj.mob
+        if obj.location is not None:
+            self.location = obj.location
+        if obj.location_link is not None:
+            self.location_link = obj.location_link
+        if obj.link is not None:
+            self.link = obj.link
+        if obj.image_url is not None:
+            self.image_url = obj.image_url
+        if obj.image_data is not None:
+            self.image_data = obj.image_data
+        if obj.description is not None:
+            self.description = obj.description
+        if obj.notes is not None:
+            self.notes = obj.notes
+        if obj.changelog is not None:
+            self.changelog = obj.changelog
+        self.changelog.append(ChangeLogEntry(note='Updated'))
+
+
 class Equipment(BaseModel):
     slot: Slot = Slot.EMPTY
+    slot_type: SlotType = SlotType.EMPTY
     elements: List[Element] = [Element.KENETIC]
-    name: str = ''
-    link: str = ''
-    description: str = ''
+    name: str = None
+    source: EquipmentSource = EquipmentSource()
+    manufactures: List[Manufacture] = [Manufacture.UNKNOWN]
+    description: str = None
     notes: List[str] = []
     changelog: List[str] = []
+    reviewed: bool = False
+    locked: bool = False
     # prefix
     # suffex
 
@@ -72,12 +243,16 @@ class Equipment(BaseModel):
         else:
             output = {
                 'slot': self.slot.name,
+                'slot_type': self.slot_type.name,
                 'elements': [e.name for e in self.elements],
                 'name': self.name,
-                'link': self.link,
+                'source': self.source.put,
+                'manufactures': [m.name for m in self.manufactures],
                 'description': self.description,
                 'notes': [i for i in self.notes],
                 'changelog': [i for i in self.changelog],
+                'reviewed': self.reviewed,
+                'locked': self.locked,
             }
         return output
 
@@ -85,13 +260,27 @@ class Equipment(BaseModel):
     def build(cls, data):
         details = {
             'slot': getattr(Slot, data['slot']),
-            'elements': [getattr(Element, e) for e in data['elements']],
-            'name': data['name'],
-            'link': data['link'],
-            'description': data['description'],
-            'notes': data['notes'],
-            'changelog': data['changelog'],
         }
+        if data.get('slot_type') is not None:
+            details['slot_type'] = getattr(SlotType, data['slot_type'])
+        if data.get('elements') is not None:
+            details['elements'] = [getattr(Element, e) for e in data['elements']]
+        if data.get('name') is not None:
+            details['name'] = data['name']
+        if data.get('source') is not None:
+            details['source'] = EquipmentSource.build(data['source'])
+        if data.get('manufactures') is not None:
+            details['manufactures'] = [getattr(Manufacture, m) for m in data['manufactures']]
+        if data.get('description') is not None:
+            details['description'] = data['description']
+        if data.get('notes') is not None:
+            details['notes'] = data['notes']
+        if data.get('changelog') is not None:
+            details['changelog'] = data['changelog']
+        if data.get('reviewed') is not None:
+            details['reviewed'] = data['reviewed']
+        if data.get('locked') is not None:
+            details['locked'] = data['locked']
         return cls(**details)
 
     def generate_html_tile(self):
@@ -99,7 +288,7 @@ class Equipment(BaseModel):
         details.append('<div class="equipment-tile">')
         details.append('<p>')
         data = []
-        data.append(f"Type: {self.slot.name.replace('_', ' ').title()}")
+        data.append(f"Type: {self.slot_type.name.replace('_', ' ').title()}")
         if self.name:
         #     details.append('</br>')
             data.append(f"Name: {self.name}")
@@ -112,13 +301,44 @@ class Equipment(BaseModel):
             if len(elements) > 1:
                 name += 's'
             data.append(f'{name}: {" / ".join(elements)}')
-        if self.link:
+        if self.source.link:
         #     details.append('</br>')
-            data.append(f'Link: <a href="{self.link}">Equipment Link</a>')
+            data.append(f'Link: <a href="{self.source.link}">Equipment Link</a>')
         details.append('<br>'.join(data))
         details.append('</p>')
         details.append('</div>')
         return ''.join(details)
+
+    def lock(self):
+        self.locked = True
+
+    def unlock(self):
+        self.locked = False
+
+    def update(self, obj):
+        if self.locked:
+            return
+        if obj.slot is not None:
+            self.slot = obj.slot
+        if obj.slot_type is not None:
+            self.slot_type = obj.slot_type
+        if obj.elements is not None:
+            self.elements = obj.elements
+        if obj.name is not None:
+            self.name = obj.name
+        if obj.source is not None:
+            self.source = obj.source
+        if obj.manufactures is not None:
+            self.manufactures = obj.manufactures
+        if obj.description is not None:
+            self.description = obj.description
+        if obj.notes is not None:
+            self.notes = obj.notes
+        if obj.changelog is not None:
+            self.changelog = obj.changelog
+        if obj.reviewed is not None:
+            self.reviewed = obj.reviewed
+        self.changelog.append(ChangeLogEntry(note='Updated'))
 
 
 class BuildLink(BaseModel):
@@ -202,8 +422,8 @@ class Character:
             'class_mod': self.class_mod.put,
             'grenade_mod': self.grenade_mod.put,
             'shield': self.shield.put,
-            'associated_slots': [s.put for s in self.associated_slots if s.slot != Slot.EMPTY],
-            'archived_slots': [s.put for s in self.archived_slots if s.slot != Slot.EMPTY],
+            'associated_slots': [s.put for s in self.associated_slots if s.slot_type != Slot.EMPTY],
+            'archived_slots': [s.put for s in self.archived_slots if s.slot_type != Slot.EMPTY],
             'active_build': self.active_build.put,
             'associated_builds': [b.put for b in self.associated_builds],
             'archived_builds': [b.put for b in self.archived_builds],
@@ -212,6 +432,47 @@ class Character:
             'changelog': [i for i in self.changelog],
         }
         return details
+
+    @classmethod
+    def build(cls, data):
+        details = {
+            'vault_hunter': getattr(VaultHunter, data['vault_hunter'])
+        }
+        if data.get('description') is not None:
+            details['description'] = data['description']
+        if data.get('gun1') is not None:
+            details['gun1'] = data['gun1']
+        if data.get('gun2') is not None:
+            details['gun2'] = data['gun2']
+        if data.get('gun3') is not None:
+            details['gun3'] = data['gun3']
+        if data.get('gun4') is not None:
+            details['gun4'] = data['gun4']
+        if data.get('artifact') is not None:
+            details['artifact'] = data['artifact']
+        if data.get('class_mod') is not None:
+            details['class_mod'] = data['class_mod']
+        if data.get('grenade_mod') is not None:
+            details['grenade_mod'] = data['grenade_mod']
+        if data.get('shield') is not None:
+            details['shield'] = data['shield']
+        if data.get('associated_slots') is not None:
+            details['associated_slots'] = data['associated_slots']
+        if data.get('archived_slots') is not None:
+            details['archived_slots'] = data['archived_slots']
+        if data.get('active_build') is not None:
+            details['active_build'] = data['active_build']
+        if data.get('associated_builds') is not None:
+            details['associated_builds'] = data['associated_builds']
+        if data.get('archived_builds') is not None:
+            details['archived_builds'] = data['archived_builds']
+        if data.get('active') is not None:
+            details['active'] = data['active']
+        if data.get('notes') is not None:
+            details['notes'] = data['notes']
+        if data.get('changelog') is not None:
+            details['changelog'] = data['changelog']
+        return cls(**details)
 
     def add_equipment(self, equipment: Equipment):
         created = False
@@ -471,3 +732,141 @@ class BorderlandsAccountManager:
         with open(filepath, 'r') as df:
             data = json.load(df)
         return BorderlandsAccountManager.build(data)
+
+class EquipmentReview:
+    def __init__(self):
+        self.equipemnt = {}
+
+    def get_equipment_files(self, dir_path=None):
+        if dir_path is None:
+            dir_path = 'html_data'
+        for fl in os.listdir(dir_path):
+            if not fl.endswith('.json'):
+                continue
+            with open('html_data/' + fl, 'r') as df:
+                equipment_list = json.load(df)
+            key = fl[10:-5]
+            self.equipemnt[key] = []
+            for equipment_json in equipment_list:
+                equipment_obj = Equipment.build(equipment_json)
+                self.equipemnt[key].append(equipment_obj)
+
+    def save_details(self, filepath: str ='saveoffs/equipment_save.json'):
+        data = {name: [e.put for e in equip] for name, equip in self.equipemnt.items()}
+        with open(filepath, 'w') as df:
+            df.write(json.dumps(data, indent=4))
+
+    def load_details(self, filepath: str ='saveoffs/equipment_save.json'):
+        with open(filepath, 'r') as df:
+            data = json.load(df)
+        for key, value in data.items():
+            self.equipemnt[key] = [Equipment.build(e) for e in value]
+        return self.equipemnt
+
+    def find_equipment(
+        self,
+        slot: List[Slot] = [None],
+        slot_type: List[SlotType] = [None],
+        elements: List[Element] = [None],
+        name: str = None,
+        equipment_source: List[EquipmentSource] = [None],
+        manufactures: List[Manufacture] = [None],
+        description: str = None,
+        reviewed: bool = None,
+    ):
+        if not isinstance(slot, list):
+            slot = [slot]
+        if not isinstance(slot_type, list):
+            slot_type = [slot_type]
+        if not isinstance(elements, list):
+            elements = [elements]
+        if not isinstance(equipment_source, list):
+            equipment_source = [equipment_source]
+        if not isinstance(manufactures, list):
+            manufactures = [manufactures]
+
+        results = []
+
+        for equipment_slot in Slot:
+            if slot is not None:
+                if equipment_slot not in slot:
+                    continue
+            for equipment in self.equipemnt[f"{equipment_slot.name.lower()}s"]:
+                if slot_type != [None]:
+                    if not self._valid_equipment(
+                        equipment=equipment,
+                        equipment_stat='slot_type',
+                        stat_values=slot_type
+                    ):
+                        continue
+                if elements != [None]:
+                    if not self._valid_equipment(
+                        equipment=equipment,
+                        equipment_stat='elements',
+                        stat_values=elements
+                    ):
+                        continue
+                if name is not None:
+                    match = re.search(name, equipment.name)
+                    if not match:
+                        continue
+                if equipment_source != [None]:
+                    if not self._valid_source_equipment(
+                        equipment=equipment,
+                        equipment_stat='source',
+                        stat_values=equipment_source
+                    ):
+                        continue
+                if manufactures != [None]:
+                    if not self._valid_equipment(
+                        equipment=equipment,
+                        equipment_stat='manufactures',
+                        stat_values=manufactures
+                    ):
+                        continue
+                if description is not None:
+                    match = re.search(description, equipment.description)
+                    if not match:
+                        continue
+                if reviewed is not None:
+                    if reviewed and not equipment.reviewed:
+                        continue
+                    if not reviewed and equipment.reviewed:
+                        continue
+
+                results.append(equipment)
+        return results
+
+    def _valid_equipment(self, equipment, equipment_stat, stat_values):
+        if not isinstance(getattr(equipment, equipment_stat), list):
+            equipment_stat_for_validating = [getattr(equipment, equipment_stat)]
+        else:
+            equipment_stat_for_validating = getattr(equipment, equipment_stat)
+        for esfv in equipment_stat_for_validating:
+            if esfv in stat_values:
+                return True
+        return False
+
+    def _valid_source_equipment(self, equipment, equipment_stat, stat_values):
+        """
+        This will error if it only matches one. So i need to re-think this loop. ugh.
+        """
+        for stat in stat_values:
+            for key, value in EquipmentSource():
+                if key in ['notes', 'changelog']:
+                    continue
+                if getattr(stat, key) is not None:
+                    match = re.search(getattr(stat, key), getattr(equipment.source, key))
+                    if not match:
+                        return False
+        return True
+
+    def open_equipment_urls(self, count=5, **kwargs):
+        equipment_list = self.find_equipment(**kwargs)
+        opened = []
+        for equipment in equipment_list[:count]:
+            url = equipment.source.link
+            print(f"Opening equipment: {url}")
+            webbrowser.open_new_tab(url)
+            opened.append(equipment)
+        return opened

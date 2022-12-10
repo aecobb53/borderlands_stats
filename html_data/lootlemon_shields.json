@@ -1,1076 +1,1560 @@
 [
     {
-        "name": "All-in",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "equipment_type": "Booster",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "BOOSTER",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Handsome Jackpot",
+        "name": "All-in",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "Anshin",
             "mob": "Regaining One's Feet Quest",
             "location": "Grand Opening",
-            "link": "/loot-source/regaining-ones-feet"
+            "link": "https://www.lootlemon.com/shield/all-in-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/shield/all-in-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Asclepius",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Unique",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "UNIQUE",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Asclepius",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Anshin",
             "mob": "Anathema the Relentless Boss",
             "location": "Minos Prime",
-            "link": "/loot-source/anathema-the-relentless"
+            "link": "https://www.lootlemon.com/shield/asclepius-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/asclepius-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Back Ham",
-        "drop_type": "World Drop",
-        "equipment_type": "Reflect",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "REFLECT",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Back Ham",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Anshin",
             "mob": "Archer Rowe Named Enemy",
             "location": "Meridian Metroplex",
-            "link": "/loot-source/archer-rowe"
+            "link": "https://www.lootlemon.com/shield/back-ham-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/back-ham-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Band of Sitorak",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Damage",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "DAMAGE",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Band of Sitorak",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Pangolin",
             "mob": "The Unstoppable Named Enemy",
             "location": "Ambermire",
-            "link": "/loot-source/the-unstoppable"
+            "link": "https://www.lootlemon.com/shield/band-of-sitorak-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/band-of-sitorak-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Beskar",
-        "drop_type": "DLC 5 - World Drop",
-        "equipment_type": "Reflect",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "REFLECT",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Designer's Cut",
+        "name": "Beskar",
         "source": {
+            "drop_source_format": "DLC 5 - World Drop",
+            "content": "Anshin",
             "mob": "Launch Command Loot-Room",
             "location": "Stormblind Complex",
-            "link": "/loot-source/launch-command"
+            "link": "https://www.lootlemon.com/shield/beskar-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
-        "extension": "/shield/beskar-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Big Boom Blaster",
-        "drop_type": "World Drop",
-        "equipment_type": "Booster",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "BOOSTER",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Big Boom Blaster",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Pangolin",
             "mob": "The Unstoppable Named Enemy",
             "location": "Ambermire",
-            "link": "/loot-source/the-unstoppable"
+            "link": "https://www.lootlemon.com/shield/big-boom-blaster-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/big-boom-blaster-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Black Hole",
-        "drop_type": "World Drop",
-        "equipment_type": "Nova",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "NOVA",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Base Game",
+        "name": "Black Hole",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Pangolin",
             "mob": "Wick and Warty Named Enemy",
             "location": "Lectra City",
-            "link": "/loot-source/wick-and-warty"
+            "link": "https://www.lootlemon.com/shield/black-hole-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/black-hole-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "SHIELD",
+        "slot_type": "NOVA",
+        "elements": [
+            "FIRE"
+        ],
         "name": "Deluxe Badass Combustor",
-        "drop_type": "Paid Item",
-        "equipment_type": "Nova",
-        "manufacture": "Anshin",
-        "elements": [
-            "Incindiary"
+        "source": {
+            "drop_source_format": "Paid Item",
+            "content": "Anshin",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61228a9f821e9f12a50694b9_buyable.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "ANSHIN"
         ],
-        "content": "Boost Mods Pack",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61228a9f821e9f12a50694b9_buyable.svg",
-        "extension": "/shield/deluxe-badass-combustor-bl3"
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Double Downer",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "equipment_type": "Standard",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "STANDARD",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Handsome Jackpot",
+        "name": "Double Downer",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "Hyperion",
             "mob": "Double Down Quest",
             "location": "The Spendopticon",
-            "link": "/loot-source/double-down"
+            "link": "https://www.lootlemon.com/shield/double-downer-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/shield/double-downer-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Ember's Blaze",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "equipment_type": "Nova",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "NOVA",
         "elements": [
-            "Incindiary"
+            "FIRE"
         ],
-        "content": "Handsome Jackpot",
+        "name": "Ember's Blaze",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "Hyperion",
             "mob": "Playing with Fire Quest",
             "location": "The Spendopticon",
-            "link": "/loot-source/playing-with-fire"
+            "link": "https://www.lootlemon.com/shield/embers-blaze-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/shield/embers-blaze-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Faulty Star",
-        "drop_type": "DLC 4 - World Drop",
-        "equipment_type": "Nova",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "NOVA",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Psycho Krieg",
+        "name": "Faulty Star",
         "source": {
+            "drop_source_format": "DLC 4 - World Drop",
+            "content": "Hyperion",
             "mob": "Locom\u00c3\u00b6bius Boss",
             "location": "Sapphire's Run",
-            "link": "/loot-source/locomobius"
+            "link": "https://www.lootlemon.com/shield/faulty-star-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
-        "extension": "/shield/faulty-star-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Firewall",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Unique",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "UNIQUE",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Revenge of the Cartels",
+        "name": "Firewall",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Hyperion",
             "mob": "Joey Ultraviolet Boss",
             "location": "Villa Ultraviolet",
-            "link": "/loot-source/joey-ultraviolet"
+            "link": "https://www.lootlemon.com/shield/firewall-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/firewall-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Front Loader",
-        "drop_type": "World Drop",
-        "equipment_type": "Turtle",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "TURTLE",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Front Loader",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Hyperion",
             "mob": "Private Beans Named Enemy",
             "location": "Athenas",
-            "link": "/loot-source/private-beans"
+            "link": "https://www.lootlemon.com/shield/front-loader-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/front-loader-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Frozen Heart",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Nova",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "NOVA",
         "elements": [
-            "Cryo"
+            "CRYO"
         ],
-        "content": "Base Game",
+        "name": "Frozen Heart",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Anshin",
             "mob": "Aurelia Boss",
             "location": "Blackbarrel Cellars",
-            "link": "/loot-source/aurelia-hammerlock"
+            "link": "https://www.lootlemon.com/shield/frozen-heart-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/frozen-heart-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Gas Mask",
-        "drop_type": "DLC 5 - World Drop",
-        "equipment_type": "Standard",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "STANDARD",
         "elements": [
-            "Corrosive"
+            "ACID"
         ],
-        "content": "Designer's Cut",
+        "name": "Gas Mask",
         "source": {
+            "drop_source_format": "DLC 5 - World Drop",
+            "content": "Hyperion",
             "mob": "Plunderdome Loot-Room",
             "location": "Stormblind Complex",
-            "link": "/loot-source/plunderdome"
+            "link": "https://www.lootlemon.com/shield/gas-mask-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
-        "extension": "/shield/gas-mask-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Golden Touch",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Roid",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "ROID",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Golden Touch",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Pangolin",
             "mob": "Golden Calves Quest",
             "location": "The Droughts",
-            "link": "/loot-source/quest-golden-calves"
+            "link": "https://www.lootlemon.com/shield/golden-touch-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/shield/golden-touch-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "SHIELD",
+        "slot_type": "NOVA",
+        "elements": [
+            "SHOCK"
+        ],
         "name": "Guilty Spark",
-        "drop_type": "DLC 4 - World Drop",
-        "equipment_type": "Nova",
-        "manufacture": "Hyperion",
-        "elements": [
-            "Shock"
+        "source": {
+            "drop_source_format": "DLC 4 - World Drop",
+            "content": "Hyperion",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "HYPERION"
         ],
-        "content": "Psycho Krieg",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
-        "extension": "/shield/guilty-spark-bl3"
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Impaler",
-        "drop_type": "World Drop",
-        "equipment_type": "Spike",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "SPIKE",
         "elements": [
-            "Corrosive"
+            "ACID"
         ],
-        "content": "Base Game",
+        "name": "Impaler",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Pangolin",
             "mob": "Antalope Legendary Hunt",
             "location": "Devil's Razor",
-            "link": "/loot-source/antalope"
+            "link": "https://www.lootlemon.com/shield/impaler-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/impaler-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Infernal Wish",
-        "drop_type": "DLC 5 - World Drop",
-        "equipment_type": "Unique",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "UNIQUE",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Designer's Cut",
+        "name": "Infernal Wish",
         "source": {
+            "drop_source_format": "DLC 5 - World Drop",
+            "content": "Anshin",
             "mob": "Launch Command Loot-Room",
             "location": "Stormblind Complex",
-            "link": "/loot-source/launch-command"
+            "link": "https://www.lootlemon.com/shield/infernal-wish-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
-        "extension": "/shield/infernal-wish-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Initiative",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Damage",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "DAMAGE",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Guns, Love, and Tentacles",
+        "name": "Initiative",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Anshin",
             "mob": "Vincent Named Enemy",
             "location": "Cursehaven",
-            "link": "/loot-source/vincent"
+            "link": "https://www.lootlemon.com/shield/initiative-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/initiative-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Limit Break",
-        "drop_type": "DLC 4 - World Drop",
-        "equipment_type": "Absorb",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "ABSORB",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Psycho Krieg",
+        "name": "Limit Break",
         "source": {
+            "drop_source_format": "DLC 4 - World Drop",
+            "content": "Pangolin",
             "mob": "What Love Remains Quest",
             "location": "Sapphire's Run",
-            "link": "/loot-source/what-love-remains"
+            "link": "https://www.lootlemon.com/shield/limit-break-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
-        "extension": "/shield/limit-break-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Loop of 4N631",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Standard",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "STANDARD",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Base Game",
+        "name": "Loop of 4N631",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Hyperion",
             "mob": "Childhood's End Quest",
             "location": "Konrad's Hold",
-            "link": "/loot-source/quest-childhoods-end"
+            "link": "https://www.lootlemon.com/shield/loop-of-4n631-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/shield/loop-of-4n631-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "SHIELD",
+        "slot_type": "STANDARD",
+        "elements": [
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
+        ],
         "name": "M.E.A.T. Shield",
-        "drop_type": "Unobtainable",
-        "equipment_type": "Standard",
-        "manufacture": "Pangolin",
-        "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+        "source": {
+            "drop_source_format": "Unobtainable",
+            "content": "Pangolin",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "PANGOLIN"
         ],
-        "content": "Datamined",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
-        "extension": "/shield/meat-shield-bl3"
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "MSRC Auto-Dispensary",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Booster",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "BOOSTER",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "MSRC Auto-Dispensary",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Hyperion",
             "mob": "Healers and Dealers Quest",
             "location": "Meridian Outskirts",
-            "link": "/loot-source/quest-healers-and-dealers"
+            "link": "https://www.lootlemon.com/shield/msrc-auto-dispensary-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/shield/msrc-auto-dispensary-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Madcap",
-        "drop_type": "DLC 5 - World Drop",
-        "equipment_type": "Standard",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "STANDARD",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Designer's Cut",
+        "name": "Madcap",
         "source": {
+            "drop_source_format": "DLC 5 - World Drop",
+            "content": "Anshin",
             "mob": "Plunderdome Loot-Room",
             "location": "Stormblind Complex",
-            "link": "/loot-source/plunderdome"
+            "link": "https://www.lootlemon.com/shield/madcap-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
-        "extension": "/shield/madcap-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "SHIELD",
+        "slot_type": "DAMAGE",
+        "elements": [
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
+        ],
         "name": "Mana Well",
-        "drop_type": "Bunker Masters - Vault Card",
-        "equipment_type": "Damage",
-        "manufacture": "Pangolin",
-        "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+        "source": {
+            "drop_source_format": "Bunker Masters - Vault Card",
+            "content": "Pangolin",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6196a0733008a82fc1e96879_card-3.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "PANGOLIN"
         ],
-        "content": "Director's Cut",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6196a0733008a82fc1e96879_card-3.svg",
-        "extension": "/shield/mana-well-bl3"
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Mendel's Multivitamin",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Standard",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "STANDARD",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Base Game",
+        "name": "Mendel's Multivitamin",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Hyperion",
             "mob": "Holy Spirits Quest",
             "location": "Athenas",
-            "link": "/loot-source/quest-holy-spirits"
+            "link": "https://www.lootlemon.com/shield/mendels-multivitamin-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/shield/mendels-multivitamin-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Messy Breakup",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Unique",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "UNIQUE",
         "elements": [
-            "Shock",
-            "Corrosive"
+            "SHOCK",
+            "ACID"
         ],
-        "content": "Base Game",
+        "name": "Messy Breakup",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Anshin",
             "mob": "Max & Rax Named Enemy",
             "location": "Meridian Outskirts",
-            "link": "/loot-source/max-rax"
+            "link": "https://www.lootlemon.com/shield/messy-breakup-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/messy-breakup-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Moxxi's Embrace",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Nova",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "NOVA",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Moxxi's Embrace",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Anshin",
             "mob": "Sanctuary Quest",
             "location": "The Droughts",
-            "link": "/loot-source/quest-sanctuary"
+            "link": "https://www.lootlemon.com/shield/moxxis-embrace-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/shield/moxxis-embrace-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Mr Caffeine",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Standard",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "STANDARD",
         "elements": [
-            "Corrosive"
+            "ACID"
         ],
-        "content": "Base Game",
+        "name": "Mr Caffeine",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Pangolin",
             "mob": "Rise and Grind Quest",
             "location": "Meridian Metroplex",
-            "link": "/loot-source/quest-rise-and-grind"
+            "link": "https://www.lootlemon.com/shield/mr-caffeine-shield-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/shield/mr-caffeine-shield-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Nova Berner",
-        "drop_type": "World Drop",
-        "equipment_type": "Nova",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "NOVA",
         "elements": [
-            "Incindiary"
+            "FIRE"
         ],
-        "content": "Base Game",
+        "name": "Nova Berner",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Anshin",
             "mob": "Power Troopers Named Enemy",
             "location": "Atlas HQ",
-            "link": "/loot-source/power-troopers"
+            "link": "https://www.lootlemon.com/shield/nova-berner-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/nova-berner-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Old God",
-        "drop_type": "DLC 2 - World Drop",
-        "equipment_type": "Damage",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "DAMAGE",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Guns, Love, and Tentacles",
+        "name": "Old God",
         "source": {
+            "drop_source_format": "DLC 2 - World Drop",
+            "content": "Hyperion",
             "mob": "Eleanor and the Heart Boss",
             "location": "Heart's Desire",
-            "link": "/loot-source/eleanor-of-the-heart"
+            "link": "https://www.lootlemon.com/shield/old-god-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
-        "extension": "/shield/old-god-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Plus Ultra",
-        "drop_type": "DLC 4 - World Drop",
-        "equipment_type": "Absorb",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "ABSORB",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Psycho Krieg",
+        "name": "Plus Ultra",
         "source": {
+            "drop_source_format": "DLC 4 - World Drop",
+            "content": "Pangolin",
             "mob": "Dr. Benedict Boss",
             "location": "Benediction of Pain",
-            "link": "/loot-source/dr-benedict"
+            "link": "https://www.lootlemon.com/shield/plus-ultra-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
-        "extension": "/shield/plus-ultra-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Re-Charge Berner",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Nova",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "NOVA",
         "elements": [
-            "Incindiary",
-            "Corrosive",
-            "Radiation"
+            "FIRE",
+            "ACID",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Re-Charge Berner",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Hyperion",
             "mob": "Valkyrie Squad Boss",
             "location": "Midnight's Cairn",
-            "link": "/loot-source/valkyrie-squad"
+            "link": "https://www.lootlemon.com/shield/re-charge-berner-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/re-charge-berner-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Re-Charger",
-        "drop_type": "World Drop",
-        "equipment_type": "Standard",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "STANDARD",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Re-Charger",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Hyperion",
             "mob": "Urist McEnforcer Named Enemy",
             "location": "Lectra City",
-            "link": "/loot-source/urist-mcenforcer"
+            "link": "https://www.lootlemon.com/shield/re-charger-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/re-charger-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Re-Router",
-        "drop_type": "World Drop",
-        "equipment_type": "Amplify",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "AMPLIFY",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Re-Router",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Anshin",
             "mob": "Princess Tarantella II Named Enemy",
             "location": "The Splinterlands",
-            "link": "/loot-source/princess-tarantella-ii"
+            "link": "https://www.lootlemon.com/shield/re-router-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/re-router-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Re-Volter",
-        "drop_type": "DLC 6 - World Drop",
-        "equipment_type": "Damage",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "DAMAGE",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Director's Cut",
+        "name": "Re-Volter",
         "source": {
+            "drop_source_format": "DLC 6 - World Drop",
+            "content": "Hyperion",
             "mob": "Sumo Named Enemy",
             "location": "Eschaton Row",
-            "link": "/loot-source/sumo"
+            "link": "https://www.lootlemon.com/shield/re-volter-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
-        "extension": "/shield/re-volter-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Rectifier",
-        "drop_type": "World Drop",
-        "equipment_type": "Unique",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "UNIQUE",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Base Game",
+        "name": "Rectifier",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Hyperion",
             "mob": "Muldock the Anointed Named Enemy",
             "location": "Floodmoor Basin",
-            "link": "/loot-source/muldock-the-anointed"
+            "link": "https://www.lootlemon.com/shield/rectifier-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/rectifier-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Red Card",
-        "drop_type": "World Drop",
-        "equipment_type": "Unique",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "UNIQUE",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Red Card",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Anshin",
             "mob": "Gigamind Boss",
             "location": "Meridian Metroplex",
-            "link": "/loot-source/gigamind"
+            "link": "https://www.lootlemon.com/shield/red-card-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/red-card-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Red Card Re-Charger",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Unique",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "UNIQUE",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Red Card Re-Charger",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Anshin",
             "mob": "Valkyrie Squad Boss",
             "location": "Midnight's Cairn",
-            "link": "/loot-source/valkyrie-squad"
+            "link": "https://www.lootlemon.com/shield/red-card-re-charger-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/red-card-re-charger-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Red Suit",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Unique",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "UNIQUE",
         "elements": [
-            "Radiation"
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Red Suit",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Pangolin",
             "mob": "Atomic & Sylestro Target of Opportunity",
             "location": "Tazendeer Ruins",
-            "link": "/loot-source/atomic-sylestro"
+            "link": "https://www.lootlemon.com/shield/razor-wire-red-suit-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/razor-wire-red-suit-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Revengenader",
-        "drop_type": "World Drop",
-        "equipment_type": "Unique",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "UNIQUE",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Revengenader",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Pangolin",
             "mob": "Maxitrillion Named Enemy",
             "location": "Voracious Canopy",
-            "link": "/loot-source/maxitrillion"
+            "link": "https://www.lootlemon.com/shield/revengenader-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/revengenader-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Rico",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "equipment_type": "Reflect",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "REFLECT",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Handsome Jackpot",
+        "name": "Rico",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "Anshin",
             "mob": "All Bets Off Quest",
             "location": "VIP Tower",
-            "link": "/loot-source/all-bets-off"
+            "link": "https://www.lootlemon.com/shield/rico-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/shield/rico-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Rough Rider",
-        "drop_type": "World Drop",
-        "equipment_type": "Standard",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "STANDARD",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Rough Rider",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Anshin",
             "mob": "Red Jabber Named Enemy",
             "location": "Ambermire",
-            "link": "/loot-source/red-jabber"
+            "link": "https://www.lootlemon.com/shield/rough-rider-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/rough-rider-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Scream of Terror",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Nova",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "NOVA",
         "elements": [
-            "Cryo"
+            "CRYO"
         ],
-        "content": "Bloody Harvest",
+        "name": "Scream of Terror",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Anshin",
             "mob": "Loot Ghost Rare Spawn",
             "location": "Global",
-            "link": "/loot-source/loot-ghost"
+            "link": "https://www.lootlemon.com/shield/scream-of-terror-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/scream-of-terror-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Shooting Star",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Roid",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "ROID",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Shooting Star",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Pangolin",
             "mob": "Turnkey Tim Named Enemy",
             "location": "Floodmoor Basin",
-            "link": "/loot-source/turnkey-tim"
+            "link": "https://www.lootlemon.com/shield/shooting-star-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/shooting-star-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Snowshoe",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Nova",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "NOVA",
         "elements": [
-            "Cryo"
+            "CRYO"
         ],
-        "content": "Base Game",
+        "name": "Snowshoe",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Anshin",
             "mob": "Valkyrie Squad Boss",
             "location": "Midnight's Cairn",
-            "link": "/loot-source/valkyrie-squad"
+            "link": "https://www.lootlemon.com/shield/frozen-snowshoe-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/frozen-snowshoe-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Stinger",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Roid",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "ROID",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Stinger",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Pangolin",
             "mob": "Anathema the Relentless Boss",
             "location": "Minos Prime",
-            "link": "/loot-source/anathema-the-relentless"
+            "link": "https://www.lootlemon.com/shield/stinger-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/stinger-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Stop-Gap",
-        "drop_type": "World Drop",
-        "equipment_type": "Standard",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "STANDARD",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Stop-Gap",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Hyperion",
             "mob": "El Dragon Jr. Named Enemy",
             "location": "Jakobs Estate",
-            "link": "/loot-source/el-dragon-jr"
+            "link": "https://www.lootlemon.com/shield/stop-gap-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/stop-gap-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "SHIELD",
+        "slot_type": "UNIQUE",
+        "elements": [
+            "KENETIC"
+        ],
         "name": "Super Soldier",
-        "drop_type": "Fallen Heros - Vault Card",
-        "equipment_type": "Unique",
-        "manufacture": "Anshin",
-        "elements": [
-            "Nonelemental"
+        "source": {
+            "drop_source_format": "Fallen Heros - Vault Card",
+            "content": "Anshin",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229ec975cce20cec73a9ba_card-1.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "ANSHIN"
         ],
-        "content": "Director's Cut",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229ec975cce20cec73a9ba_card-1.svg",
-        "extension": "/shield/super-soldier-bl3"
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "The Transformer",
-        "drop_type": "World Drop",
-        "equipment_type": "Absorb",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "ABSORB",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Base Game",
+        "name": "The Transformer",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Hyperion",
             "mob": "Queen Ant Wanette Named Enemy",
             "location": "The Splinterlands",
-            "link": "/loot-source/queen-ant-wanette"
+            "link": "https://www.lootlemon.com/shield/the-transformer-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/the-transformer-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Torch",
-        "drop_type": "DLC 2 - World Drop",
-        "equipment_type": "Unique",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "UNIQUE",
         "elements": [
-            "Incindiary"
+            "FIRE"
         ],
-        "content": "Guns, Love, and Tentacles",
+        "name": "Torch",
         "source": {
+            "drop_source_format": "DLC 2 - World Drop",
+            "content": "Pangolin",
             "mob": "Gmork Legendary Hunt",
             "location": "The Cankerwood",
-            "link": "/loot-source/gmork"
+            "link": "https://www.lootlemon.com/shield/torch-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
-        "extension": "/shield/torch-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Unpaler",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Roid",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "ROID",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Base Game",
+        "name": "Unpaler",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Pangolin",
             "mob": "On the Blood Path Quest",
             "location": "The Anvil",
-            "link": "/loot-source/quest-on-the-blood-path"
+            "link": "https://www.lootlemon.com/shield/unpaler-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/shield/unpaler-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Version 0.m",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Amplify",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "AMPLIFY",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Version 0.m",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Anshin",
             "mob": "Valkyrie Squad Boss",
             "location": "Midnight's Cairn",
-            "link": "/loot-source/valkyrie-squad"
+            "link": "https://www.lootlemon.com/shield/version-0-m-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/version-0-m-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Void Rift",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Nova",
-        "manufacture": "Pangolin",
+        "slot": "SHIELD",
+        "slot_type": "NOVA",
         "elements": [
-            "Cryo"
+            "CRYO"
         ],
-        "content": "Guns, Love, and Tentacles",
+        "name": "Void Rift",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Pangolin",
             "mob": "Empowered Scholar Boss",
             "location": "Dustbound Archives",
-            "link": "/loot-source/empowered-scholar"
+            "link": "https://www.lootlemon.com/shield/void-rift-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/void-rift-bl3"
+        "manufactures": [
+            "PANGOLIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Ward",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Roid",
-        "manufacture": "Hyperion",
+        "slot": "SHIELD",
+        "slot_type": "ROID",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Ward",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Hyperion",
             "mob": "Graveward Boss",
             "location": "The Floating Tomb",
-            "link": "/loot-source/graveward"
+            "link": "https://www.lootlemon.com/shield/ward-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/ward-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Wattson",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Booster",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "BOOSTER",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Revenge of the Cartels",
+        "name": "Wattson",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Anshin",
             "mob": "Joey Ultraviolet Boss",
             "location": "Villa Ultraviolet",
-            "link": "/loot-source/joey-ultraviolet"
+            "link": "https://www.lootlemon.com/shield/wattson-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/shield/wattson-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Whiskey Tango Foxtrot",
-        "drop_type": "World Drop",
-        "equipment_type": "Booster",
-        "manufacture": "Anshin",
+        "slot": "SHIELD",
+        "slot_type": "BOOSTER",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive"
+            "FIRE",
+            "SHOCK",
+            "ACID"
         ],
-        "content": "Base Game",
+        "name": "Whiskey Tango Foxtrot",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Anshin",
             "mob": "Crushjaw Target of Opportunity",
             "location": "Cathedral of the Twin Gods",
-            "link": "/loot-source/crushjaw"
+            "link": "https://www.lootlemon.com/shield/whiskey-tango-foxtrot-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/shield/whiskey-tango-foxtrot-bl3"
+        "manufactures": [
+            "ANSHIN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     }
 ]

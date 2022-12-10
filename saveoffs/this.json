@@ -1,141 +1,1510 @@
 [
     {
-        "vault_hunter": "MOZE",
-        "description": "Nuke Build",
+        "vault_hunter": "FL4K",
+        "description": "MAIN Pet Build",
         "gun1": {
-            "slot": "ASSAULT_RIFLE",
+            "slot": "WEAPON",
+            "slot_type": "ASSAULT_RIFLE",
             "elements": [
-                "KENETIC"
+                "FIRE"
             ],
-            "name": "",
-            "link": "",
-            "description": "",
+            "name": "NoPewPew",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": "https://www.lootlemon.com/weapon/nopewpew-bl3",
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Fast firing fire gun",
             "notes": [],
-            "changelog": []
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
         },
         "gun2": {
-            "slot": "PISTOL",
+            "slot": "WEAPON",
+            "slot_type": "SMG",
             "elements": [
-                "KENETIC"
+                "SHOCK",
+                "FIRE"
             ],
-            "name": "",
-            "link": "",
-            "description": "",
+            "name": "Expert Hellshock",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "A solid shield dropping gun",
             "notes": [],
-            "changelog": []
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
         },
         "gun3": {
-            "slot": "ROCKET_LAUNCHER",
+            "slot": "WEAPON",
+            "slot_type": "ASSAULT_RIFLE",
             "elements": [
-                "KENETIC"
+                "ACID"
             ],
-            "name": "",
-            "link": "",
-            "description": "",
+            "name": "Breath of the Dying",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Solid Acid gun",
             "notes": [],
-            "changelog": []
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
         },
         "gun4": {
-            "slot": "SHOTGUN",
+            "slot": "WEAPON",
+            "slot_type": "SNIPER_RIFLE",
             "elements": [
-                "KENETIC"
+                "SHOCK"
             ],
-            "name": "",
-            "link": "",
-            "description": "",
+            "name": "Expert Storm",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Primary sniper",
             "notes": [],
-            "changelog": []
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
         },
         "artifact": {
             "slot": "ARTIFACT",
+            "slot_type": "ARTIFACT",
             "elements": [
                 "KENETIC"
             ],
-            "name": "",
-            "link": "",
-            "description": "",
+            "name": "Rear Ender Safeguard",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Creates a shield on ground slam",
             "notes": [],
-            "changelog": []
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
         },
         "class_mod": {
             "slot": "CLASS_MOD",
+            "slot_type": "CLASS_MOD",
             "elements": [
                 "KENETIC"
             ],
-            "name": "",
-            "link": "",
-            "description": "",
+            "name": "Showboating Red Fang",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Gamma Burst, pet taunts and +7 grenade capacity",
             "notes": [],
-            "changelog": []
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
         },
         "grenade_mod": {
             "slot": "GRENADE_MOD",
+            "slot_type": "GRENADE_MOD",
             "elements": [
-                "KENETIC"
+                "FIRE"
             ],
-            "name": "",
-            "link": "",
-            "description": "",
+            "name": "Firestorm",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "A lot of damage but also doesnt kill me",
             "notes": [],
-            "changelog": []
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
         },
         "shield": {
             "slot": "SHIELD",
+            "slot_type": "SHIELD",
             "elements": [
-                "KENETIC"
+                "SHOCK"
             ],
-            "name": "",
-            "link": "",
-            "description": "",
+            "name": "Absorbing Messy Breakup",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "A shield that shoots at enemies and absorbs bullets",
             "notes": [],
-            "changelog": []
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
         },
         "associated_slots": [
             {
-                "slot": "SMG",
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
                 "elements": [
-                    "KENETIC"
+                    "CRYO"
                 ],
-                "name": "",
-                "link": "",
-                "description": "",
+                "name": "Arctic Tamed Stalker",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
                 "notes": [],
-                "changelog": []
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
             },
             {
-                "slot": "SNIPER_RIFLE",
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
                 "elements": [
-                    "KENETIC"
+                    "FIRE"
                 ],
-                "name": "",
-                "link": "",
-                "description": "",
+                "name": "Stark Krakatoa",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
                 "notes": [],
-                "changelog": []
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
             },
             {
-                "slot": "ARTIFACT",
+                "slot": "WEAPON",
+                "slot_type": "PISTOL",
                 "elements": [
-                    "KENETIC"
+                    "ACID"
                 ],
-                "name": "",
-                "link": "",
-                "description": "Associate only",
+                "name": "Venomous Hornet",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "An alternative to the Breat of the Dying",
                 "notes": [],
-                "changelog": []
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
             }
         ],
         "archived_slots": [
             {
-                "slot": "ARTIFACT",
+                "slot": "WEAPON",
+                "slot_type": "ASSAULT_RIFLE",
                 "elements": [
-                    "KENETIC"
+                    "FIRE"
                 ],
-                "name": "",
-                "link": "",
-                "description": "Archive only",
+                "name": "NoPewPew",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Fast firing fire gun",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "active_build": {
+            "url": "https://www.lootlemon.com/class/fl4k#https://www.lootlemon.com/class/fl4k#bxxf_005505100000_5050351351301_500000000000_54200301002000",
+            "description": "Pet focused DPS",
+            "notes": [],
+            "changelog": []
+        },
+        "associated_builds": [
+            {
+                "url": "https://www.lootlemon.com/class/fl4k#bgef_505525130051_5055351351311_000000000000_00000000000000",
+                "description": "Non DLC Pet DPS",
                 "notes": [],
                 "changelog": []
+            }
+        ],
+        "archived_builds": [
+            {
+                "url": "https://www.lootlemon.com/class/fl4k#bxxf_005505100000_5050351351301_500000000000_54200301002000",
+                "description": "Unused build",
+                "notes": [],
+                "changelog": []
+            },
+            {
+                "url": "https://www.lootlemon.com/class/fl4k#beff_005505100000_5050351351301_500000000000_54400301000000",
+                "description": "Unused build",
+                "notes": [],
+                "changelog": []
+            },
+            {
+                "url": "https://www.lootlemon.com/class/fl4k#beff_035505103501_5050351301000_500000000000_50500301000000",
+                "description": "Unused build",
+                "notes": [],
+                "changelog": []
+            }
+        ],
+        "active": true,
+        "notes": [],
+        "changelog": []
+    },
+    {
+        "vault_hunter": "MOZE",
+        "description": "MAIN Nuke Build",
+        "gun1": {
+            "slot": "WEAPON",
+            "slot_type": "ASSAULT_RIFLE",
+            "elements": [
+                "FIRE"
+            ],
+            "name": "NoPewPew",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Fast firing fire gun",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "gun2": {
+            "slot": "WEAPON",
+            "slot_type": "ASSAULT_RIFLE",
+            "elements": [
+                "RADIATION"
+            ],
+            "name": "Double-Penetrating Gross Bearcat",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Grenade gun for shields",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "gun3": {
+            "slot": "WEAPON",
+            "slot_type": "ASSAULT_RIFLE",
+            "elements": [
+                "CRYO"
+            ],
+            "name": "Double-Penetrating Gross Bearcat",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Grenade gun for armor",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "gun4": {
+            "slot": "WEAPON",
+            "slot_type": "ROCKET_LAUNCHER",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "Tunguska",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Large AOE damager",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "artifact": {
+            "slot": "ARTIFACT",
+            "slot_type": "ARTIFACT",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "Ravaging Last Stand",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Nothing special. Eventually find a new one",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "class_mod": {
+            "slot": "CLASS_MOD",
+            "slot_type": "CLASS_MOD",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "Growling Reinforced Bear Trooper",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Build centered class mod",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "grenade_mod": {
+            "slot": "GRENADE_MOD",
+            "slot_type": "GRENADE_MOD",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "Tran-fusion Tracker",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Healing grenade",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "shield": {
+            "slot": "SHIELD",
+            "slot_type": "SHIELD",
+            "elements": [
+                "FIRE"
+            ],
+            "name": "Bloated Front Loader",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Reduces action skill cooldown",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "associated_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "CRYO"
+                ],
+                "name": "Arctic Tamed Stalker",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "Stark Krakatoa",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "PISTOL",
+                "elements": [
+                    "ACID"
+                ],
+                "name": "Venomous Hornet",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "An alternative to the Breat of the Dying",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "archived_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "ASSAULT_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "NoPewPew",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Fast firing fire gun",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "active_build": {
+            "url": "https://www.lootlemon.com/class/moze#xxxx_0000000000000_5350553050151_0150000000000_3353001541001",
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "associated_builds": [],
+        "archived_builds": [],
+        "active": true,
+        "notes": [],
+        "changelog": []
+    },
+    {
+        "vault_hunter": "ZANE",
+        "description": "MAIN Speedy Boy",
+        "gun1": {
+            "slot": "WEAPON",
+            "slot_type": "SHOTGUN",
+            "elements": [
+                "FIRE"
+            ],
+            "name": "Speedloadn Hellwalker",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Shotgun with high damange",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "gun2": {
+            "slot": "WEAPON",
+            "slot_type": "PISTOL",
+            "elements": [
+                "RADIATION"
+            ],
+            "name": "Nuclear Infinity",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "A shield gun that never reloads",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "gun3": {
+            "slot": "WEAPON",
+            "slot_type": "SMG",
+            "elements": [
+                "CRYO",
+                "RADIATION"
+            ],
+            "name": "Binary Superflous Devoted",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Nothing Special",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "gun4": {
+            "slot": "WEAPON",
+            "slot_type": "SHOTGUN",
+            "elements": [
+                "SHOCK"
+            ],
+            "name": "The Lab",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Shotgun with high damange",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "artifact": {
+            "slot": "ARTIFACT",
+            "slot_type": "ARTIFACT",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "Hasty Snowdrift",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "A more useful snowdrift but this is awesome",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "class_mod": {
+            "slot": "CLASS_MOD",
+            "slot_type": "CLASS_MOD",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "Shockwave Smashing Antifreeze",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "increased damage while sliding or in the air",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "grenade_mod": {
+            "slot": "GRENADE_MOD",
+            "slot_type": "GRENADE_MOD",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "Tinas Hippity Hopper",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Just an unused grenade",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "shield": {
+            "slot": "SHIELD",
+            "slot_type": "SHIELD",
+            "elements": [
+                "FIRE"
+            ],
+            "name": "Snap-Shot Whiskey Tango Foxtrot",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Shotgun with high damange",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "associated_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "CRYO"
+                ],
+                "name": "Arctic Tamed Stalker",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "Stark Krakatoa",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "PISTOL",
+                "elements": [
+                    "ACID"
+                ],
+                "name": "Venomous Hornet",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "An alternative to the Breat of the Dying",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "archived_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "ASSAULT_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "NoPewPew",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Fast firing fire gun",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "active_build": {
+            "url": "https://www.lootlemon.com/class/zane#xxxxxx_00000000000000_50551015501_50030500000000_500135155301",
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "associated_builds": [],
+        "archived_builds": [
+            {
+                "url": "https://www.lootlemon.com/class/zane#xxxxxx_50553011513131_55551015531_00000000000000_000000000000",
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            {
+                "url": "https://www.lootlemon.com/class/zane#aabdtr_50000000000000_55551515501_00000000000000_500135105331",
+                "description": "",
+                "notes": [],
+                "changelog": []
+            }
+        ],
+        "active": true,
+        "notes": [],
+        "changelog": []
+    },
+    {
+        "vault_hunter": "AMARA",
+        "description": "MAIN Melee Build",
+        "gun1": {
+            "slot": "WEAPON",
+            "slot_type": "SHOTGUN",
+            "elements": [
+                "FIRE"
+            ],
+            "name": "Speedloadn Hellwalker",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Shotgun with high damange",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "gun2": {
+            "slot": "WEAPON",
+            "slot_type": "SMG",
+            "elements": [
+                "SHOCK",
+                "FIRE"
+            ],
+            "name": "Expert Hellshock",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "A solid shield dropping gun",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "gun3": {
+            "slot": "WEAPON",
+            "slot_type": "PISTOL",
+            "elements": [
+                "ACID"
+            ],
+            "name": "Venomous Hornet",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "An alternative to the Breat of the Dying",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "gun4": {
+            "slot": "WEAPON",
+            "slot_type": "ASSAULT_RIFLE",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "Blade Fury",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Shoots melee damage",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "artifact": {
+            "slot": "ARTIFACT",
+            "slot_type": "ARTIFACT",
+            "elements": [
+                "KENETIC"
+            ],
+            "name": "Knife Drain White Elephant",
+            "source": {
+                "drop_source_format": null,
+                "content": null,
+                "mob": null,
+                "location": null,
+                "link": null,
+                "image_url": null,
+                "image_data": null,
+                "description": "",
+                "notes": [],
+                "changelog": []
+            },
+            "manufactures": [
+                "UNKNOWN"
+            ],
+            "description": "Melee damage and heals on melee damage",
+            "notes": [],
+            "changelog": [],
+            "reviewed": false,
+            "locked": false
+        },
+        "class_mod": "EMPTY",
+        "grenade_mod": "EMPTY",
+        "shield": "EMPTY",
+        "associated_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "CRYO"
+                ],
+                "name": "Arctic Tamed Stalker",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "Stark Krakatoa",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "PISTOL",
+                "elements": [
+                    "ACID"
+                ],
+                "name": "Venomous Hornet",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "An alternative to the Breat of the Dying",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "archived_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "ASSAULT_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "NoPewPew",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Fast firing fire gun",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "active_build": {
+            "url": "https://www.lootlemon.com/class/amara#efd_53000531300501_5050051033031_5000100000000_0500331000000",
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "associated_builds": [],
+        "archived_builds": [],
+        "active": true,
+        "notes": [],
+        "changelog": []
+    },
+    {
+        "vault_hunter": "FL4K",
+        "description": "Sniper",
+        "gun1": "EMPTY",
+        "gun2": "EMPTY",
+        "gun3": "EMPTY",
+        "gun4": "EMPTY",
+        "artifact": "EMPTY",
+        "class_mod": "EMPTY",
+        "grenade_mod": "EMPTY",
+        "shield": "EMPTY",
+        "associated_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "CRYO"
+                ],
+                "name": "Arctic Tamed Stalker",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "Stark Krakatoa",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "PISTOL",
+                "elements": [
+                    "ACID"
+                ],
+                "name": "Venomous Hornet",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "An alternative to the Breat of the Dying",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "archived_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "ASSAULT_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "NoPewPew",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Fast firing fire gun",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
             }
         ],
         "active_build": {
@@ -146,7 +1515,424 @@
         },
         "associated_builds": [],
         "archived_builds": [],
-        "active": true,
+        "active": false,
+        "notes": [],
+        "changelog": []
+    },
+    {
+        "vault_hunter": "MOZE",
+        "description": "Boss Killer",
+        "gun1": "EMPTY",
+        "gun2": "EMPTY",
+        "gun3": "EMPTY",
+        "gun4": "EMPTY",
+        "artifact": "EMPTY",
+        "class_mod": "EMPTY",
+        "grenade_mod": "EMPTY",
+        "shield": "EMPTY",
+        "associated_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "CRYO"
+                ],
+                "name": "Arctic Tamed Stalker",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "Stark Krakatoa",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "PISTOL",
+                "elements": [
+                    "ACID"
+                ],
+                "name": "Venomous Hornet",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "An alternative to the Breat of the Dying",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "archived_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "ASSAULT_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "NoPewPew",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Fast firing fire gun",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "active_build": {
+            "url": null,
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "associated_builds": [],
+        "archived_builds": [],
+        "active": false,
+        "notes": [],
+        "changelog": []
+    },
+    {
+        "vault_hunter": "MOZE",
+        "description": "Iron Cub",
+        "gun1": "EMPTY",
+        "gun2": "EMPTY",
+        "gun3": "EMPTY",
+        "gun4": "EMPTY",
+        "artifact": "EMPTY",
+        "class_mod": "EMPTY",
+        "grenade_mod": "EMPTY",
+        "shield": "EMPTY",
+        "associated_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "CRYO"
+                ],
+                "name": "Arctic Tamed Stalker",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "Stark Krakatoa",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "PISTOL",
+                "elements": [
+                    "ACID"
+                ],
+                "name": "Venomous Hornet",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "An alternative to the Breat of the Dying",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "archived_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "ASSAULT_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "NoPewPew",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Fast firing fire gun",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "active_build": {
+            "url": null,
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "associated_builds": [],
+        "archived_builds": [],
+        "active": false,
+        "notes": [],
+        "changelog": []
+    },
+    {
+        "vault_hunter": "AMARA",
+        "description": "Big Damage",
+        "gun1": "EMPTY",
+        "gun2": "EMPTY",
+        "gun3": "EMPTY",
+        "gun4": "EMPTY",
+        "artifact": "EMPTY",
+        "class_mod": "EMPTY",
+        "grenade_mod": "EMPTY",
+        "shield": "EMPTY",
+        "associated_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "CRYO"
+                ],
+                "name": "Arctic Tamed Stalker",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "SNIPER_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "Stark Krakatoa",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Alternative sniper",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            },
+            {
+                "slot": "WEAPON",
+                "slot_type": "PISTOL",
+                "elements": [
+                    "ACID"
+                ],
+                "name": "Venomous Hornet",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "An alternative to the Breat of the Dying",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "archived_slots": [
+            {
+                "slot": "WEAPON",
+                "slot_type": "ASSAULT_RIFLE",
+                "elements": [
+                    "FIRE"
+                ],
+                "name": "NoPewPew",
+                "source": {
+                    "drop_source_format": null,
+                    "content": null,
+                    "mob": null,
+                    "location": null,
+                    "link": null,
+                    "image_url": null,
+                    "image_data": null,
+                    "description": "",
+                    "notes": [],
+                    "changelog": []
+                },
+                "manufactures": [
+                    "UNKNOWN"
+                ],
+                "description": "Fast firing fire gun",
+                "notes": [],
+                "changelog": [],
+                "reviewed": false,
+                "locked": false
+            }
+        ],
+        "active_build": {
+            "url": null,
+            "description": "",
+            "notes": [],
+            "changelog": []
+        },
+        "associated_builds": [],
+        "archived_builds": [],
+        "active": false,
         "notes": [],
         "changelog": []
     }

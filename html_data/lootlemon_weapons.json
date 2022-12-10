@@ -1,1532 +1,2224 @@
 [
     {
-        "name": "9-Volt",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "SMG",
-        "manufacture": "DAHL",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Base Game",
+        "name": "9-Volt",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "DAHL",
             "mob": "Killavolt Boss",
             "location": "Lectra City",
-            "link": "/loot-source/killavolt"
+            "link": "https://www.lootlemon.com/weapon/9-volt-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/weapon/9-volt-bl3"
+        "manufactures": [
+            "DAHL"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "AAA",
-        "drop_type": "World Drop",
-        "equipment_type": "Pistol",
-        "manufacture": "DAHL",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Base Game",
+        "name": "AAA",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "DAHL",
             "mob": "Wick and Warty Named Enemy",
             "location": "Lectra City",
-            "link": "/loot-source/wick-and-warty"
+            "link": "https://www.lootlemon.com/weapon/aaa-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/aaa-bl3"
+        "manufactures": [
+            "DAHL"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "ASMD",
-        "drop_type": "World Drop",
-        "equipment_type": "Sniper",
-        "manufacture": "Maliwan",
+        "slot": "WEAPON",
+        "slot_type": "SNIPER_RIFLE",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Base Game",
+        "name": "ASMD",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Maliwan",
             "mob": "Maxitrillion Named Enemy",
             "location": "Voracious Canopy",
-            "link": "/loot-source/maxitrillion"
+            "link": "https://www.lootlemon.com/weapon/asmd-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/asmd-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Agonizer 1500",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Launcher",
-        "manufacture": "COV",
+        "slot": "WEAPON",
+        "slot_type": "ROCKET_LAUNCHER",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Agonizer 1500",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "COV",
             "mob": "Agonizer 9000, Pain & Terror Boss",
             "location": "Guts of Carnivora",
-            "link": "/loot-source/agonizer-9000"
+            "link": "https://www.lootlemon.com/weapon/agonizer-1500-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/weapon/agonizer-1500-bl3"
+        "manufactures": [
+            "COV"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Alchemist",
-        "drop_type": "World Drop",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "Torgue",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Incindiary"
+            "FIRE"
         ],
-        "content": "Base Game",
+        "name": "Alchemist",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Torgue",
             "mob": "Heckle/Hyde Target of Opportunity",
             "location": "Jakobs Estate",
-            "link": "/loot-source/heckle-hyde"
+            "link": "https://www.lootlemon.com/weapon/alchemist-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/alchemist-bl3"
+        "manufactures": [
+            "TORGUE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Amazing Grace",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Pistol",
-        "manufacture": "Jakobs",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Amazing Grace",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Jakobs",
             "mob": "Life of the Party Quest",
             "location": "Devil's Razor",
-            "link": "/loot-source/quest-life-of-the-party"
+            "link": "https://www.lootlemon.com/weapon/amazing-grace-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/weapon/amazing-grace-bl3"
+        "manufactures": [
+            "JAKOBS"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Amber Management",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "Torgue",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Incindiary"
+            "FIRE"
         ],
-        "content": "Base Game",
+        "name": "Amber Management",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Torgue",
             "mob": "Homeopathological Quest",
             "location": "Desolation's Edge",
-            "link": "/loot-source/quest-homeopathological"
+            "link": "https://www.lootlemon.com/weapon/amber-management-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/weapon/amber-management-bl3"
+        "manufactures": [
+            "TORGUE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Anarchy",
-        "drop_type": "DLC 2 - World Drop",
-        "equipment_type": "Shotgun",
-        "manufacture": "Tediore",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Guns, Love, and Tentacles",
+        "name": "Anarchy",
         "source": {
+            "drop_source_format": "DLC 2 - World Drop",
+            "content": "Tediore",
             "mob": "Kukuwajack Legendary Hunt",
             "location": "Negul Neshai",
-            "link": "/loot-source/kukuwajack"
+            "link": "https://www.lootlemon.com/weapon/anarchy-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
-        "extension": "/weapon/anarchy-bl3"
+        "manufactures": [
+            "TEDIORE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Ashen Beast",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "equipment_type": "SMG",
-        "manufacture": "DAHL",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Incindiary"
+            "FIRE"
         ],
-        "content": "Psycho Krieg",
+        "name": "Ashen Beast",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "DAHL",
             "mob": "Does a Body Good Quest",
             "location": "Benediction of Pain",
-            "link": "/loot-source/does-a-body-good"
+            "link": "https://www.lootlemon.com/weapon/ashen-beast-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/weapon/ashen-beast-bl3"
+        "manufactures": [
+            "DAHL"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Atlas Replay",
-        "drop_type": "DLC 6 - World Drop",
-        "equipment_type": "Pistol",
-        "manufacture": "Atlas",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Director's Cut",
+        "name": "Atlas Replay",
         "source": {
+            "drop_source_format": "DLC 6 - World Drop",
+            "content": "Atlas",
             "mob": "Hemovorous Raid Boss",
             "location": "Darkthirst Dominion",
-            "link": "/loot-source/hemovorous"
+            "link": "https://www.lootlemon.com/weapon/atlas-replay-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
-        "extension": "/weapon/atlas-replay-bl3"
+        "manufactures": [
+            "ATLAS"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "AutoAim\u00c3\u00a8",
-        "drop_type": "DLC 1 - World Drop",
-        "equipment_type": "Sniper",
-        "manufacture": "DAHL",
+        "slot": "WEAPON",
+        "slot_type": "SNIPER_RIFLE",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID"
         ],
-        "content": "Handsome Jackpot",
+        "name": "AutoAim\u00c3\u00a8",
         "source": {
+            "drop_source_format": "DLC 1 - World Drop",
+            "content": "DAHL",
             "mob": "Freddie the Traitor Boss",
             "location": "VIP Tower",
-            "link": "/loot-source/freddie-the-traitor"
+            "link": "https://www.lootlemon.com/weapon/autoaime-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
-        "extension": "/weapon/autoaime-bl3"
+        "manufactures": [
+            "DAHL"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Baby Maker",
-        "drop_type": "World Drop",
-        "equipment_type": "Pistol",
-        "manufacture": "Tediore",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Baby Maker",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Tediore",
             "mob": "Brood Mother Legendary Hunt",
             "location": "The Pyre of Stars",
-            "link": "/loot-source/brood-mother"
+            "link": "https://www.lootlemon.com/weapon/baby-maker-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/baby-maker-bl3"
+        "manufactures": [
+            "TEDIORE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Backburner",
-        "drop_type": "Mayhem 6 Item",
-        "equipment_type": "Launcher",
-        "manufacture": "Vladof",
+        "slot": "WEAPON",
+        "slot_type": "ROCKET_LAUNCHER",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Backburner",
         "source": {
+            "drop_source_format": "Mayhem 6 Item",
+            "content": "Vladof",
             "mob": "Agonizer 9000, Pain & Terror Boss",
             "location": "Guts of Carnivora",
-            "link": "/loot-source/agonizer-9000"
+            "link": "https://www.lootlemon.com/weapon/backburner-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122900f90b1a4fc82012c9a_M6.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122900f90b1a4fc82012c9a_M6.svg",
-        "extension": "/weapon/backburner-bl3"
+        "manufactures": [
+            "VLADOF"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Bangarang",
-        "drop_type": "World Drop",
-        "equipment_type": "Pistol",
-        "manufacture": "Tediore",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Bangarang",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Tediore",
             "mob": "Captain Thunk & Sloth Named Enemy",
             "location": "Konrad's Hold",
-            "link": "/loot-source/thunk-sloth"
+            "link": "https://www.lootlemon.com/weapon/bangarang-xl-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/bangarang-xl-bl3"
+        "manufactures": [
+            "TEDIORE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Barrage",
-        "drop_type": "World Drop",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "DAHL",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Nonelemental",
-            "Corrosive",
-            "Radiation"
+            "KENETIC",
+            "ACID",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Barrage",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "DAHL",
             "mob": "Mincemeat, Trufflemunch & Buttmunch Named Enemy",
             "location": "The Droughts",
-            "link": "/loot-source/mincemeat-trufflemunch-buttmunch"
+            "link": "https://www.lootlemon.com/weapon/barrage-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/barrage-bl3"
+        "manufactures": [
+            "DAHL"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Beacon",
-        "drop_type": "DLC 3 - World Drop",
-        "equipment_type": "Pistol",
-        "manufacture": "Maliwan",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Bounty of Blood",
+        "name": "Beacon",
         "source": {
+            "drop_source_format": "DLC 3 - World Drop",
+            "content": "Maliwan",
             "mob": "Jerrick Logan Most Wanted",
             "location": "Bloodsun Canyon",
-            "link": "/loot-source/jerrick-logan"
+            "link": "https://www.lootlemon.com/weapon/beacon-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
-        "extension": "/weapon/beacon-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Bearcat",
-        "drop_type": "World Drop",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "Torgue",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Bearcat",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Torgue",
             "mob": "Mincemeat, Trufflemunch & Buttmunch Named Enemy",
             "location": "The Droughts",
-            "link": "/loot-source/mincemeat-trufflemunch-buttmunch"
+            "link": "https://www.lootlemon.com/weapon/bearcat-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/bearcat-bl3"
+        "manufactures": [
+            "TORGUE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Bekah",
-        "drop_type": "Trophy",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "Jakobs",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Bekah",
         "source": {
+            "drop_source_format": "Trophy",
+            "content": "Jakobs",
             "mob": "Legendary Hunt Challenge",
             "location": "Global",
-            "link": "/loot-source/all-legendary-hunts"
+            "link": "https://www.lootlemon.com/weapon/bekah-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b4460fd7e8809ed46527_Trophy.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b4460fd7e8809ed46527_Trophy.svg",
-        "extension": "/weapon/bekah-bl3"
+        "manufactures": [
+            "JAKOBS"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "WEAPON",
+        "slot_type": "SNIPER_RIFLE",
+        "elements": [
+            "KENETIC"
+        ],
         "name": "Bird of Prey",
-        "drop_type": "Fallen Heros - Vault Card",
-        "equipment_type": "Sniper",
-        "manufacture": "Jakobs",
-        "elements": [
-            "Nonelemental"
+        "source": {
+            "drop_source_format": "Fallen Heros - Vault Card",
+            "content": "Jakobs",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229ec975cce20cec73a9ba_card-1.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "JAKOBS"
         ],
-        "content": "Director's Cut",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229ec975cce20cec73a9ba_card-1.svg",
-        "extension": "/weapon/bird-of-prey-bl3"
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Bitch",
-        "drop_type": "World Drop",
-        "equipment_type": "SMG",
-        "manufacture": "Hyperion",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Bitch",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Hyperion",
             "mob": "Tyreen the Destroyer Boss",
             "location": "Destroyer's Rift",
-            "link": "/loot-source/tyreen-the-destroyer"
+            "link": "https://www.lootlemon.com/weapon/bitch-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/bitch-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
+        "elements": [
+            "KENETIC"
+        ],
         "name": "Bite Size",
-        "drop_type": "Unobtainable",
-        "equipment_type": "Pistol",
-        "manufacture": "Jakobs",
-        "elements": [
-            "Nonelemental"
+        "source": {
+            "drop_source_format": "Unobtainable",
+            "content": "Jakobs",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "JAKOBS"
         ],
-        "content": "Datamined",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
-        "extension": "/weapon/bite-size-bl3"
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Black Flame",
-        "drop_type": "Quest Item",
-        "equipment_type": "Shotgun",
-        "manufacture": "Torgue",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Incindiary"
+            "FIRE"
         ],
-        "content": "Base Game",
+        "name": "Black Flame",
         "source": {
+            "drop_source_format": "Quest Item",
+            "content": "Torgue",
             "mob": "Witch's Brew Quest",
             "location": "Jakobs Estate",
-            "link": "/loot-source/quest-witchs-brew"
+            "link": "https://www.lootlemon.com/weapon/black-flame-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6143a8b76791e98a74172d71_Quest-Item.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6143a8b76791e98a74172d71_Quest-Item.svg",
-        "extension": "/weapon/black-flame-bl3"
+        "manufactures": [
+            "TORGUE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
+        "elements": [
+            "KENETIC"
+        ],
         "name": "Blade Fury",
-        "drop_type": "Bunker Masters - Vault Card",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "Jakobs",
-        "elements": [
-            "Nonelemental"
-        ],
-        "content": "Director's Cut",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6196a0733008a82fc1e96879_card-3.svg",
-        "extension": "/weapon/blade-fury-bl3"
-    },
-    {
-        "name": "Blind Bandit",
-        "drop_type": "DLC 4 - World Drop",
-        "equipment_type": "Shotgun",
-        "manufacture": "Maliwan",
-        "elements": [
-            "Corrosive",
-            "Radiation"
-        ],
-        "content": "Psycho Krieg",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
-        "extension": "/weapon/blind-bandit-bl3"
-    },
-    {
-        "name": "Blind Sage",
-        "drop_type": "DLC 4 - World Drop",
-        "equipment_type": "Shotgun",
-        "manufacture": "Maliwan",
-        "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
-        ],
-        "content": "Psycho Krieg",
         "source": {
+            "drop_source_format": "Bunker Masters - Vault Card",
+            "content": "Jakobs",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6196a0733008a82fc1e96879_card-3.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "JAKOBS"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
+    },
+    {
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
+        "elements": [
+            "ACID",
+            "RADIATION"
+        ],
+        "name": "Blind Bandit",
+        "source": {
+            "drop_source_format": "DLC 4 - World Drop",
+            "content": "Maliwan",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
+    },
+    {
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
+        "elements": [
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
+        ],
+        "name": "Blind Sage",
+        "source": {
+            "drop_source_format": "DLC 4 - World Drop",
+            "content": "Maliwan",
             "mob": "Locom\u00c3\u00b6bius Boss",
             "location": "Sapphire's Run",
-            "link": "/loot-source/locomobius"
+            "link": "https://www.lootlemon.com/weapon/blind-sage-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
-        "extension": "/weapon/blind-sage-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Blood-Starved Beast",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "SMG",
-        "manufacture": "DAHL",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Psycho Krieg",
+        "name": "Blood-Starved Beast",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "DAHL",
             "mob": "Evil Lilith Boss",
             "location": "Castle Crimson",
-            "link": "/loot-source/evil-lilith"
+            "link": "https://www.lootlemon.com/weapon/blood-starved-beast-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/weapon/blood-starved-beast-bl3"
+        "manufactures": [
+            "DAHL"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Bloom",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Pistol",
-        "manufacture": "Jakobs",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Bounty of Blood",
+        "name": "Bloom",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Jakobs",
             "mob": "The Ruiner Boss",
             "location": "Crater's Edge",
-            "link": "/loot-source/the-ruiner"
+            "link": "https://www.lootlemon.com/weapon/bloom-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/weapon/bloom-bl3"
+        "manufactures": [
+            "JAKOBS"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Bone Shredder",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Pistol",
-        "manufacture": "Vladof",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Bone Shredder",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Vladof",
             "mob": "Crushjaw Target of Opportunity",
             "location": "Cathedral of the Twin Gods",
-            "link": "/loot-source/crushjaw"
+            "link": "https://www.lootlemon.com/weapon/bone-shredder-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/weapon/bone-shredder-bl3"
+        "manufactures": [
+            "VLADOF"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Boogeyman",
-        "drop_type": "DLC 5 - World Drop",
-        "equipment_type": "Sniper",
-        "manufacture": "Vladof",
+        "slot": "WEAPON",
+        "slot_type": "SNIPER_RIFLE",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Designer's Cut",
+        "name": "Boogeyman",
         "source": {
+            "drop_source_format": "DLC 5 - World Drop",
+            "content": "Vladof",
             "mob": "Dam, WTF Loot-Room",
             "location": "Stormblind Complex",
-            "link": "/loot-source/dam-wtf"
+            "link": "https://www.lootlemon.com/weapon/boogeyman-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
-        "extension": "/weapon/boogeyman-bl3"
+        "manufactures": [
+            "VLADOF"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Boomer",
-        "drop_type": "DLC 1 - World Drop",
-        "equipment_type": "SMG",
-        "manufacture": "DAHL",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Nonelemental",
-            "Incindiary"
+            "KENETIC",
+            "FIRE"
         ],
-        "content": "Handsome Jackpot",
+        "name": "Boomer",
         "source": {
+            "drop_source_format": "DLC 1 - World Drop",
+            "content": "DAHL",
             "mob": "Scraptrap Prime Boss",
             "location": "The Compactor",
-            "link": "/loot-source/scraptrap-prime"
+            "link": "https://www.lootlemon.com/weapon/boomer-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
-        "extension": "/weapon/boomer-bl3"
+        "manufactures": [
+            "DAHL"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Brad Luck",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "COV",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Cryo"
+            "CRYO"
         ],
-        "content": "Handsome Jackpot",
+        "name": "Brad Luck",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "COV",
             "mob": "One Man's Treasure Quest",
             "location": "Impound Deluxe",
-            "link": "/loot-source/one-mans-treasure"
+            "link": "https://www.lootlemon.com/weapon/brad-luck-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/weapon/brad-luck-bl3"
+        "manufactures": [
+            "COV"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Brainstormer",
-        "drop_type": "World Drop",
-        "equipment_type": "Shotgun",
-        "manufacture": "Hyperion",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Base Game",
+        "name": "Brainstormer",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Hyperion",
             "mob": "Katagawa Ball Boss",
             "location": "Skywell-27",
-            "link": "/loot-source/katagawa-ball"
+            "link": "https://www.lootlemon.com/weapon/brainstormer-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/brainstormer-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Brashi's Dedication",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Sniper",
-        "manufacture": "DAHL",
+        "slot": "WEAPON",
+        "slot_type": "SNIPER_RIFLE",
         "elements": [
-            "Shock",
-            "Corrosive"
+            "SHOCK",
+            "ACID"
         ],
-        "content": "Base Game",
+        "name": "Brashi's Dedication",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "DAHL",
             "mob": "Head Case Quest",
             "location": "Ascension Bluff",
-            "link": "/loot-source/quest-head-case"
+            "link": "https://www.lootlemon.com/weapon/brashis-dedication-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/weapon/brashis-dedication-bl3"
+        "manufactures": [
+            "DAHL"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Breath of the Dying",
-        "drop_type": "World Drop",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "DAHL",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Corrosive"
+            "ACID"
         ],
-        "content": "Base Game",
+        "name": "Breath of the Dying",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "DAHL",
             "mob": "Blinding Banshee Legendary Hunt",
             "location": "Desolation's Edge",
-            "link": "/loot-source/blinding-banshee"
+            "link": "https://www.lootlemon.com/weapon/breath-of-the-dying-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/breath-of-the-dying-bl3"
+        "manufactures": [
+            "DAHL"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Breeder",
-        "drop_type": "World Drop",
-        "equipment_type": "Pistol",
-        "manufacture": "Torgue",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Breeder",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Torgue",
             "mob": "Big Donny & The Big-D Named Enemy",
             "location": "The Splinterlands",
-            "link": "/loot-source/big-donny-the-big-d"
+            "link": "https://www.lootlemon.com/weapon/breeder-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/breeder-bl3"
+        "manufactures": [
+            "TORGUE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Brightside",
-        "drop_type": "DLC 3 - World Drop",
-        "equipment_type": "Shotgun",
-        "manufacture": "Tediore",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Bounty of Blood",
+        "name": "Brightside",
         "source": {
+            "drop_source_format": "DLC 3 - World Drop",
+            "content": "Tediore",
             "mob": "Bronsons Most Wanted",
             "location": "The Blastplains",
-            "link": "/loot-source/bronsons"
+            "link": "https://www.lootlemon.com/weapon/brightside-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
-        "extension": "/weapon/brightside-bl3"
+        "manufactures": [
+            "TEDIORE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Bubble Blaster",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "equipment_type": "Pistol",
-        "manufacture": "Maliwan",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Radiation"
+            "RADIATION"
         ],
-        "content": "Bounty of Blood",
+        "name": "Bubble Blaster",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "Maliwan",
             "mob": "Dirty Deeds Quest",
             "location": "Ashfall Peaks",
-            "link": "/loot-source/dirty-deeds"
+            "link": "https://www.lootlemon.com/weapon/bubble-blaster-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/weapon/bubble-blaster-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Buttplug",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Pistol",
-        "manufacture": "Jakobs",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Buttplug",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Jakobs",
             "mob": "Dump on Dumptruck Quest",
             "location": "The Droughts",
-            "link": "/loot-source/quest-dump-on-dumptruck"
+            "link": "https://www.lootlemon.com/weapon/buttplug-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/weapon/buttplug-bl3"
+        "manufactures": [
+            "JAKOBS"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Carrier",
-        "drop_type": "World Drop",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "Atlas",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Carrier",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Atlas",
             "mob": "Judge Hightower Target of Opportunity",
             "location": "Lectra City",
-            "link": "/loot-source/judge-hightower"
+            "link": "https://www.lootlemon.com/weapon/carrier-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/carrier-bl3"
+        "manufactures": [
+            "ATLAS"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Chandelier",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Shotgun",
-        "manufacture": "Maliwan",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Bounty of Blood",
+        "name": "Chandelier",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Maliwan",
             "mob": "Bellik Primis Boss",
             "location": "Obsidian Forest",
-            "link": "/loot-source/bellik-primis"
+            "link": "https://www.lootlemon.com/weapon/chandelier-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/weapon/chandelier-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Cheap Tips",
-        "drop_type": "DLC 1 - World Drop",
-        "equipment_type": "SMG",
-        "manufacture": "Hyperion",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Handsome Jackpot",
+        "name": "Cheap Tips",
         "source": {
+            "drop_source_format": "DLC 1 - World Drop",
+            "content": "Hyperion",
             "mob": "Jackbot Boss",
             "location": "VIP Tower",
-            "link": "/loot-source/jackbot"
+            "link": "https://www.lootlemon.com/weapon/cheap-tips-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
-        "extension": "/weapon/cheap-tips-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Chomper",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Shotgun",
-        "manufacture": "Torgue",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Incindiary"
+            "FIRE"
         ],
-        "content": "Base Game",
+        "name": "Chomper",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Torgue",
             "mob": "Lagromar Named Enemy",
             "location": "Konrad's Hold",
-            "link": "/loot-source/lagromar"
+            "link": "https://www.lootlemon.com/weapon/chomper-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/weapon/chomper-bl3"
+        "manufactures": [
+            "TORGUE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Clairvoyance",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "Jakobs",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Cryo"
+            "CRYO"
         ],
-        "content": "Guns, Love, and Tentacles",
+        "name": "Clairvoyance",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Jakobs",
             "mob": "Kritchy Legendary Hunt",
             "location": "Cursehaven",
-            "link": "/loot-source/kritchy"
+            "link": "https://www.lootlemon.com/weapon/clairvoyance-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/weapon/clairvoyance-bl3"
+        "manufactures": [
+            "JAKOBS"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Cloud Kill",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "equipment_type": "SMG",
-        "manufacture": "Maliwan",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Corrosive"
+            "ACID"
         ],
-        "content": "Base Game",
+        "name": "Cloud Kill",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "Maliwan",
             "mob": "Beneath the Meridian Quest",
             "location": "The Forgotten Basilica",
-            "link": "/loot-source/quest-beneath-the-meridian"
+            "link": "https://www.lootlemon.com/weapon/cloud-kill-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/weapon/cloud-kill-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Cocky Bastard",
-        "drop_type": "DLC 2 - World Drop",
-        "equipment_type": "Sniper",
-        "manufacture": "Jakobs",
+        "slot": "WEAPON",
+        "slot_type": "SNIPER_RIFLE",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Guns, Love, and Tentacles",
+        "name": "Cocky Bastard",
         "source": {
+            "drop_source_format": "DLC 2 - World Drop",
+            "content": "Jakobs",
             "mob": "Eista Boss",
             "location": "Skittermaw Basin",
-            "link": "/loot-source/eista"
+            "link": "https://www.lootlemon.com/weapon/cocky-bastard-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229575acf2d85b1e53ff64_world-drop-dlc2.svg",
-        "extension": "/weapon/cocky-bastard-bl3"
+        "manufactures": [
+            "JAKOBS"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Cold Shoulder",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Sniper",
-        "manufacture": "Vladof",
+        "slot": "WEAPON",
+        "slot_type": "SNIPER_RIFLE",
         "elements": [
-            "Cryo"
+            "CRYO"
         ],
-        "content": "Base Game",
+        "name": "Cold Shoulder",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Vladof",
             "mob": "Hammerlocked Quest",
             "location": "Sanctuary III",
-            "link": "/loot-source/quest-hammerlocked"
+            "link": "https://www.lootlemon.com/weapon/cold-shoulder-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/weapon/cold-shoulder-bl3"
+        "manufactures": [
+            "VLADOF"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Complex Root",
-        "drop_type": "DLC 3 - World Drop",
-        "equipment_type": "Sniper",
-        "manufacture": "Maliwan",
+        "slot": "WEAPON",
+        "slot_type": "SNIPER_RIFLE",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Bounty of Blood",
+        "name": "Complex Root",
         "source": {
+            "drop_source_format": "DLC 3 - World Drop",
+            "content": "Maliwan",
             "mob": "Lani Dixon Most Wanted",
             "location": "Ashfall Peaks",
-            "link": "/loot-source/lani-dixon"
+            "link": "https://www.lootlemon.com/weapon/complex-root-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
-        "extension": "/weapon/complex-root-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Conference Call",
-        "drop_type": "World Drop",
-        "equipment_type": "Shotgun",
-        "manufacture": "Hyperion",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Conference Call",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Hyperion",
             "mob": "Judge Hightower Target of Opportunity",
             "location": "Lectra City",
-            "link": "/loot-source/judge-hightower"
+            "link": "https://www.lootlemon.com/weapon/conference-call-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/conference-call-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Contained Blast",
-        "drop_type": "DLC 3 - World Drop",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "Torgue",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Bounty of Blood",
+        "name": "Contained Blast",
         "source": {
+            "drop_source_format": "DLC 3 - World Drop",
+            "content": "Torgue",
             "mob": "Abbadoxis Hunt Target",
             "location": "Ashfall Peaks",
-            "link": "/loot-source/abbadoxis"
+            "link": "https://www.lootlemon.com/weapon/contained-blast-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
-        "extension": "/weapon/contained-blast-bl3"
+        "manufactures": [
+            "TORGUE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Convergence",
-        "drop_type": "DLC 4 - World Drop",
-        "equipment_type": "Shotgun",
-        "manufacture": "Hyperion",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Psycho Krieg",
+        "name": "Convergence",
         "source": {
+            "drop_source_format": "DLC 4 - World Drop",
+            "content": "Hyperion",
             "mob": "Dr. Benedict Boss",
             "location": "Benediction of Pain",
-            "link": "/loot-source/dr-benedict"
+            "link": "https://www.lootlemon.com/weapon/convergence-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
-        "extension": "/weapon/convergence-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Crader's EM-P5",
-        "drop_type": "Mayhem 4 Item",
-        "equipment_type": "SMG",
-        "manufacture": "DAHL",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Crader's EM-P5",
         "source": {
+            "drop_source_format": "Mayhem 4 Item",
+            "content": "DAHL",
             "mob": "Agonizer 9000, Pain & Terror Boss",
             "location": "Guts of Carnivora",
-            "link": "/loot-source/agonizer-9000"
+            "link": "https://www.lootlemon.com/weapon/craders-em-p5-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122900662dde01967ce3a79_M4.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122900662dde01967ce3a79_M4.svg",
-        "extension": "/weapon/craders-em-p5-bl3"
+        "manufactures": [
+            "DAHL"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Craps",
-        "drop_type": "DLC 1 - World Drop",
-        "equipment_type": "Pistol",
-        "manufacture": "Torgue",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Handsome Jackpot",
+        "name": "Craps",
         "source": {
+            "drop_source_format": "DLC 1 - World Drop",
+            "content": "Torgue",
             "mob": "Jackbot Boss",
             "location": "VIP Tower",
-            "link": "/loot-source/jackbot"
+            "link": "https://www.lootlemon.com/weapon/craps-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
-        "extension": "/weapon/craps-bl3"
+        "manufactures": [
+            "TORGUE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Creamer",
-        "drop_type": "DLC 1 - World Drop",
-        "equipment_type": "Launcher",
-        "manufacture": "Torgue",
+        "slot": "WEAPON",
+        "slot_type": "ROCKET_LAUNCHER",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Handsome Jackpot",
+        "name": "Creamer",
         "source": {
+            "drop_source_format": "DLC 1 - World Drop",
+            "content": "Torgue",
             "mob": "Junpai Goat Eater Mayor's Killer Look",
             "location": "The Spendopticon",
-            "link": "/loot-source/junpai-goat-eater"
+            "link": "https://www.lootlemon.com/weapon/creamer-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612294e4e4b96cf18855d720_world-drop-dlc1.svg",
-        "extension": "/weapon/creamer-bl3"
+        "manufactures": [
+            "TORGUE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
+        "elements": [
+            "KENETIC"
+        ],
         "name": "Creeping Corruption",
-        "drop_type": "Bunker Masters - Vault Card",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "DAHL",
-        "elements": [
-            "Nonelemental"
+        "source": {
+            "drop_source_format": "Bunker Masters - Vault Card",
+            "content": "DAHL",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6196a0733008a82fc1e96879_card-3.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "DAHL"
         ],
-        "content": "Director's Cut",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6196a0733008a82fc1e96879_card-3.svg",
-        "extension": "/weapon/creeping-corruption-bl3"
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Creeping Death",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Shotgun",
-        "manufacture": "Tediore",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Corrosive"
+            "ACID"
         ],
-        "content": "Base Game",
+        "name": "Creeping Death",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Tediore",
             "mob": "Mother of Grogans Named Enemy",
             "location": "The Anvil",
-            "link": "/loot-source/mother-of-grogans"
+            "link": "https://www.lootlemon.com/weapon/creeping-death-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/weapon/creeping-death-bl3"
+        "manufactures": [
+            "TEDIORE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Crit",
-        "drop_type": "Shop Item",
-        "equipment_type": "SMG",
-        "manufacture": "Maliwan",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Shock"
+            "SHOCK"
         ],
-        "content": "Base Game",
+        "name": "Crit",
         "source": {
+            "drop_source_format": "Shop Item",
+            "content": "Maliwan",
             "mob": "Moxxi's Tip Jar Unique",
             "location": "Sanctuary III",
-            "link": "/loot-source/moxxis-tip-jar-bl3"
+            "link": "https://www.lootlemon.com/weapon/crit-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6179c18a97c57f352c19a5d0_buyable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6179c18a97c57f352c19a5d0_buyable.svg",
-        "extension": "/weapon/crit-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
+        "elements": [
+            "RADIATION"
+        ],
         "name": "Critical Mass",
-        "drop_type": "DLC 4 - World Drop",
-        "equipment_type": "Pistol",
-        "manufacture": "Torgue",
-        "elements": [
-            "Radiation"
+        "source": {
+            "drop_source_format": "DLC 4 - World Drop",
+            "content": "Torgue",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "TORGUE"
         ],
-        "content": "Psycho Krieg",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296ae37d306625eabd929_world-drop-dlc4.svg",
-        "extension": "/weapon/critical-mass-bl3"
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Critical Thug",
-        "drop_type": "DLC 5 - World Drop",
-        "equipment_type": "Shotgun",
-        "manufacture": "Torgue",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Designer's Cut",
+        "name": "Critical Thug",
         "source": {
+            "drop_source_format": "DLC 5 - World Drop",
+            "content": "Torgue",
             "mob": "Seepage & Creepage Loot-Room",
             "location": "Stormblind Complex",
-            "link": "/loot-source/seepage-creepage"
+            "link": "https://www.lootlemon.com/weapon/critical-thug-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
-        "extension": "/weapon/critical-thug-bl3"
+        "manufactures": [
+            "TORGUE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Crossroad",
-        "drop_type": "World Drop",
-        "equipment_type": "SMG",
-        "manufacture": "Hyperion",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Crossroad",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Hyperion",
             "mob": "Big Donny & The Big-D Named Enemy",
             "location": "The Splinterlands",
-            "link": "/loot-source/big-donny-the-big-d"
+            "link": "https://www.lootlemon.com/weapon/crossroad-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/crossroad-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Cutsman",
-        "drop_type": "World Drop",
-        "equipment_type": "SMG",
-        "manufacture": "Maliwan",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive"
+            "FIRE",
+            "SHOCK",
+            "ACID"
         ],
-        "content": "Base Game",
+        "name": "Cutsman",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Maliwan",
             "mob": "Borman Nates Named Enemy",
             "location": "Meridian Outskirts",
-            "link": "/loot-source/borman-nates"
+            "link": "https://www.lootlemon.com/weapon/cutsman-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/cutsman-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "D.N.A.",
-        "drop_type": "Mayhem 6 Item",
-        "equipment_type": "SMG",
-        "manufacture": "Maliwan",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "D.N.A.",
         "source": {
+            "drop_source_format": "Mayhem 6 Item",
+            "content": "Maliwan",
             "mob": "General Traunt Boss",
             "location": "Desolation's Edge",
-            "link": "/loot-source/general-traunt"
+            "link": "https://www.lootlemon.com/weapon/dna-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122900f90b1a4fc82012c9a_M6.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122900f90b1a4fc82012c9a_M6.svg",
-        "extension": "/weapon/dna-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Dakota",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "equipment_type": "Shotgun",
-        "manufacture": "Jakobs",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Bounty of Blood",
+        "name": "Dakota",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "Jakobs",
             "mob": "Riding to Ruin Quest",
             "location": "Vestige",
-            "link": "/loot-source/riding-to-ruin"
+            "link": "https://www.lootlemon.com/weapon/dakota-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/weapon/dakota-bl3"
+        "manufactures": [
+            "JAKOBS"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Damned",
-        "drop_type": "World Drop",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "Vladof",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Damned",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Vladof",
             "mob": "Agonizer 9000, Pain & Terror Boss",
             "location": "Guts of Carnivora",
-            "link": "/loot-source/agonizer-9000"
+            "link": "https://www.lootlemon.com/weapon/damned-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/damned-bl3"
+        "manufactures": [
+            "VLADOF"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Dark Army",
-        "drop_type": "DLC 5 - World Drop",
-        "equipment_type": "SMG",
-        "manufacture": "Tediore",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Designer's Cut",
+        "name": "Dark Army",
         "source": {
+            "drop_source_format": "DLC 5 - World Drop",
+            "content": "Tediore",
             "mob": "Madwidth Power Loot-Room",
             "location": "Stormblind Complex",
-            "link": "/loot-source/madwidth-power"
+            "link": "https://www.lootlemon.com/weapon/dark-army-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
-        "extension": "/weapon/dark-army-bl3"
+        "manufactures": [
+            "TEDIORE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Dead Chamber",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Pistol",
-        "manufacture": "Jakobs",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Dead Chamber",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Jakobs",
             "mob": "Malevolent Practice Quest",
             "location": "Floodmoor Basin",
-            "link": "/loot-source/quest-malevolent-practice"
+            "link": "https://www.lootlemon.com/weapon/dead-chamber-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/weapon/dead-chamber-bl3"
+        "manufactures": [
+            "JAKOBS"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Destructo Spinner",
-        "drop_type": "World Drop",
-        "equipment_type": "SMG",
-        "manufacture": "Maliwan",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Destructo Spinner",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Maliwan",
             "mob": "Power Troopers Named Enemy",
             "location": "Atlas HQ",
-            "link": "/loot-source/power-troopers"
+            "link": "https://www.lootlemon.com/weapon/destructo-spinner-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/destructo-spinner-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Devastator",
-        "drop_type": "World Drop",
-        "equipment_type": "Pistol",
-        "manufacture": "Torgue",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Devastator",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Torgue",
             "mob": "The Unstoppable Named Enemy",
             "location": "Ambermire",
-            "link": "/loot-source/the-unstoppable"
+            "link": "https://www.lootlemon.com/weapon/devastator-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/devastator-bl3"
+        "manufactures": [
+            "TORGUE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Devil's Foursum",
-        "drop_type": "World Drop",
-        "equipment_type": "Pistol",
-        "manufacture": "Torgue",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Devil's Foursum",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Torgue",
             "mob": "Psychobillies Target of Opportunity",
             "location": "Ambermire",
-            "link": "/loot-source/psychobillies"
+            "link": "https://www.lootlemon.com/weapon/devils-foursum-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/devils-foursum-bl3"
+        "manufactures": [
+            "TORGUE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Devoted",
-        "drop_type": "World Drop",
-        "equipment_type": "SMG",
-        "manufacture": "Maliwan",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Devoted",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Maliwan",
             "mob": "Brood Mother Legendary Hunt",
             "location": "The Pyre of Stars",
-            "link": "/loot-source/brood-mother"
+            "link": "https://www.lootlemon.com/weapon/devoted-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/devoted-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Digby's Smooth Tube",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "DAHL",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Cryo"
+            "CRYO"
         ],
-        "content": "Handsome Jackpot",
+        "name": "Digby's Smooth Tube",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "DAHL",
             "mob": "Do it for Digby (Part 3) Quest",
             "location": "The Spendopticon",
-            "link": "/loot-source/do-it-for-digby"
+            "link": "https://www.lootlemon.com/weapon/digbys-smooth-tube-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/weapon/digbys-smooth-tube-bl3"
+        "manufactures": [
+            "DAHL"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Dowsing Rod",
-        "drop_type": "DLC 3 - World Drop",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "Vladof",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Bounty of Blood",
+        "name": "Dowsing Rod",
         "source": {
+            "drop_source_format": "DLC 3 - World Drop",
+            "content": "Vladof",
             "mob": "Pterodomini Hunt Target",
             "location": "The Blastplains",
-            "link": "/loot-source/pterodomini"
+            "link": "https://www.lootlemon.com/weapon/dowsing-rod-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612296a6f315b53017ad16c8_world-drop-dlc3.svg",
-        "extension": "/weapon/dowsing-rod-bl3"
+        "manufactures": [
+            "VLADOF"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "E-Gone",
-        "drop_type": "Quest Reward",
-        "equipment_type": "SMG",
-        "manufacture": "Maliwan",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Incindiary"
+            "FIRE"
         ],
-        "content": "Base Game",
+        "name": "E-Gone",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Maliwan",
             "mob": "Cannonization Quest",
             "location": "Desolation's Edge",
-            "link": "/loot-source/quest-cannonization"
+            "link": "https://www.lootlemon.com/weapon/e-gone-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/weapon/e-gone-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
+        "elements": [
+            "KENETIC"
+        ],
         "name": "Earworm",
-        "drop_type": "Unobtainable",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "DAHL",
-        "elements": [
-            "Nonelemental"
+        "source": {
+            "drop_source_format": "Unobtainable",
+            "content": "DAHL",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "DAHL"
         ],
-        "content": "Anniversary Week",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
-        "extension": "/weapon/earworm-bl3"
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Echo",
-        "drop_type": "World Drop",
-        "equipment_type": "Pistol",
-        "manufacture": "Torgue",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Nonelemental",
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "KENETIC",
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Echo",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Torgue",
             "mob": "Big Donny & The Big-D Named Enemy",
             "location": "The Splinterlands",
-            "link": "/loot-source/big-donny-the-big-d"
+            "link": "https://www.lootlemon.com/weapon/echo-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/echo-bl3"
+        "manufactures": [
+            "TORGUE"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Ember's Purge",
-        "drop_type": "Trophy",
-        "equipment_type": "SMG",
-        "manufacture": "Maliwan",
+        "slot": "WEAPON",
+        "slot_type": "SMG",
         "elements": [
-            "Incindiary"
+            "FIRE"
         ],
-        "content": "Handsome Jackpot",
+        "name": "Ember's Purge",
         "source": {
+            "drop_source_format": "Trophy",
+            "content": "Maliwan",
             "mob": "Pieces of R\u00c3\u00a9sistance Challenge",
             "location": "Global - DLC 1",
-            "link": "/loot-source/all-bombs-of-ember"
+            "link": "https://www.lootlemon.com/weapon/purge-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b4460fd7e8809ed46527_Trophy.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b4460fd7e8809ed46527_Trophy.svg",
-        "extension": "/weapon/purge-bl3"
+        "manufactures": [
+            "MALIWAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Embrace the Pain",
-        "drop_type": "World Drop",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "COV",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Incindiary"
+            "FIRE"
         ],
-        "content": "Base Game",
+        "name": "Embrace the Pain",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "COV",
             "mob": "Hot Karl Target of Opportunity",
             "location": "Devil's Razor",
-            "link": "/loot-source/hot-karl"
+            "link": "https://www.lootlemon.com/weapon/embrace-the-pain-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/embrace-the-pain-bl3"
+        "manufactures": [
+            "COV"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Eridian Fabricator",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "equipment_type": "Launcher",
-        "manufacture": "Eridian",
+        "slot": "WEAPON",
+        "slot_type": "ROCKET_LAUNCHER",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Eridian Fabricator",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "Eridian",
             "mob": "Footsteps of Giants Quest",
             "location": "Desolation's Edge",
-            "link": "/loot-source/quest-footsteps-of-giants"
+            "link": "https://www.lootlemon.com/weapon/eridian-fabricator-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/weapon/eridian-fabricator-bl3"
+        "manufactures": [
+            "ERIDIAN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Extreme Hangin' Chadd",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Pistol",
-        "manufacture": "COV",
+        "slot": "WEAPON",
+        "slot_type": "PISTOL",
         "elements": [
-            "Incindiary"
+            "FIRE"
         ],
-        "content": "Base Game",
+        "name": "Extreme Hangin' Chadd",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "COV",
             "mob": "Swamp Bro Quest",
             "location": "Floodmoor Basin",
-            "link": "/loot-source/quest-swamp-bro"
+            "link": "https://www.lootlemon.com/weapon/hangin-chadd-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/weapon/hangin-chadd-bl3"
+        "manufactures": [
+            "COV"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Face-puncher",
-        "drop_type": "World Drop",
-        "equipment_type": "Shotgun",
-        "manufacture": "Hyperion",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Face-puncher",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Hyperion",
             "mob": "Muldock the Anointed Named Enemy",
             "location": "Floodmoor Basin",
-            "link": "/loot-source/muldock-the-anointed"
+            "link": "https://www.lootlemon.com/weapon/face-puncher-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/face-puncher-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Faisor",
-        "drop_type": "World Drop",
-        "equipment_type": "Assault Rifle",
-        "manufacture": "Vladof",
+        "slot": "WEAPON",
+        "slot_type": "ASSAULT_RIFLE",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Base Game",
+        "name": "Faisor",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Vladof",
             "mob": "Atomic & Sylestro Target of Opportunity",
             "location": "Tazendeer Ruins",
-            "link": "/loot-source/atomic-sylestro"
+            "link": "https://www.lootlemon.com/weapon/faisor-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/weapon/faisor-bl3"
+        "manufactures": [
+            "VLADOF"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Fearmonger",
-        "drop_type": "Dedicated Drop",
-        "equipment_type": "Shotgun",
-        "manufacture": "Hyperion",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Incindiary",
-            "Shock",
-            "Corrosive",
-            "Cryo",
-            "Radiation"
+            "FIRE",
+            "SHOCK",
+            "ACID",
+            "CRYO",
+            "RADIATION"
         ],
-        "content": "Bloody Harvest",
+        "name": "Fearmonger",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Hyperion",
             "mob": "Loot Ghost Rare Spawn",
             "location": "Global",
-            "link": "/loot-source/loot-ghost"
+            "link": "https://www.lootlemon.com/weapon/fearmonger-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/weapon/fearmonger-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Fingerbiter",
-        "drop_type": "Quest Reward",
-        "equipment_type": "Shotgun",
-        "manufacture": "Jakobs",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Nonelemental"
+            "KENETIC"
         ],
-        "content": "Base Game",
+        "name": "Fingerbiter",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Jakobs",
             "mob": "On the Blood Path Quest",
             "location": "The Anvil",
-            "link": "/loot-source/quest-on-the-blood-path"
+            "link": "https://www.lootlemon.com/weapon/fingerbiter-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/weapon/fingerbiter-bl3"
+        "manufactures": [
+            "JAKOBS"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
-        "name": "Firecracker",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "equipment_type": "Shotgun",
-        "manufacture": "Hyperion",
+        "slot": "WEAPON",
+        "slot_type": "SHOTGUN",
         "elements": [
-            "Incindiary"
+            "FIRE"
         ],
-        "content": "Guns, Love, and Tentacles",
+        "name": "Firecracker",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "Hyperion",
             "mob": "Happily Ever After Quest",
             "location": "The Lodge",
-            "link": "/loot-source/happily-ever-after"
+            "link": "https://www.lootlemon.com/weapon/firecracker-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/weapon/firecracker-bl3"
+        "manufactures": [
+            "HYPERION"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     }
 ]

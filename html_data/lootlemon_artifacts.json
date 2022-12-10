@@ -1,371 +1,669 @@
 [
     {
+        "slot": "ARTIFACT",
+        "slot_type": "MELEE",
+        "elements": [],
         "name": "Commander Planetoid",
-        "drop_type": "World Drop",
-        "artifact_type": "Melee",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "Sheega Named Enemy",
             "location": "Devil's Razor",
-            "link": "/loot-source/sheega"
+            "link": "https://www.lootlemon.com/bonus-item/commander-planetoid-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/commander-planetoid-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Company Man",
-        "drop_type": "DLC 6 - World Drop",
-        "artifact_type": "Unique",
-        "content": "Director's Cut",
         "source": {
+            "drop_source_format": "DLC 6 - World Drop",
+            "content": "Director's Cut",
             "mob": "Hemovorous Raid Boss",
             "location": "Darkthirst Dominion",
-            "link": "/loot-source/hemovorous"
+            "link": "https://www.lootlemon.com/bonus-item/company-man-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975f770f0220564d29bb_world-drop-dlc6.svg",
-        "extension": "/bonus-item/company-man-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "SLAM",
+        "elements": [],
         "name": "Cosmic Crater",
-        "drop_type": "World Drop",
-        "artifact_type": "Slam",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "Artemis Named Enemy",
             "location": "Floodmoor Basin",
-            "link": "/loot-source/artemis"
+            "link": "https://www.lootlemon.com/bonus-item/cosmic-crater-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/cosmic-crater-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIVERSAL",
+        "elements": [],
         "name": "Deathless",
-        "drop_type": "World Drop",
-        "artifact_type": "Universal",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "Phoenix Legendary Hunt",
             "location": "The Splinterlands",
-            "link": "/loot-source/phoenix"
+            "link": "https://www.lootlemon.com/bonus-item/deathless-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/deathless-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Deathrattle",
-        "drop_type": "DLC 5 - World Drop",
-        "artifact_type": "Unique",
-        "content": "Designer's Cut",
         "source": {
+            "drop_source_format": "DLC 5 - World Drop",
+            "content": "Designer's Cut",
             "mob": "Dreadnought Drydock Loot-Room",
             "location": "Stormblind Complex",
-            "link": "/loot-source/dreadnought-drydock"
+            "link": "https://www.lootlemon.com/bonus-item/deathrattle-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
-        "extension": "/bonus-item/deathrattle-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Electric Banjo",
-        "drop_type": "Dedicated Drop",
-        "artifact_type": "Unique",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Base Game",
             "mob": "Psychobillies Target of Opportunity",
             "location": "Ambermire",
-            "link": "/loot-source/psychobillies"
+            "link": "https://www.lootlemon.com/bonus-item/electric-banjo-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/bonus-item/electric-banjo-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Grave",
-        "drop_type": "Dedicated Drop",
-        "artifact_type": "Unique",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Base Game",
             "mob": "Graveward Boss",
             "location": "The Floating Tomb",
-            "link": "/loot-source/graveward"
+            "link": "https://www.lootlemon.com/bonus-item/grave-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/bonus-item/grave-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Holy Grail",
-        "drop_type": "DLC 5 - World Drop",
-        "artifact_type": "Unique",
-        "content": "Designer's Cut",
         "source": {
+            "drop_source_format": "DLC 5 - World Drop",
+            "content": "Designer's Cut",
             "mob": "Dreadnought Drydock Loot-Room",
             "location": "Stormblind Complex",
-            "link": "/loot-source/dreadnought-drydock"
+            "link": "https://www.lootlemon.com/bonus-item/holy-grail-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
-        "extension": "/bonus-item/holy-grail-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "SLAM",
+        "elements": [],
         "name": "Launch Pad",
-        "drop_type": "World Drop",
-        "artifact_type": "Slam",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "Red Rain Boss",
             "location": "Slaughterstar 3000",
-            "link": "/loot-source/red-rain"
+            "link": "https://www.lootlemon.com/bonus-item/launch-pad-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/launch-pad-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIVERSAL",
+        "elements": [],
         "name": "Loaded Dice",
-        "drop_type": "World Drop",
-        "artifact_type": "Universal",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "Agonizer 9000, Pain & Terror Boss",
             "location": "Guts of Carnivora",
-            "link": "/loot-source/agonizer-9000"
+            "link": "https://www.lootlemon.com/bonus-item/loaded-dice-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/loaded-dice-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Lunacy",
-        "drop_type": "Dedicated Drop",
-        "artifact_type": "Unique",
-        "content": "Guns, Love, and Tentacles",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Guns, Love, and Tentacles",
             "mob": "Empowered Grawn Boss",
             "location": "Negul Neshai",
-            "link": "/loot-source/empowered-grawn"
+            "link": "https://www.lootlemon.com/bonus-item/lunacy-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/bonus-item/lunacy-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIVERSAL",
+        "elements": [],
         "name": "Moxxi's Endowment",
-        "drop_type": "World Drop",
-        "artifact_type": "Universal",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "The Tink Train Named Enemy",
             "location": "Guts of Carnivora",
-            "link": "/loot-source/the-tink-train"
+            "link": "https://www.lootlemon.com/bonus-item/moxxis-endowment-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/moxxis-endowment-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Mysterious Artifact",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "artifact_type": "Unique",
-        "content": "Director's Cut",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "Director's Cut",
             "mob": "Horror at Scryer's Crypt Quest",
             "location": "Scryer's Crypt",
-            "link": "/loot-source/horror-at-scryers-crypt"
+            "link": "https://www.lootlemon.com/bonus-item/mysterious-artifact-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/bonus-item/mysterious-artifact-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIVERSAL",
+        "elements": [],
         "name": "Otto Idol",
-        "drop_type": "World Drop",
-        "artifact_type": "Universal",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "Rachel the Anointed Named Enemy",
             "location": "Cathedral of the Twin Gods",
-            "link": "/loot-source/rachel-the-anointed"
+            "link": "https://www.lootlemon.com/bonus-item/otto-idol-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/otto-idol-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Phoenix Tears",
-        "drop_type": "Dedicated Drop",
-        "artifact_type": "Unique",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Base Game",
             "mob": "Phoenix Legendary Hunt",
             "location": "The Splinterlands",
-            "link": "/loot-source/phoenix"
+            "link": "https://www.lootlemon.com/bonus-item/phoenix-tears-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/bonus-item/phoenix-tears-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "SLAM",
+        "elements": [],
         "name": "Pull Out Method",
-        "drop_type": "World Drop",
-        "artifact_type": "Slam",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "DJ Deadsk4g Target of Opportunity",
             "location": "The Splinterlands",
-            "link": "/loot-source/dj-deadsk4g"
+            "link": "https://www.lootlemon.com/bonus-item/pull-out-method-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/pull-out-method-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Road Warrior",
-        "drop_type": "Quest Reward",
-        "artifact_type": "Unique",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "Quest Reward",
+            "content": "Base Game",
             "mob": "Blood Drive Quest",
             "location": "The Droughts",
-            "link": "/loot-source/quest-blood-drive"
+            "link": "https://www.lootlemon.com/bonus-item/road-warrior-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389cd0c676d36ae0e2ab3_Quest-Reward.svg",
-        "extension": "/bonus-item/road-warrior-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "SLIDE",
+        "elements": [],
         "name": "Rocket Boots",
-        "drop_type": "World Drop",
-        "artifact_type": "Slide",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "Blue Fire Boss",
             "location": "Slaughterstar 3000",
-            "link": "/loot-source/blue-fire"
+            "link": "https://www.lootlemon.com/bonus-item/rocket-boots-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/rocket-boots-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "SLAM",
+        "elements": [],
         "name": "Safegaurd",
-        "drop_type": "World Drop",
-        "artifact_type": "Slam",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "Big Donny & The Big-D Named Enemy",
             "location": "The Splinterlands",
-            "link": "/loot-source/big-donny-the-big-d"
+            "link": "https://www.lootlemon.com/bonus-item/safeguard-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/safeguard-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Shlooter",
-        "drop_type": "Welcome to Pandora - Vault Card",
-        "artifact_type": "Unique",
-        "content": "Director's Cut",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229ec1c954840459e76c0d_card-2.svg",
-        "extension": "/bonus-item/shlooter-bl3"
+        "source": {
+            "drop_source_format": "Welcome to Pandora - Vault Card",
+            "content": "Director's Cut",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61229ec1c954840459e76c0d_card-2.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "SLIDE",
+        "elements": [],
         "name": "Splatter Gun",
-        "drop_type": "World Drop",
-        "artifact_type": "Slide",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "Road Dog Named Enemy",
             "location": "The Splinterlands",
-            "link": "/loot-source/road-dog"
+            "link": "https://www.lootlemon.com/bonus-item/splatter-gun-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/splatter-gun-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "MELEE",
+        "elements": [],
         "name": "Static Charge",
-        "drop_type": "World Drop",
-        "artifact_type": "Melee",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "Artemis Named Enemy",
             "location": "Floodmoor Basin",
-            "link": "/loot-source/artemis"
+            "link": "https://www.lootlemon.com/bonus-item/static-charge-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/static-charge-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "The Pearl of Ineffable Knowledge",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "artifact_type": "Unique",
-        "content": "Guns, Love, and Tentacles",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "Guns, Love, and Tentacles",
             "mob": "The Call of Gythian Quest",
             "location": "Heart's Desire",
-            "link": "/loot-source/the-call-of-gythian"
+            "link": "https://www.lootlemon.com/bonus-item/the-pearl-of-ineffable-knowledge-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/bonus-item/the-pearl-of-ineffable-knowledge-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Toboggan",
-        "drop_type": "DLC 5 - World Drop",
-        "artifact_type": "Unique",
-        "content": "Designer's Cut",
         "source": {
+            "drop_source_format": "DLC 5 - World Drop",
+            "content": "Designer's Cut",
             "mob": "Plunderdome Loot-Room",
             "location": "Stormblind Complex",
-            "link": "/loot-source/plunderdome"
+            "link": "https://www.lootlemon.com/bonus-item/toboggan-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6122975913aab41a8781081c_world-drop-dlc5.svg",
-        "extension": "/bonus-item/toboggan-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Unleash the Dragon",
-        "drop_type": "Dedicated Drop",
-        "artifact_type": "Unique",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "Dedicated Drop",
+            "content": "Base Game",
             "mob": "El Dragon Jr. Named Enemy",
             "location": "Jakobs Estate",
-            "link": "/loot-source/el-dragon-jr"
+            "link": "https://www.lootlemon.com/bonus-item/unleash-the-dragon-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/6155b2959de4d454fa977064_Dedicated%20Drop.svg",
-        "extension": "/bonus-item/unleash-the-dragon-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Vault Hunter's Relic",
-        "drop_type": "Unobtainable",
-        "artifact_type": "Unique",
-        "content": "Datamined",
-        "source": null,
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
-        "extension": "/bonus-item/vault-hunters-relic-bl3"
+        "source": {
+            "drop_source_format": "Unobtainable",
+            "content": "Datamined",
+            "mob": null,
+            "location": null,
+            "link": null,
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/61227c1c606b7d01ef22277e_unobtainable.svg",
+            "image_data": null
+        },
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIQUE",
+        "elements": [],
         "name": "Vendetta",
-        "drop_type": "Quest Reward (Unfarmable)",
-        "artifact_type": "Unique",
-        "content": "Bounty of Blood",
         "source": {
+            "drop_source_format": "Quest Reward (Unfarmable)",
+            "content": "Bounty of Blood",
             "mob": "The Name of the Law Quest",
             "location": "Ashfall Peaks",
-            "link": "/loot-source/the-name-of-the-law"
+            "link": "https://www.lootlemon.com/bonus-item/vendetta-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/614389893ab23525eea5595a_Quest-Reward-unfarmable.svg",
-        "extension": "/bonus-item/vendetta-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "UNIVERSAL",
+        "elements": [],
         "name": "Victory Rush",
-        "drop_type": "World Drop",
-        "artifact_type": "Universal",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "Azalea Named Enemy",
             "location": "Jakobs Estate",
-            "link": "/loot-source/azalea"
+            "link": "https://www.lootlemon.com/bonus-item/victory-rush-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/victory-rush-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     },
     {
+        "slot": "ARTIFACT",
+        "slot_type": "MELEE",
+        "elements": [],
         "name": "White Elephant",
-        "drop_type": "World Drop",
-        "artifact_type": "Melee",
-        "content": "Base Game",
         "source": {
+            "drop_source_format": "World Drop",
+            "content": "Base Game",
             "mob": "Agonizer 9000, Pain & Terror Boss",
             "location": "Guts of Carnivora",
-            "link": "/loot-source/agonizer-9000"
+            "link": "https://www.lootlemon.com/bonus-item/white-elephant-bl3",
+            "image_url": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
+            "image_data": null
         },
-        "image": "https://global-uploads.webflow.com/5ff36780a1084987868ce198/612292414023bcc175ad50a2_world-drop.svg",
-        "extension": "/bonus-item/white-elephant-bl3"
+        "manufactures": [
+            "UNKNOWN"
+        ],
+        "description": null,
+        "notes": [],
+        "changelog": [],
+        "reviewed": false,
+        "locked": false
     }
 ]
