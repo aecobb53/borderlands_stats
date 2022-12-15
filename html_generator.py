@@ -15,17 +15,24 @@ class CharacterHTML:
         details = [
             '<!DOCTYPE html>',
             '<html>',
-            '<body>',
         ]
+
+        """Header"""
+        details.append('<head>')
+        details.append(f'<title>Borderlands Classes</title>')
+        details.append(f'<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />')
+        details.append('<link rel="icon" type="image/x-icon" href="/images/favicon.ico">')
+        details.append('</head>')
+        """Body"""
+        details.append('<body>')
         details.extend([l for l in self.body])
         details.append(self.return_css())
-        details.extend([
-            '</body>',
-            '</html>',
-        ])
-        return ''.join(details)
+        details.append('</body>')
+        details.append('</html>')
+        # details.append(f'<img src="html_images/Emblem_on_white_background.png">')
+        return '\n'.join(details)
 
-    def save_html(self, filepath='details.html', characters=[]):
+    def save_html(self, filepath='class_builds.html', characters=[]):
         with open(filepath, 'w') as hf:
             hf.write(self.return_html(characters))
 

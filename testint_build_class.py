@@ -282,7 +282,7 @@ ch.save_html(characters=bam.characters)
 
 
 er = EquipmentReview()
-er.get_equipment_files()
+er.load_data()
 
 results = er.find_equipment(
     slot=Slot.SHIELD,
@@ -322,29 +322,103 @@ data = er.load_details()
 
 
 
-x=1
 opened_equipment = er.open_equipment_urls(
     slot=Slot.SHIELD,
     reviewed=False,
+    count=10,
 )
 
+reviewed_mark = False
+
 updated_names = {e.name: e.slot for e in opened_equipment}
+x=1
 for name, slot in updated_names.items():
     equipment = er.find_equipment(
         name=name,
         slot=slot,
     )[0]
-    equipment.reviewed = True
+    equipment.reviewed = reviewed_mark
 
-dct = er.equipemnt
-for key, value in dct.items():
-    print(f"{key}: {len(value)}")
+if updated_names:
+    er.save_details()
+
 
 x=1
 
+'''
+usefulness on a scale 1-10
+Notable numbers 
+    1 ignore
+    3 doesnt seem useful
+    5 interesting
+    7 Useful for a build but nothing im looking at now
+    9 useful for a build i want probably
+    10 have to have 
 
-# All-in
+The shields without links were marked as reviewed but were never looked at. Go back at some point
 
+3 All-in
+5 Asclepius - Could be rally tanky with health regen when taking shield damange
+5 Back Ham - very tanky
+5 Band of Sitorak - extra health
+7 Beskar - reflects 50% of incoming shots
+7 Big Boom Blaster - drops shield charges that also restore grenands and launcher amo
+5 Black Hole - pull enemies in when shield breaks
+1 Double Downer - extra FFYL time and damage
+3 Ember's Blaze - constantly deals fire damage to everybody around
+3 Bullet Buffet Faulty Star - chance to nova when damaged
+7 Firewall - Bounces back some shots when crouched
+7 Front Loader - lower health but higher shields
+5 Frozen Heart - Cryo nova when depleted and heals for damage done
+3 Gas Mask - extra FFYL time
+3 Golden Touch - good utility shield for leveling
+3 Reposte Impaler - launches homing missles when shield breaks
+5 Infernal Wish - A lot of fire damage. Probably best on a sniper
+8 Initiative - No shield but increases damage reload and health
+10 Limit Break - absorb projectile and increase cooldown rate and increases health i think it would be good on Amara
+9 Loop of 4n631 - when depleted doubles cooldown rate
+7 MSRC Auto-Dispensary - A fun shield that alters stats as you pick up shield charges
+5 Equalizer Madcap - Very high shield capacity but halfs FFYL time
+3 Mendel's Multivitiamin Shield - Increases health and health regen
+5 Messy Breakup - Really funny, shoots at enemies, gets annoying after a while
+5 MoXXi's Embrace - Heals self and allies when shield breaks
+5 Mr Caffeine - faster fire rate and reload if shield is full
+5 Nova Berner - Triggers fire nova on shield break and fill
+5 Old God - extra shield damage and shock resistance
+8 Plus Ultra - Absorb shots, drops charges that improves cooldown 
+5 Re-Charger Berner - Elemental nova on shield break and fill and fully fill shield again
+5 Re-Charger - fully fill shield on shield break
+9 Re-Router - Draines 50% of shield to do +120% damage and heals flat amount. Very useful for sniper build
+9 Re-Volter - On break increases fire rate and shock damage
+8 Rectifier - Constantly deals shock damage to nearby enemies, Would only be useful for a Moze build if that
+5 Red Card - Sliding into enemy breaks shield and does what shield was broken as damag
+7 Red Card Re-Charger - Sliding into enemy breaks shield and does what shield was broken as damage, fully recharges shield, Could be useful on Zane
+8 Red Suit - Constantly deals radiation damage, would only be useful on Moze
+10 Revengenader - Drops grenade if shield breaks, would be very useful on Zane
+8 Rico - Reflect bullets frequently, could be useful on Fl4k for survivability
+8 Rough Rider - lower damage taken and more health but no shield capacity, adds melee damage and speed
+8 Scream of Terror - health regen, shield break can cause enemies to attack eachother for a shot bit of time, could be useful on zane
+8 Shooting Star - When shield broken melee hits cause explosions, could be useful on Amara
+5 Version 0.m - extra damage on first shot and drops an extra damage spot on floor if shield breaks
+5 Snowshoe - sliding damages and breaks shield
+5 Stinger - Extra melee damage if shield is full
+7 Stop-Gap - Immune to damage imediatly after shield break, very tanky
+5 The Transformer - All shock damage recharges shield instead and absorbs bullets
+5 Torch - On shield break send out balls of fire
+8 Unpaler - A lot of extra melee damage when shield is broken
+5 Void Rift - Cryo homing rockets and cryo nova on break
+5 Ward - Health regen or extra damage when shield is full or depleted
+7 Wattson - Explodes after taking damage, could be useful on Moze or close builds
+5 Whiskey Tango Foxtrot - 3 IEDs after being hit
+
+
+
+
+
+
+
+
+'''
 
 # moze - https://www.lootlemon.com/shield/revengenader-bl3
 # moze - https://www.lootlemon.com/shield/razor-wire-red-suit-bl3

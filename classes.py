@@ -1,4 +1,3 @@
-from filecmp import DEFAULT_IGNORES
 from pydantic import BaseModel
 from typing import List
 from enum import Enum
@@ -339,6 +338,32 @@ class Equipment(BaseModel):
         if obj.reviewed is not None:
             self.reviewed = obj.reviewed
         self.changelog.append(ChangeLogEntry(note='Updated'))
+
+    def update_from_source(self, obj):
+        if self.locked:
+            return
+        if obj.slot != self.slot:
+            self.slot = obj.slot
+        if obj.slot_type != self.slot_type:
+            self.slot_type = obj.slot_type
+        if obj.elements != self.elements:
+            self.elements = obj.elements
+        if obj.name != self.name:
+            self.name = obj.name
+        if obj.source != self.source:
+            self.source = obj.source
+        if obj.manufactures != self.manufactures:
+            self.manufactures = obj.manufactures
+        if obj.description != self.description:
+            self.description = obj.description
+        if obj.notes != self.notes:
+            for note in obj.notes:
+                if note not in self.notes:
+                    self.notes.append(note)
+        if obj.changelog != self.changelog:
+            for cl in obj.changelog:
+                if cl not in self.changelog:
+                    self.changelog.append(cl)
 
 
 class BuildLink(BaseModel):
@@ -738,6 +763,7 @@ class EquipmentReview:
         self.equipemnt = []
 
     def get_equipment_files(self, dir_path=None):
+        data = []
         if dir_path is None:
             dir_path = 'html_data'
         for fl in os.listdir(dir_path):
@@ -745,10 +771,10 @@ class EquipmentReview:
                 continue
             with open('html_data/' + fl, 'r') as df:
                 equipment_list = json.load(df)
-            key = fl[10:-5]
             for equipment_json in equipment_list:
                 equipment_obj = Equipment.build(equipment_json)
-                self.equipemnt.append(equipment_obj)
+                data.append(equipment_obj)
+        return data
 
     def save_details(self, filepath: str ='saveoffs/equipment_save.json'):
         data = [e.put for e in self.equipemnt]
@@ -758,8 +784,24 @@ class EquipmentReview:
     def load_details(self, filepath: str ='saveoffs/equipment_save.json'):
         with open(filepath, 'r') as df:
             data = json.load(df)
-        self.equipemnt = [Equipment.build(e) for e in data]
-        return self.equipemnt
+        return [Equipment.build(e) for e in data]
+
+    def load_data(self):
+        equipment_data_file_list = self.load_details()
+        equipment_html_files_list = self.get_equipment_files()
+        for eq_df in equipment_data_file_list:
+            for eq_hf in equipment_html_files_list:
+                if (eq_df.name == eq_hf.name) and (eq_df.slot == eq_hf.slot):
+                    eq_df.update_from_source(eq_hf)
+            self.equipemnt.append(eq_df)
+        for eq_hf in equipment_html_files_list:
+            dupe = False
+            for eq_df in equipment_data_file_list:
+                if (eq_df.name == eq_hf.name) and (eq_df.slot == eq_hf.slot):
+                    dupe = True
+                    continue
+            if not dupe:
+                self.equipemnt.append(eq_hf)
 
     def find_equipment(
         self,
@@ -785,54 +827,57 @@ class EquipmentReview:
 
         results = []
 
-        for equipment_slot in Slot:
-            if slot is not None:
-                if equipment_slot not in slot:
+        for equipment in self.equipemnt:
+            if slot != [None]:
+                if not self._valid_equipment(
+                    equipment=equipment,
+                    equipment_stat='slot',
+                    stat_values=slot
+                ):
                     continue
-            for equipment in self.equipemnt:
-                if slot_type != [None]:
-                    if not self._valid_equipment(
-                        equipment=equipment,
-                        equipment_stat='slot_type',
-                        stat_values=slot_type
-                    ):
-                        continue
-                if elements != [None]:
-                    if not self._valid_equipment(
-                        equipment=equipment,
-                        equipment_stat='elements',
-                        stat_values=elements
-                    ):
-                        continue
-                if name is not None:
-                    match = re.search(name, equipment.name)
-                    if not match:
-                        continue
-                if equipment_source != [None]:
-                    if not self._valid_source_equipment(
-                        equipment=equipment,
-                        equipment_stat='source',
-                        stat_values=equipment_source
-                    ):
-                        continue
-                if manufactures != [None]:
-                    if not self._valid_equipment(
-                        equipment=equipment,
-                        equipment_stat='manufactures',
-                        stat_values=manufactures
-                    ):
-                        continue
-                if description is not None:
-                    match = re.search(description, equipment.description)
-                    if not match:
-                        continue
-                if reviewed is not None:
-                    if reviewed and not equipment.reviewed:
-                        continue
-                    if not reviewed and equipment.reviewed:
-                        continue
+            if slot_type != [None]:
+                if not self._valid_equipment(
+                    equipment=equipment,
+                    equipment_stat='slot_type',
+                    stat_values=slot_type
+                ):
+                    continue
+            if elements != [None]:
+                if not self._valid_equipment(
+                    equipment=equipment,
+                    equipment_stat='elements',
+                    stat_values=elements
+                ):
+                    continue
+            if name is not None:
+                match = re.search(name, equipment.name)
+                if not match:
+                    continue
+            if equipment_source != [None]:
+                if not self._valid_source_equipment(
+                    equipment=equipment,
+                    equipment_stat='source',
+                    stat_values=equipment_source
+                ):
+                    continue
+            if manufactures != [None]:
+                if not self._valid_equipment(
+                    equipment=equipment,
+                    equipment_stat='manufactures',
+                    stat_values=manufactures
+                ):
+                    continue
+            if description is not None:
+                match = re.search(description, equipment.description)
+                if not match:
+                    continue
+            if reviewed is not None:
+                if reviewed and not equipment.reviewed:
+                    continue
+                if not reviewed and equipment.reviewed:
+                    continue
 
-                results.append(equipment)
+            results.append(equipment)
         return results
 
     def _valid_equipment(self, equipment, equipment_stat, stat_values):
@@ -863,8 +908,14 @@ class EquipmentReview:
         equipment_list = self.find_equipment(**kwargs)
         opened = []
         for equipment in equipment_list[:count]:
+            if count < 0:
+                break
             url = equipment.source.link
             print(f"Opening equipment: {url}")
+            if url is None:
+                print(equipment.name)
+                continue
             webbrowser.open_new_tab(url)
             opened.append(equipment)
+            count -= 1
         return opened
