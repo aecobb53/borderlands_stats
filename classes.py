@@ -7,6 +7,13 @@ import os
 import webbrowser
 from datetime import datetime
 
+from phtml import(
+    Header,
+    Div,
+    Paragraph,
+    LineBreak,
+)
+
 
 DATE_STRING = '%Y-%m-%dT%H:%M:%S.%f'
 
@@ -284,7 +291,8 @@ class Equipment(BaseModel):
 
     def generate_html_tile(self):
         details = []
-        details.append('<div class="equipment-tile">')
+        # details.append('<div class="equipment-tile">')
+        # details.append(div)
         details.append('<p>')
         data = []
         data.append(f"Type: {self.slot_type.name.replace('_', ' ').title()}")
@@ -304,8 +312,19 @@ class Equipment(BaseModel):
         #     details.append('</br>')
             data.append(f'Link: <a href="{self.source.link}">Equipment Link</a>')
         details.append('<br>'.join(data))
+        
         details.append('</p>')
         details.append('</div>')
+
+
+        div = Div()
+        div.add_class('equipment-tile')
+        content = Paragraph()
+        for index, deets in enumerate(data):
+            content.internal.append(deets)
+            if index >= len(data) - 1:
+                content.internal.append(LineBreak())
+        div.internal.append(content)
         return ''.join(details)
 
     def lock(self):

@@ -279,7 +279,8 @@ ch = CharacterHTML()
 
 # print(ch.return_html())
 ch.save_html(characters=bam.characters)
-
+x=1
+exit()
 
 er = EquipmentReview()
 er.load_data()

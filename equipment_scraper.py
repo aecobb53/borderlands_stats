@@ -1,6 +1,3 @@
-from email.mime import image
-from re import L
-from unittest.mock import NonCallableMagicMock
 import requests
 from bs4 import BeautifulSoup
 import json
