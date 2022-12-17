@@ -22,14 +22,17 @@ class CharacterHTML:
             h_link
         )
 
-        return self.doc.return_document
 
 
 
         self.doc.body.append(Header(1, 'Borderlands 3 Characters'))
         h2 = Header(2, 'Borderlands 3 Characters')
+        h2.add_class('this')
+        a = self.doc.return_document
         h2.add_style({'text-align': 'center'})
         self.doc.body.append(h2)
+        b = self.doc.return_document
+        return self.doc.return_document
 
         details = [
             '<!DOCTYPE html>',

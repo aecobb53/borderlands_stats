@@ -556,13 +556,22 @@ class Character:
         # details.append(f'<div class=tile fill-style: solid; fill-color: {getattr(VaultHunterColor, self.vault_hunter.name).value};>')
         # details.append(f'<div class=tile; border-color: {getattr(VaultHunterColor, self.vault_hunter.name).value};>')
         details.append(f'<div class=tile style="border-color: {getattr(VaultHunterColor, self.vault_hunter.name).value};">')
+        div = Div()
+        div.add_class('tile')
+        div.add_style({'border-color': getattr(VaultHunterColor, self.vault_hunter.name).value})
+
         # a = getattr(VaultHunterColor, self.vault_hunter.name).value
         details.append(f'<h1 style="color:{getattr(VaultHunterColor, self.vault_hunter.name).value};">{self.vault_hunter.name.title()}</h1>')
+        h1 = Header(1, self.vault_hunter.name.title())
+        h1.add_style({'color': getattr(VaultHunterColor, self.vault_hunter.name).value})
+
+        content = Paragraph()
         # details.append(f"<h1>{self.vault_hunter.name.title()}</h1>")
         # details.append('<br>')
         # details.append('<br>')
         details.append(f"<p>")
         details.append(f"{self.description}")
+        content.internal.append(self.description)
         
         if self.active_build:
             details.append('<br>')
