@@ -62,7 +62,13 @@ div.tile p {
     border-top: 1px solid #dedede;
 }
 
-
+.build-point-item {
+    display: inline-block;
+    margin: 0px 1px 0px;
+    padding: 0px;
+    /* margin: 0px;
+    padding: 0px 1px 0px; */
+}
 
 
 

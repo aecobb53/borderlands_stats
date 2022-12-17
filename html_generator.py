@@ -17,7 +17,7 @@ class CharacterHTML:
 
         """Header"""
         h_link = HyperLink(href='favicon.ico', rel='shortcut icon', type='image/x-icon')
-        self.doc.head.append(Title(content='Borderlands Classes'))
+        self.doc.head.append(Title(internal='Borderlands Classes'))
         self.doc.head.append(
             h_link
         )
@@ -28,16 +28,15 @@ class CharacterHTML:
         self.doc.body.append(Header(1, 'Borderlands 3 Characters'))
         h2 = Header(2, 'Borderlands 3 Characters')
         h2.add_class('this')
-        a = self.doc.return_document
         h2.add_style({'text-align': 'center'})
         self.doc.body.append(h2)
-        b = self.doc.return_document
-        return self.doc.return_document
 
-        details = [
-            '<!DOCTYPE html>',
-            '<html>',
-        ]
+        # return self.doc.return_document
+
+        # details = [
+        #     '<!DOCTYPE html>',
+        #     '<html>',
+        # ]
 
         # details.append('<head>')
         # details.append(f'<title>Borderlands Classes</title>')
@@ -57,10 +56,19 @@ class CharacterHTML:
         """
         This function needs to be updated to phtml
         """
+
         for c in characters:
             if not c.active:
                 continue
-            self.body.append(c.generate_html_tile())
+            # a = c.generate_html_tile()
+            self.doc.body.append(c.generate_html_tile())
+            # self.body.append(c.generate_html_tile())
+
+        self.doc.body.append(self.return_css())
+
+        return self.doc.return_document
+        'HERE'
+
         a = [l for l in self.body]
         details.extend([l for l in self.body])
         details.append(self.return_css())

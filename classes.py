@@ -12,6 +12,7 @@ from phtml import(
     Div,
     Paragraph,
     LineBreak,
+    Link,
 )
 
 
@@ -290,31 +291,29 @@ class Equipment(BaseModel):
         return cls(**details)
 
     def generate_html_tile(self):
-        details = []
-        # details.append('<div class="equipment-tile">')
-        # details.append(div)
-        details.append('<p>')
-        data = []
-        data.append(f"Type: {self.slot_type.name.replace('_', ' ').title()}")
+        details = Div()
+        contents = Paragraph()
+        contents.internal.append(f"Type: {self.slot_type.name.replace('_', ' ').title()}")
+        contents.internal.append(LineBreak())
         if self.name:
-        #     details.append('</br>')
-            data.append(f"Name: {self.name}")
+            contents.internal.append(f"Name: {self.name}")
+        contents.internal.append(LineBreak())
         elements = []
         for el in self.elements:
-            elements.append(f'<a style="color:{getattr(ElementColor, el.name).value};">{el.name}</a>')
+            color_item = Link(internal=el.name)
+            color_item.add_style({'color': getattr(ElementColor, el.name).value})
+            elements.append(color_item)
         if elements:
-        #     details.append('</br>')
             name = 'Element'
             if len(elements) > 1:
                 name += 's'
-            data.append(f'{name}: {" / ".join(elements)}')
+            contents.internal.append(f'{name}: {" / ".join([e.return_string_version for e in elements])}')
+        contents.internal.append(LineBreak())
         if self.source.link:
-        #     details.append('</br>')
-            data.append(f'Link: <a href="{self.source.link}">Equipment Link</a>')
-        details.append('<br>'.join(data))
-        
-        details.append('</p>')
-        details.append('</div>')
+            link = Link(href=self.source.link, internal='Equipment Link')
+            contents.internal.append(link)
+        details.internal.append(contents)
+        return details
 
 
         div = Div()
@@ -553,81 +552,117 @@ class Character:
 
     def generate_html_tile(self):
         details = []
-        # details.append(f'<div class=tile fill-style: solid; fill-color: {getattr(VaultHunterColor, self.vault_hunter.name).value};>')
-        # details.append(f'<div class=tile; border-color: {getattr(VaultHunterColor, self.vault_hunter.name).value};>')
-        details.append(f'<div class=tile style="border-color: {getattr(VaultHunterColor, self.vault_hunter.name).value};">')
         div = Div()
         div.add_class('tile')
         div.add_style({'border-color': getattr(VaultHunterColor, self.vault_hunter.name).value})
-
-        # a = getattr(VaultHunterColor, self.vault_hunter.name).value
-        details.append(f'<h1 style="color:{getattr(VaultHunterColor, self.vault_hunter.name).value};">{self.vault_hunter.name.title()}</h1>')
         h1 = Header(1, self.vault_hunter.name.title())
         h1.add_style({'color': getattr(VaultHunterColor, self.vault_hunter.name).value})
-
+        div.internal.append(h1)
         content = Paragraph()
-        # details.append(f"<h1>{self.vault_hunter.name.title()}</h1>")
-        # details.append('<br>')
-        # details.append('<br>')
-        details.append(f"<p>")
-        details.append(f"{self.description}")
         content.internal.append(self.description)
-        
+
         if self.active_build:
-            details.append('<br>')
-            # details.append(f'</p>')
-            details.append(f'<a href="{self.active_build.url}">Current Build</a>    ')
-            # details.append('<br>')
+            content.internal.append(LineBreak())
+            link = Link(href=self.active_build.url)
+            link.internal.append('Current Build')
+            content.internal.append(link)
 
             if self.active_build.url:
                 match = re.search(r'https://www.lootlemon.com/class/[a-z0-9#]+_(\d+)_(\d+)_(\d+)_(\d+)', self.active_build.url)
                 if match:
-                    # details.append(f'<br>')
                     groups = match.groups(0)
-                    details.append(f'<a>( </a>')
-                    details.append(f'<a style="color:green;">{sum([int(i) for i in groups[0]])}</a>')
-                    details.append(f'<a> / </a>')
-                    details.append(f'<a style="color:blue;">{sum([int(i) for i in groups[1]])}</a>')
-                    details.append(f'<a> / </a>')
-                    details.append(f'<a style="color:red;">{sum([int(i) for i in groups[2]])}</a>')
-                    details.append(f'<a> / </a>')
-                    details.append(f'<a style="color:pink;">{sum([int(i) for i in groups[3]])}</a>')
-                    details.append(f'<a> )</a>')
-                    details.append(f'<br>')
-                # details.append(f'</p>')
-        details.append(f"</p>")
+                    point_item = Div()
+                    point_item.add_style({
+                        'min-width': '100px',
+                        'max-width': '150px',
+                    })
+                    separator_item = Div(internal='/')
+                    separator_item.add_class('build-point-item')
+                    separator_item.add_style({
+                        'margin': '0px',
+                        'padding': '0px',
+                    })
+
+                    bracket_item = Div(internal='(')
+                    bracket_item.add_style({
+                        'margin': '0px',
+                        'padding': '0px',
+                        'display': 'inline-block'
+                    })
+                    point_item.internal.append(bracket_item)
+
+                    # First
+                    first_tree = Div(internal=f"{sum([int(i) for i in groups[0]])}")
+                    first_tree.add_class('build-point-item')
+                    first_tree.add_style({'color': 'green'})
+                    point_item.internal.append(first_tree)
+
+                    point_item.internal.append(separator_item)
+
+                    # Second
+                    second_tree = Div(internal=f"{sum([int(i) for i in groups[1]])}")
+                    second_tree.add_class('build-point-item')
+                    second_tree.add_style({'color': 'blue'})
+                    point_item.internal.append(second_tree)
+
+                    point_item.internal.append(separator_item)
+
+                    # Third
+                    third_tree = Div(internal=f"{sum([int(i) for i in groups[2]])}")
+                    third_tree.add_class('build-point-item')
+                    third_tree.add_style({'color': 'red'})
+                    point_item.internal.append(third_tree)
+
+                    point_item.internal.append(separator_item)
+
+                    # Fourth
+                    fourth_tree = Div(internal=f"{sum([int(i) for i in groups[3]])}")
+                    fourth_tree.add_class('build-point-item')
+                    fourth_tree.add_style({'color': 'pink'})
+                    point_item.internal.append(fourth_tree)
+
+                    bracket_item = Div(internal=')')
+                    bracket_item.add_style({'margin': '0px', 'padding': '0px', 'display': 'inline-block'})
+                    point_item.internal.append(bracket_item)
+
+                    content.internal.append(point_item)
+                    content.internal.append(LineBreak())
+
+        div.internal.append(content)
 
         if self.gun1.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append(self.generate_slot_tile(element=self.gun1, slot='Gun 1'.upper()))
+            div.internal.append(LineBreak())
+            div.internal.append(self.generate_slot_tile(element=self.gun1, slot='Gun 1'.upper()))
 
         if self.gun2.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append(self.generate_slot_tile(element=self.gun2, slot='Gun 2'.upper()))
+            div.internal.append(LineBreak())
+            div.internal.append(self.generate_slot_tile(element=self.gun2, slot='Gun 2'.upper()))
 
         if self.gun3.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append(self.generate_slot_tile(element=self.gun3, slot='Gun 3'.upper()))
+            div.internal.append(LineBreak())
+            div.internal.append(self.generate_slot_tile(element=self.gun3, slot='Gun 3'.upper()))
 
         if self.gun4.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append(self.generate_slot_tile(element=self.gun4, slot='Gun 4'.upper()))
+            div.internal.append(LineBreak())
+            div.internal.append(self.generate_slot_tile(element=self.gun4, slot='Gun 4'.upper()))
 
         if self.artifact.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append(self.generate_slot_tile(element=self.artifact, slot='Artifact'.upper()))
+            div.internal.append(LineBreak())
+            div.internal.append(self.generate_slot_tile(element=self.artifact, slot='Artifact'.upper()))
 
         if self.class_mod.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append(self.generate_slot_tile(element=self.class_mod, slot='Class Mod'.upper()))
+            div.internal.append(LineBreak())
+            div.internal.append(self.generate_slot_tile(element=self.class_mod, slot='Class Mod'.upper()))
 
         if self.grenade_mod.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append(self.generate_slot_tile(element=self.grenade_mod, slot='Grenade Mod'.upper()))
+            div.internal.append(LineBreak())
+            div.internal.append(self.generate_slot_tile(element=self.grenade_mod, slot='Grenade Mod'.upper()))
 
         if self.shield.slot != Slot.EMPTY:
-            details.append('<br>')
-            details.append(self.generate_slot_tile(element=self.shield, slot='Shield'.upper()))
+            div.internal.append(LineBreak())
+            div.internal.append(self.generate_slot_tile(element=self.shield, slot='Shield'.upper()))
+
+        return div
 
         if self.associated_builds or self.associated_slots:
             details.append('<h2 class="pageBreak">Associated Items</h2>')
@@ -700,17 +735,21 @@ class Character:
         return ''.join(details)
 
     def generate_slot_tile(self, element, slot=None):
-        tile = []
+        # tile = []
         # tile.append('<br>')
         # tile.append(f'<h2>{element.slot.value.replace("_", " ").title()}</h2>')
         # tile.append(f'<h2 class="pageBreak">{element.slot.value.replace("_", " ").title()}</h2>')
-        tile.append(f'<div class="slot-tile">')
+        tile = Div()
+        tile.add_class('slot-type')
+        # tile.append(f'<div class="slot-tile">')
         if slot:
-            tile.append(f'<h2>{slot}</h2>')
-        tile.append(f'{element.generate_html_tile()}')
-        tile.append('</div>')
-        # tile.append(element.generate_html_tile())
-        return ''.join(tile)
+            # tile.append(f'<h2>{slot}</h2>')
+            h2 = Header(2, slot)
+            tile.internal.append(h2)
+        # tile.append(f'{element.generate_html_tile()}')
+        tile.internal.append(element.generate_html_tile())
+        # tile.append('</div>')
+        return tile
 
 class BorderlandsAccountManager:
     def __init__(self, characters: List[Character] = []):
