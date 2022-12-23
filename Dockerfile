@@ -2,7 +2,7 @@ FROM python:3
 
 # Environment
 WORKDIR /usr/src
-COPY . .
+COPY . /usr/src
 
 # Container
 EXPOSE 8200
