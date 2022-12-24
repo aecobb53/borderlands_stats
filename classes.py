@@ -292,6 +292,7 @@ class Equipment(BaseModel):
 
     def generate_html_tile(self):
         details = Div()
+        details.add_class('equipment-tile')
         contents = Paragraph()
         contents.internal.append(f"Type: {self.slot_type.name.replace('_', ' ').title()}")
         contents.internal.append(LineBreak())
@@ -740,7 +741,7 @@ class Character:
         # tile.append(f'<h2>{element.slot.value.replace("_", " ").title()}</h2>')
         # tile.append(f'<h2 class="pageBreak">{element.slot.value.replace("_", " ").title()}</h2>')
         tile = Div()
-        tile.add_class('slot-type')
+        tile.add_class('slot-tile')
         # tile.append(f'<div class="slot-tile">')
         if slot:
             # tile.append(f'<h2>{slot}</h2>')

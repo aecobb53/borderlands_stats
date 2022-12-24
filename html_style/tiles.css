@@ -101,6 +101,14 @@ div.slot-tile p {
     color:rgb(215, 215, 215);
 }
 
+div.slot-tile div {
+    margin:0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 90%;
+    color:rgb(215, 215, 215);
+}
+
 
 
 .equipment-tile {
@@ -112,30 +120,30 @@ div.slot-tile p {
     border-style: solid;
     border-color: #2890DE;
     background-color: #474747;
-    /* text-align: left;
-    font-size: 90%; */
+    text-align: left;
+    font-size: 110%;
 }
 
-div.equipment-tile h2 {
+/* div.equipment-tile h2 {
     margin:3px;
     padding: 3px;
     text-align: center;
     font-size: 110%;
     color:rgb(215, 215, 215);
-}
+} */
 
-div.equipment-tile p {
+/* div.equipment-tile p {
     margin:0px;
     padding: 0px;
     text-align: left;
     font-size: 110%;
     color:rgb(215, 215, 215);
-}
+} */
 
-div.equipment-tile a {
+/* div.equipment-tile a {
     margin:0px;
     padding:0px;
-}
+} */
 
 
 
