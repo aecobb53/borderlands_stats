@@ -5,6 +5,7 @@ from phtml.classes import (
     Link,
     HyperLink,
     Title,
+    HtmlReader,
 )
 
 
@@ -87,6 +88,14 @@ class CharacterHTML:
             for line in cf.readlines():
                 styles.append(line.strip())
         return f"<style>{''.join(styles)}</style>"
+
+    def read_css_file(self, filepath):
+        x=1
+        # with open(filepath, 'r') as cf:
+        #     data = cf.read()
+        hr = HtmlReader()
+        datahr.read_file(filepath)
+        x=1
 
 # c= CharacterHTML()
 # deets = c.return_html()

@@ -278,6 +278,7 @@ bam.save_details(filepath='saveoffs/this.json')
 ch = CharacterHTML()
 
 # print(ch.return_html())
+ch.read_css_file('html_style/tiles.css')
 ch.save_html(characters=bam.characters)
 x=1
 exit()
