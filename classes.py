@@ -13,6 +13,7 @@ from phtml import(
     Paragraph,
     LineBreak,
     Link,
+    Style,
 )
 
 
@@ -302,7 +303,8 @@ class Equipment(BaseModel):
         elements = []
         for el in self.elements:
             color_item = Link(internal=el.name)
-            color_item.add_style({'color': getattr(ElementColor, el.name).value})
+            color_item.add_style(Style(style_details={'color': getattr(ElementColor, el.name).value}))
+            # color_item.add_style({'color': getattr(ElementColor, el.name).value})
             elements.append(color_item)
         if elements:
             name = 'Element'
@@ -555,7 +557,8 @@ class Character:
         details = []
         div = Div()
         div.add_class('tile')
-        div.add_style({'border-color': getattr(VaultHunterColor, self.vault_hunter.name).value})
+        div.add_style(Style(style_details={'border-color': getattr(VaultHunterColor, self.vault_hunter.name).value}))
+        # div.add_style({'border-color': getattr(VaultHunterColor, self.vault_hunter.name).value})
         h1 = Header(1, self.vault_hunter.name.title())
         h1.add_style({'color': getattr(VaultHunterColor, self.vault_hunter.name).value})
         div.internal.append(h1)
