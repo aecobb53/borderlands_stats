@@ -14,6 +14,7 @@ from phtml import(
     LineBreak,
     Link,
     Style,
+    Button,
 )
 
 
@@ -558,7 +559,6 @@ class Character:
         div = Div()
         div.add_class('tile')
         div.add_style(Style(style_details={'border-color': getattr(VaultHunterColor, self.vault_hunter.name).value}))
-        # div.add_style({'border-color': getattr(VaultHunterColor, self.vault_hunter.name).value})
         h1 = Header(1, self.vault_hunter.name.title())
         h1.add_style({'color': getattr(VaultHunterColor, self.vault_hunter.name).value})
         div.internal.append(h1)
@@ -578,7 +578,7 @@ class Character:
                     point_item = Div()
                     point_item.add_style({
                         'min-width': '100px',
-                        'max-width': '150px',
+                        'max-width': '250px',
                     })
                     separator_item = Div(internal='/')
                     separator_item.add_class('build-point-item')
@@ -630,7 +630,6 @@ class Character:
                     point_item.internal.append(bracket_item)
 
                     content.internal.append(point_item)
-                    content.internal.append(LineBreak())
 
         div.internal.append(content)
 
@@ -666,77 +665,103 @@ class Character:
             div.internal.append(LineBreak())
             div.internal.append(self.generate_slot_tile(element=self.shield, slot='Shield'.upper()))
 
-        return div
-
         if self.associated_builds or self.associated_slots:
-            details.append('<h2 class="pageBreak">Associated Items</h2>')
+            associate_item = Div()
+            h2 = Header(level=2, internal='Associated Items')
+            h2.add_class('pageBreak')
+            associate_item.internal.append(h2)
             associated = []
             for index, link in enumerate(self.associated_builds):
                 if link.description:
                     desc = link.description
                 else:
                     desc = f"Link {index}"
-                associated.append(f'<a href="{link.url}">{desc}</a>')
+                associated.append(Link(href=link.url, internal=desc))
 
             if self.associated_builds:
-                details.append(f'''
-                    <div class="dropdown">
-                    <button class="dropbtn">Associated Builds</button>
-                    <div class="dropdown-content build-link">{''.join(associated)}</div>
-                    </div>
-                ''')
+                button_wrapper = Div()
+                button_wrapper.add_class('dropdown')
+                button_item = Button(internal='Associated Builds')
+                button_item.add_class('dropbtn')
+                button_item2 = Div()
+                button_item2.add_class(['dropdown-content', 'build-link'])
+                for ass in associated:
+                    for line in ass.return_document:
+                        button_item2.internal.append(line)
+                button_wrapper.internal.append(button_item)
+                button_wrapper.internal.append(button_item2)
+                associate_item.internal.append(button_wrapper)
 
             if self.associated_builds and self.associated_slots:
-                details.append('<br>')
+                associate_item.internal.append(LineBreak())
 
             associated = []
-            x=1
             for index, link in enumerate(self.associated_slots):
-                x=1
                 associated.append(self.generate_slot_tile(element=link))
             if self.associated_slots:
-                details.append(f'''
-                    <div class="dropdown">
-                    <button class="dropbtn">Associated Slots</button>
-                    <div class="dropdown-content slot-tile">{''.join(associated)}</div>
-                    </div>
-                ''')
+                button_wrapper = Div()
+                button_wrapper.add_class('dropdown')
+                button_item = Button(internal='Associated Slots')
+                button_item.add_class('dropbtn')
+                button_item2 = Div()
+                button_item2.add_class(['dropdown-content', 'slot-tile'])
+                for ass in associated:
+                    for line in ass.return_document:
+                        button_item2.internal.append(line)
+                button_wrapper.internal.append(button_item)
+                button_wrapper.internal.append(button_item2)
+                associate_item.internal.append(button_wrapper)
+            div.internal.append(associate_item)
 
         if self.archived_builds or self.archived_slots:
-            details.append('<h2 class="pageBreak">Archived Items</h2>')
+            archived_item = Div()
+            h2 = Header(level=2, internal='Archived Items')
+            h2.add_class('pageBreak')
+            archived_item.internal.append(h2)
             archived = []
             for index, link in enumerate(self.archived_builds):
                 if link.description:
                     desc = link.description
                 else:
                     desc = f"Link {index}"
-                archived.append(f'<a href="{link.url}">{desc}</a>')
+                archived.append(Link(href=link.url, internal=desc))
+
             if self.archived_builds:
-                details.append(f'''
-                    <div class="dropdown">
-                    <button class="dropbtn">Archived Builds</button>
-                    <div class="dropdown-content build-link">{''.join(archived)}</div>
-                    </div>
-                ''')
+                button_wrapper = Div()
+                button_wrapper.add_class('dropdown')
+                button_item = Button(internal='Archived Builds')
+                button_item.add_class('dropbtn')
+                button_item2 = Div()
+                button_item2.add_class(['dropdown-content', 'build-link'])
+                for arc in archived:
+                    for line in arc.return_document:
+                        button_item2.internal.append(line)
+                button_wrapper.internal.append(button_item)
+                button_wrapper.internal.append(button_item2)
+                archived_item.internal.append(button_wrapper)
 
             if self.archived_builds and self.archived_slots:
-                details.append('<br>')
+                archived_item.internal.append(LineBreak())
 
             archived = []
-            x=1
             for index, link in enumerate(self.archived_slots):
-                x=1
                 archived.append(self.generate_slot_tile(element=link))
             if self.archived_slots:
-                details.append(f'''
-                    <div class="dropdown">
-                    <button class="dropbtn">Archived Slots</button>
-                    <div class="dropdown-content slot-tile">{''.join(archived)}</div>
-                    </div>
-                ''')
+                button_wrapper = Div()
+                button_wrapper.add_class('dropdown')
+                button_item = Button(internal='Archived Slots')
+                button_item.add_class('dropbtn')
+                button_item2 = Div()
+                button_item2.add_class(['dropdown-content', 'slot-tile'])
+                for arc in archived:
+                    for line in arc.return_document:
+                        button_item2.internal.append(line)
+                button_wrapper.internal.append(button_item)
+                button_wrapper.internal.append(button_item2)
+                archived_item.internal.append(button_wrapper)
+            div.internal.append(archived_item)
 
-        details.append('</div>')
-        return ''.join(details)
+        return div
 
     def generate_slot_tile(self, element, slot=None):
         # tile = []

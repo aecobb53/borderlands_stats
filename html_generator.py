@@ -1,6 +1,6 @@
 import json
 from phtml.document import Document
-from phtml.classes import (
+from phtml import (
     Header,
     Link,
     HyperLink,
@@ -94,7 +94,7 @@ class CharacterHTML:
         # with open(filepath, 'r') as cf:
         #     data = cf.read()
         hr = HtmlReader()
-        datahr.read_file(filepath)
+        data = hr.read_css_file(filepath)
         x=1
 
 # c= CharacterHTML()
