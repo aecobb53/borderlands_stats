@@ -1,3 +1,4 @@
+from distutils.util import change_root
 from pydantic import BaseModel
 from typing import List
 from enum import Enum
@@ -158,6 +159,7 @@ class EquipmentSource(BaseModel):
     image_url: str = None
     image_data: str = None
     description:str = ''
+    version: int = 0
     notes: List[str] = []
     changelog: List[ChangeLogEntry] = []
 
@@ -240,6 +242,7 @@ class Equipment(BaseModel):
     description: str = None
     notes: List[str] = []
     changelog: List[str] = []
+    version: int = 0
     reviewed: bool = False
     locked: bool = False
     # prefix
@@ -260,6 +263,7 @@ class Equipment(BaseModel):
                 'description': self.description,
                 'notes': [i for i in self.notes],
                 'changelog': [i for i in self.changelog],
+                'version': self.version,
                 'reviewed': self.reviewed,
                 'locked': self.locked,
             }
@@ -286,6 +290,8 @@ class Equipment(BaseModel):
             details['notes'] = data['notes']
         if data.get('changelog') is not None:
             details['changelog'] = data['changelog']
+        if data.get('version') is not None:
+            details['version'] = data['version']
         if data.get('reviewed') is not None:
             details['reviewed'] = data['reviewed']
         if data.get('locked') is not None:
@@ -305,7 +311,6 @@ class Equipment(BaseModel):
         for el in self.elements:
             color_item = Link(internal=el.name)
             color_item.add_style(Style(style_details={'color': getattr(ElementColor, el.name).value}))
-            # color_item.add_style({'color': getattr(ElementColor, el.name).value})
             elements.append(color_item)
         if elements:
             name = 'Element'
@@ -319,17 +324,6 @@ class Equipment(BaseModel):
         details.internal.append(contents)
         return details
 
-
-        div = Div()
-        div.add_class('equipment-tile')
-        content = Paragraph()
-        for index, deets in enumerate(data):
-            content.internal.append(deets)
-            if index >= len(data) - 1:
-                content.internal.append(LineBreak())
-        div.internal.append(content)
-        return ''.join(details)
-
     def lock(self):
         self.locked = True
 
@@ -339,27 +333,38 @@ class Equipment(BaseModel):
     def update(self, obj):
         if self.locked:
             return
+        change_str = 'Updated:'
         if obj.slot is not None:
             self.slot = obj.slot
         if obj.slot_type is not None:
             self.slot_type = obj.slot_type
+            change_str += ' slot_type'
         if obj.elements is not None:
             self.elements = obj.elements
+            change_str += ' elements'
         if obj.name is not None:
             self.name = obj.name
+            change_str += ' name'
         if obj.source is not None:
             self.source = obj.source
+            change_str += ' source'
         if obj.manufactures is not None:
             self.manufactures = obj.manufactures
+            change_str += ' manufactures'
         if obj.description is not None:
             self.description = obj.description
+            change_str += ' description'
         if obj.notes is not None:
             self.notes = obj.notes
+            change_str += ' notes'
         if obj.changelog is not None:
             self.changelog = obj.changelog
+            change_str += ' changelog'
         if obj.reviewed is not None:
             self.reviewed = obj.reviewed
-        self.changelog.append(ChangeLogEntry(note='Updated'))
+            change_str += ' reviewed'
+        self.changelog.append(ChangeLogEntry(note=change_str))
+        self.version += 1
 
     def update_from_source(self, obj):
         if self.locked:
@@ -873,16 +878,30 @@ class EquipmentReview:
         return data
 
     def save_details(self, filepath: str ='saveoffs/equipment_save.json'):
+        """
+        Save the equipment list so it can be loaded later
+        """
         data = [e.put for e in self.equipemnt]
         with open(filepath, 'w') as df:
             df.write(json.dumps(data, indent=4))
 
+    def load_equipment_file(self, filepath: str ='saveoffs/equipment_save.json'):
+        with open(filepath, 'r') as df:
+            data = json.load(df)
+        self.equipemnt.extend([Equipment.build(e) for e in data])
+
     def load_details(self, filepath: str ='saveoffs/equipment_save.json'):
+        """
+        Return the saved equipment list
+        """
         with open(filepath, 'r') as df:
             data = json.load(df)
         return [Equipment.build(e) for e in data]
 
     def load_data(self):
+        """
+        Generate a new equipment list using the scraped html as a base and updating with already saved data
+        """
         equipment_data_file_list = self.load_details()
         equipment_html_files_list = self.get_equipment_files()
         for eq_df in equipment_data_file_list:
@@ -910,6 +929,9 @@ class EquipmentReview:
         description: str = None,
         reviewed: bool = None,
     ):
+        """
+        In the current list of equipment, filter the results
+        """
         if not isinstance(slot, list):
             slot = [slot]
         if not isinstance(slot_type, list):
@@ -1015,3 +1037,6 @@ class EquipmentReview:
             opened.append(equipment)
             count -= 1
         return opened
+
+    # def update_record(self, )
+    # def update_record()

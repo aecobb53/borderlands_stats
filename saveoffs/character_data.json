@@ -1,0 +1,27 @@
+[
+    {
+        "vault_hunter": "FL4K",
+        "description": "Pet Build",
+        "gun1": "EMPTY",
+        "gun2": "EMPTY",
+        "gun3": "EMPTY",
+        "gun4": "EMPTY",
+        "artifact": "EMPTY",
+        "class_mod": "EMPTY",
+        "grenade_mod": "EMPTY",
+        "shield": "EMPTY",
+        "associated_slots": [],
+        "archived_slots": [],
+        "active_build": {
+            "url": "https://www.lootlemon.com/class/fl4k#https://www.lootlemon.com/class/fl4k#bxxf_005505100000_5050351351301_500000000000_54200301002000",
+            "description": "Pet focused DPS",
+            "notes": [],
+            "changelog": []
+        },
+        "associated_builds": [],
+        "archived_builds": [],
+        "active": true,
+        "notes": [],
+        "changelog": []
+    }
+]
